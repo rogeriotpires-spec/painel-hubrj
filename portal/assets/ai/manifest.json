@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 49,
-  "pending": 94,
+  "ai_image_count": 59,
+  "pending": 84,
   "images": [
     {
       "id": "319520",
@@ -14,9 +14,19 @@
       "file": "assets/ai/319526.webp"
     },
     {
+      "id": "319542",
+      "title": "BrainHeal: Plataforma de Monitoramento Contínuo da Saúde Mental com Acolhimento Personalizado e Inteligência Artificial",
+      "file": "assets/ai/319542.webp"
+    },
+    {
       "id": "319555",
       "title": "Health Data Insights",
       "file": "assets/ai/319555.webp"
+    },
+    {
+      "id": "319559",
+      "title": "Empreende Mulher SulFlu",
+      "file": "assets/ai/319559.webp"
     },
     {
       "id": "319565",
@@ -49,6 +59,11 @@
       "file": "assets/ai/319602.webp"
     },
     {
+      "id": "319603",
+      "title": "ORGANIZE - CONECTANDO STARTUPS AO FUTURO",
+      "file": "assets/ai/319603.webp"
+    },
+    {
       "id": "319612",
       "title": "MakerCircuit",
       "file": "assets/ai/319612.webp"
@@ -64,9 +79,24 @@
       "file": "assets/ai/319620.webp"
     },
     {
+      "id": "319640",
+      "title": "rubi",
+      "file": "assets/ai/319640.webp"
+    },
+    {
+      "id": "319641",
+      "title": "Bidwall",
+      "file": "assets/ai/319641.webp"
+    },
+    {
       "id": "319648",
       "title": "ENIGMA X MACHINE",
       "file": "assets/ai/319648.webp"
+    },
+    {
+      "id": "319651",
+      "title": "Feelings – Um jogo Metroidvania para fortalecimento emocional e comunicação interpessoal",
+      "file": "assets/ai/319651.webp"
     },
     {
       "id": "319657",
@@ -82,6 +112,11 @@
       "id": "319668",
       "title": "Di Maior",
       "file": "assets/ai/319668.webp"
+    },
+    {
+      "id": "319671",
+      "title": "IBRS - Instituto Brasileiro de Recrutamento e Seleção: Soluções em Recrutamento e Seleção que promovem autonomia a Operações e Carreiras.",
+      "file": "assets/ai/319671.webp"
     },
     {
       "id": "319681",
@@ -107,6 +142,16 @@
       "id": "319712",
       "title": "Poli-English Game",
       "file": "assets/ai/319712.webp"
+    },
+    {
+      "id": "319713",
+      "title": "Tree Tales",
+      "file": "assets/ai/319713.webp"
+    },
+    {
+      "id": "319721",
+      "title": "MODELOS IN VITRO DE PELE BIOLÓGICA E ARTIFICIAL PARA TESTES DE PRODUTOS FARMACÊUTICOS E COSMÉTICOS",
+      "file": "assets/ai/319721.webp"
     },
     {
       "id": "319744",
@@ -202,6 +247,11 @@
       "id": "319910",
       "title": "Segunda Casa: A Plataforma que Conecta Estudantes e Cuida da Divisão do Aluguel",
       "file": "assets/ai/319910.webp"
+    },
+    {
+      "id": "319920",
+      "title": "UTur - Projeto de Aplicativo bilingue relacionado com o turismo na cidade do Rio de Janeiro.",
+      "file": "assets/ai/319920.webp"
     },
     {
       "id": "319972",
