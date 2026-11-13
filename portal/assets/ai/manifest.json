@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 39,
-  "pending": 104,
+  "ai_image_count": 49,
+  "pending": 94,
   "images": [
     {
       "id": "319520",
@@ -14,9 +14,24 @@
       "file": "assets/ai/319526.webp"
     },
     {
+      "id": "319555",
+      "title": "Health Data Insights",
+      "file": "assets/ai/319555.webp"
+    },
+    {
       "id": "319565",
       "title": "Pró-Carbono: tecnologia digital para calcular o custo ambiental de reformas de imóveis promovendo escolhas sustentáveis na construção civil.",
       "file": "assets/ai/319565.webp"
+    },
+    {
+      "id": "319573",
+      "title": "Althea Engenharia de Emoções",
+      "file": "assets/ai/319573.webp"
+    },
+    {
+      "id": "319583",
+      "title": "SÓCIO IA – MUDA.LOG: infraestrutura de inteligência artificial e automação aplicada ao setor de mudanças e transporte leve.",
+      "file": "assets/ai/319583.webp"
     },
     {
       "id": "319594",
@@ -34,9 +49,29 @@
       "file": "assets/ai/319602.webp"
     },
     {
+      "id": "319612",
+      "title": "MakerCircuit",
+      "file": "assets/ai/319612.webp"
+    },
+    {
+      "id": "319613",
+      "title": "ENSINA.AI: Formação Docente Ativa com Inteligência Artificial",
+      "file": "assets/ai/319613.webp"
+    },
+    {
       "id": "319620",
       "title": "Bem Dita Entrega",
       "file": "assets/ai/319620.webp"
+    },
+    {
+      "id": "319648",
+      "title": "ENIGMA X MACHINE",
+      "file": "assets/ai/319648.webp"
+    },
+    {
+      "id": "319657",
+      "title": "SelfBrain",
+      "file": "assets/ai/319657.webp"
     },
     {
       "id": "319661",
@@ -44,9 +79,19 @@
       "file": "assets/ai/319661.webp"
     },
     {
+      "id": "319668",
+      "title": "Di Maior",
+      "file": "assets/ai/319668.webp"
+    },
+    {
       "id": "319681",
       "title": "Grava Brasil",
       "file": "assets/ai/319681.webp"
+    },
+    {
+      "id": "319687",
+      "title": "EducaTech - Plataforma de Educação Tecnológica Audiovisual",
+      "file": "assets/ai/319687.webp"
     },
     {
       "id": "319690",
@@ -84,9 +129,29 @@
       "file": "assets/ai/319752.webp"
     },
     {
+      "id": "319763",
+      "title": "App Lumina (MVP)- Liderar é iluminar. Nova NR1 (PGR) Qualidade da sua saúde  emocional e da sua equipe. Neurociência aplicada.",
+      "file": "assets/ai/319763.webp"
+    },
+    {
+      "id": "319769",
+      "title": "KappaLife",
+      "file": "assets/ai/319769.webp"
+    },
+    {
       "id": "319770",
       "title": "AtypicalCare",
       "file": "assets/ai/319770.webp"
+    },
+    {
+      "id": "319773",
+      "title": "PlantaAI - Automação Hidropônica",
+      "file": "assets/ai/319773.webp"
+    },
+    {
+      "id": "319775",
+      "title": "HÉDRA",
+      "file": "assets/ai/319775.webp"
     },
     {
       "id": "319788",
@@ -97,6 +162,16 @@
       "id": "319797",
       "title": "FIQuestLife: Plataforma Figital de Saúde, Negócios e Estilo de Vida Gamificados",
       "file": "assets/ai/319797.webp"
+    },
+    {
+      "id": "319798",
+      "title": "Movimento Voa: Plataforma de Educação Tecnológica e Soluções Territoriais",
+      "file": "assets/ai/319798.webp"
+    },
+    {
+      "id": "319827",
+      "title": "PLINAGRO",
+      "file": "assets/ai/319827.webp"
     },
     {
       "id": "319842",
@@ -119,9 +194,24 @@
       "file": "assets/ai/319875.webp"
     },
     {
+      "id": "319879",
+      "title": "ConcaPay: Plataforma Inteligente de Monetização e Gestão de Comunidades Digitais",
+      "file": "assets/ai/319879.webp"
+    },
+    {
+      "id": "319910",
+      "title": "Segunda Casa: A Plataforma que Conecta Estudantes e Cuida da Divisão do Aluguel",
+      "file": "assets/ai/319910.webp"
+    },
+    {
       "id": "319972",
       "title": "GliomaChip: modelo 3D bioimpresso de glioblastoma para testes pré-clínicos personalizados",
       "file": "assets/ai/319972.webp"
+    },
+    {
+      "id": "319985",
+      "title": "The Brigde",
+      "file": "assets/ai/319985.webp"
     },
     {
       "id": "319987",
@@ -134,9 +224,19 @@
       "file": "assets/ai/319998.webp"
     },
     {
+      "id": "320001",
+      "title": "OrigginWatch - Seu Espresso, Nossa Tecnologia - Sistema de monitoramento de qualidade na extração do café expresso",
+      "file": "assets/ai/320001.webp"
+    },
+    {
       "id": "320003",
       "title": "COPAR - Cuidar em dobro",
       "file": "assets/ai/320003.webp"
+    },
+    {
+      "id": "320018",
+      "title": "adsfa",
+      "file": "assets/ai/320018.webp"
     },
     {
       "id": "320019",
@@ -147,66 +247,6 @@
       "id": "320060",
       "title": "JOGOS SÉRIOS ELETRÔNICOS - JOGO DA FORÇA - FORÇA COGNITIVA",
       "file": "assets/ai/320060.webp"
-    },
-    {
-      "id": "319657",
-      "title": "SelfBrain",
-      "file": "assets/ai/319657.webp",
-      "method": "cropped individual AI scene"
-    },
-    {
-      "id": "319798",
-      "title": "Movimento Voa: Plataforma de Educação Tecnológica e Soluções Territoriais",
-      "file": "assets/ai/319798.webp",
-      "method": "cropped individual AI scene"
-    },
-    {
-      "id": "319775",
-      "title": "HÉDRA",
-      "file": "assets/ai/319775.webp",
-      "method": "cropped individual AI scene"
-    },
-    {
-      "id": "319668",
-      "title": "Di Maior",
-      "file": "assets/ai/319668.webp",
-      "method": "cropped individual AI scene"
-    },
-    {
-      "id": "319613",
-      "title": "ENSINA.AI: Formação Docente Ativa com Inteligência Artificial",
-      "file": "assets/ai/319613.webp",
-      "method": "cropped individual AI scene"
-    },
-    {
-      "id": "319827",
-      "title": "PLINAGRO",
-      "file": "assets/ai/319827.webp",
-      "method": "cropped individual AI scene"
-    },
-    {
-      "id": "319687",
-      "title": "EducaTech - Plataforma de Educação Tecnológica Audiovisual",
-      "file": "assets/ai/319687.webp",
-      "method": "cropped individual AI scene"
-    },
-    {
-      "id": "319879",
-      "title": "ConcaPay: Plataforma Inteligente de Monetização e Gestão de Comunidades Digitais",
-      "file": "assets/ai/319879.webp",
-      "method": "cropped individual AI scene"
-    },
-    {
-      "id": "319985",
-      "title": "The Brigde",
-      "file": "assets/ai/319985.webp",
-      "method": "cropped individual AI scene"
-    },
-    {
-      "id": "319583",
-      "title": "SÓCIO IA – MUDA.LOG: infraestrutura de inteligência artificial e automação aplicada ao setor de mudanças e transporte leve.",
-      "file": "assets/ai/319583.webp",
-      "method": "cropped individual AI scene"
     }
   ]
 }
