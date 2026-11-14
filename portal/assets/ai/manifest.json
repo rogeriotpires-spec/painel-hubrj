@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 71,
-  "pending": 72,
+  "ai_image_count": 72,
+  "pending": 71,
   "images": [
     {
       "id": "319520",
@@ -217,6 +217,11 @@
       "id": "319773",
       "title": "PlantaAI - Automação Hidropônica",
       "file": "assets/ai/319773.webp"
+    },
+    {
+      "id": "319774",
+      "title": "foodbreak - menos fila, mais evento",
+      "file": "assets/ai/319774.webp"
     },
     {
       "id": "319775",
