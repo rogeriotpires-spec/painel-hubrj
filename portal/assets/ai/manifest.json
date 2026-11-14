@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 90,
-  "pending": 53,
+  "ai_image_count": 91,
+  "pending": 52,
   "images": [
     {
       "id": "319520",
@@ -322,6 +322,11 @@
       "id": "319827",
       "title": "PLINAGRO",
       "file": "assets/ai/319827.webp"
+    },
+    {
+      "id": "319835",
+      "title": "IUS PREMIUM – EDUCAÇÃO JURÍDICA CONTINUADA",
+      "file": "assets/ai/319835.webp"
     },
     {
       "id": "319842",
