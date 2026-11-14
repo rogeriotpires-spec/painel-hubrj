@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 115,
-  "pending": 28,
+  "ai_image_count": 116,
+  "pending": 27,
   "images": [
     {
       "id": "319520",
@@ -557,6 +557,11 @@
       "id": "320019",
       "title": "Título - Precision.me: Desenvolvimento de interface amigável para diagnóstico genético de Precisão",
       "file": "assets/ai/320019.webp"
+    },
+    {
+      "id": "320037",
+      "title": "MindTrace: Sistema Integrado de Prevenção e Diagnóstico Precoce de Burnout",
+      "file": "assets/ai/320037.webp"
     },
     {
       "id": "320054",
