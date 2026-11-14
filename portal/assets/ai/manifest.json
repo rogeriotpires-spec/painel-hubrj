@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 74,
-  "pending": 69,
+  "ai_image_count": 75,
+  "pending": 68,
   "images": [
     {
       "id": "319520",
@@ -177,6 +177,11 @@
       "id": "319721",
       "title": "MODELOS IN VITRO DE PELE BIOLÓGICA E ARTIFICIAL PARA TESTES DE PRODUTOS FARMACÊUTICOS E COSMÉTICOS",
       "file": "assets/ai/319721.webp"
+    },
+    {
+      "id": "319726",
+      "title": "Recicla Dados - 3° setor com gestão e capacitação",
+      "file": "assets/ai/319726.webp"
     },
     {
       "id": "319744",
