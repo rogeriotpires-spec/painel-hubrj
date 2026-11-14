@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 117,
-  "pending": 26,
+  "ai_image_count": 118,
+  "pending": 25,
   "images": [
     {
       "id": "319520",
@@ -577,6 +577,11 @@
       "id": "320060",
       "title": "JOGOS SÉRIOS ELETRÔNICOS - JOGO DA FORÇA - FORÇA COGNITIVA",
       "file": "assets/ai/320060.webp"
+    },
+    {
+      "id": "320078",
+      "title": "Musicando a Mente",
+      "file": "assets/ai/320078.webp"
     },
     {
       "id": "320109",
