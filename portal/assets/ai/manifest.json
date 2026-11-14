@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 116,
-  "pending": 27,
+  "ai_image_count": 117,
+  "pending": 26,
   "images": [
     {
       "id": "319520",
@@ -322,6 +322,11 @@
       "id": "319785",
       "title": "Global Brasil Conecta. Conectando profissionais e clientes a uma plataforma marketplace de soluções profissionais.",
       "file": "assets/ai/319785.webp"
+    },
+    {
+      "id": "319786",
+      "title": "Koletividade",
+      "file": "assets/ai/319786.webp"
     },
     {
       "id": "319788",
