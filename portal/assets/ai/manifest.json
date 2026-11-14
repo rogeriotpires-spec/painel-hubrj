@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 64,
-  "pending": 79,
+  "ai_image_count": 65,
+  "pending": 78,
   "images": [
     {
       "id": "319520",
@@ -277,6 +277,11 @@
       "id": "319920",
       "title": "UTur - Projeto de Aplicativo bilingue relacionado com o turismo na cidade do Rio de Janeiro.",
       "file": "assets/ai/319920.webp"
+    },
+    {
+      "id": "319934",
+      "title": "Sistema Integrado de Gestão e Controle de Energia, Eficiência e Utilidades.",
+      "file": "assets/ai/319934.webp"
     },
     {
       "id": "319972",
