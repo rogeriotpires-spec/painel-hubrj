@@ -11,7 +11,7 @@ const interfaceTranslations = [
  ['.kpi:nth-child(3) > span','FIELDS OF KNOWLEDGE'],['.kpi:nth-child(3) small','Fields reported in the projects'],
  ['.kpi:nth-child(4) > span','PROGRAM EDITION'],['.kpi:nth-child(4) small','FAPERJ Call No. 04/2025'],
  ['#vitrine .eyebrow','MEET THE INNOVATORS'],['#vitrine h2','Startup <span>showcase</span>'],
- ['#vitrine .section-head p','143 projects with AI-generated illustrations. Phase 02 summaries and Phase 3 selection checked by application number against the official FAPERJ list.'],
+ ['#vitrine .section-head p','143 projects with illustrative images. Initial versions were AI-generated; replacement images require approval. Phase 02 summaries and Phase 3 selection checked by application number against the official FAPERJ list.'],
  ['#viewGrid','▦ Gallery'],['#viewList','☷ Catalogue'],
  ['#sortFilter option[value="title"]','Name A–Z'],['#sortFilter option[value="city"]','Municipality A–Z'],
  ['.result-head > a','View official results ↗'],
