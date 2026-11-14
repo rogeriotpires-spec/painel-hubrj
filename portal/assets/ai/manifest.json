@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 93,
-  "pending": 50,
+  "ai_image_count": 94,
+  "pending": 49,
   "images": [
     {
       "id": "319520",
@@ -282,6 +282,11 @@
       "id": "319779",
       "title": "Metabox Augmented Reality",
       "file": "assets/ai/319779.webp"
+    },
+    {
+      "id": "319781",
+      "title": "Momo – Plataforma Digital de Eventos",
+      "file": "assets/ai/319781.webp"
     },
     {
       "id": "319785",
