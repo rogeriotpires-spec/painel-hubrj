@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 126,
-  "pending": 17,
+  "ai_image_count": 127,
+  "pending": 16,
   "images": [
     {
       "id": "319520",
@@ -447,6 +447,11 @@
       "id": "319859",
       "title": "TrackSpot",
       "file": "assets/ai/319859.webp"
+    },
+    {
+      "id": "319863",
+      "title": "Super Roller Dud",
+      "file": "assets/ai/319863.webp"
     },
     {
       "id": "319864",
