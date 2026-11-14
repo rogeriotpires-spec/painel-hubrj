@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 113,
-  "pending": 30,
+  "ai_image_count": 114,
+  "pending": 29,
   "images": [
     {
       "id": "319520",
@@ -437,6 +437,11 @@
       "id": "319887",
       "title": "GrupsApp",
       "file": "assets/ai/319887.webp"
+    },
+    {
+      "id": "319894",
+      "title": "INCLUIRTEA",
+      "file": "assets/ai/319894.webp"
     },
     {
       "id": "319895",
