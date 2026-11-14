@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 78,
-  "pending": 65,
+  "ai_image_count": 79,
+  "pending": 64,
   "images": [
     {
       "id": "319520",
@@ -17,6 +17,11 @@
       "id": "319542",
       "title": "BrainHeal: Plataforma de Monitoramento Contínuo da Saúde Mental com Acolhimento Personalizado e Inteligência Artificial",
       "file": "assets/ai/319542.webp"
+    },
+    {
+      "id": "319553",
+      "title": "Anahita Saúde: Assistente virtual humanizada na orientação à saúde",
+      "file": "assets/ai/319553.webp"
     },
     {
       "id": "319555",
