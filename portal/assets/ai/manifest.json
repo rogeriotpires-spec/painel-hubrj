@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 68,
-  "pending": 75,
+  "ai_image_count": 69,
+  "pending": 74,
   "images": [
     {
       "id": "319520",
@@ -187,6 +187,11 @@
       "id": "319752",
       "title": "Avalia  | Plataforma Web para Avaliação Colaborativa e Formativa no Ensino",
       "file": "assets/ai/319752.webp"
+    },
+    {
+      "id": "319758",
+      "title": "Personaliza.Ai",
+      "file": "assets/ai/319758.webp"
     },
     {
       "id": "319763",
