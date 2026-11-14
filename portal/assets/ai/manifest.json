@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 109,
-  "pending": 34,
+  "ai_image_count": 110,
+  "pending": 33,
   "images": [
     {
       "id": "319520",
@@ -537,6 +537,11 @@
       "id": "320019",
       "title": "Título - Precision.me: Desenvolvimento de interface amigável para diagnóstico genético de Precisão",
       "file": "assets/ai/320019.webp"
+    },
+    {
+      "id": "320054",
+      "title": "ai-OPV ERDE: Plataforma de Sensoriamento Autônoma e Inteligente para Agricultura de Precisão Alimentado por Células Solares de Plástico",
+      "file": "assets/ai/320054.webp"
     },
     {
       "id": "320060",
