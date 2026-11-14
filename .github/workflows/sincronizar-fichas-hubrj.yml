@@ -1,0 +1,63 @@
+name: Sincronizar fichas aprovadas HUB RJ
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: hubrj-approved-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Verificar configuração
+        id: configuration
+        env:
+          HUBRJ_SITE_SERVICE_TOKEN: ${{ secrets.HUBRJ_SITE_SERVICE_TOKEN }}
+          HUBRJ_SYNC_KEY: ${{ secrets.HUBRJ_SYNC_KEY }}
+        run: |
+          if [ -z "$HUBRJ_SITE_SERVICE_TOKEN" ] || [ -z "$HUBRJ_SYNC_KEY" ]; then
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Sincronização aguardando configuração dos dois segredos de acesso."
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.configuration.outputs.ready == 'true'
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        if: steps.configuration.outputs.ready == 'true'
+        with:
+          python-version: '3.12'
+      - name: Testar importação segura
+        if: steps.configuration.outputs.ready == 'true'
+        run: python -m unittest discover -s scripts -p 'test_sync_hubrj_approved.py'
+      - name: Importar somente revisões aprovadas
+        if: steps.configuration.outputs.ready == 'true'
+        env:
+          HUBRJ_SITE_SERVICE_TOKEN: ${{ secrets.HUBRJ_SITE_SERVICE_TOKEN }}
+          HUBRJ_SYNC_KEY: ${{ secrets.HUBRJ_SYNC_KEY }}
+        run: python scripts/sync_hubrj_approved.py
+      - name: Conferir base e originais
+        if: steps.configuration.outputs.ready == 'true'
+        run: python scripts/audit_hubrj_portal.py
+      - name: Publicar alterações
+        if: steps.configuration.outputs.ready == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- portal/data/projects.json portal/vitrine.html portal/data/review-sync.json docs/auditoria-editorial.json; then
+            echo "Nenhuma alteração aprovada para publicar."
+            exit 0
+          fi
+          git config user.name "HUB RJ revisão"
+          git config user.email "hubrj-bot@users.noreply.github.com"
+          git add portal/data/projects.json portal/vitrine.html portal/data/review-sync.json docs/auditoria-editorial.json
+          git commit -m "Publica revisões aprovadas das fichas HUB RJ"
+          git push origin HEAD:main
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
