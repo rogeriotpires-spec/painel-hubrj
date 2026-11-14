@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 114,
-  "pending": 29,
+  "ai_image_count": 115,
+  "pending": 28,
   "images": [
     {
       "id": "319520",
@@ -122,6 +122,11 @@
       "id": "319620",
       "title": "Bem Dita Entrega",
       "file": "assets/ai/319620.webp"
+    },
+    {
+      "id": "319621",
+      "title": "Clim Care - Monitoramento inteligente da qualidade do ar interno.",
+      "file": "assets/ai/319621.webp"
     },
     {
       "id": "319631",
