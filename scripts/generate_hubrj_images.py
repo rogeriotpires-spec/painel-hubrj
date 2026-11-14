@@ -128,17 +128,37 @@ def generate(prompt, key, model, pause=120):
         except urllib.error.HTTPError as exc:
             # Never log response bodies, headers or credentials.
             try:
-                code = json.loads(exc.read()).get("error", {}).get("code", "")
+                error = json.loads(exc.read()).get("error", {})
+                code = str(error.get("code") or "")
+                error_type = str(error.get("type") or "")
+                message = str(error.get("message") or "").lower()
             except (ValueError, AttributeError):
-                code = ""
-            if exc.code not in (408, 429, 500, 502, 503, 504) or code in (
-                "insufficient_quota", "billing_hard_limit_reached"
-            ):
-                raise RuntimeError(f"API HTTP {exc.code}: confira chave, acesso ao modelo e saldo") from None
-            print(f"API HTTP {exc.code}; tentativa {attempt + 1}/3", flush=True)
+                code, error_type, message = "", "", ""
+            # Only expose normalized error categories, never the server's message.
+            safe_category = code or error_type
+            if not re.fullmatch(r"[a-zA-Z_]{1,64}", safe_category):
+                safe_category = "unspecified"
+            quota_codes = {
+                "insufficient_quota", "billing_hard_limit_reached", "credit_balance_exhausted",
+                "organization_spend_limit_exceeded", "project_spend_limit_exceeded",
+                "organization_usage_limit_exceeded"
+            }
+            no_quota = code in quota_codes or error_type in quota_codes or any(
+                phrase in message for phrase in ("exceeded your current quota", "billing hard limit",
+                                                  "insufficient credit", "insufficient balance")
+            ) or bool(re.search(r"\blimit:\s*0\b", message))
+            if no_quota:
+                raise RuntimeError(f"API HTTP {exc.code} ({safe_category}): sem cota disponível; confira créditos e limites do projeto na OpenAI") from None
+            if exc.code not in (408, 429, 500, 502, 503, 504):
+                raise RuntimeError(f"API HTTP {exc.code} ({safe_category}): confira chave e acesso ao modelo") from None
+            print(f"API HTTP {exc.code} ({safe_category}); tentativa {attempt + 1}/3", flush=True)
             if attempt == 2:
-                raise RuntimeError(f"API indisponível após 3 tentativas (HTTP {exc.code})") from None
-            time.sleep(pause)
+                raise RuntimeError(f"API indisponível após 3 tentativas (HTTP {exc.code}; {safe_category})") from None
+            retry_after = str(exc.headers.get("Retry-After", ""))
+            delay = max(pause, int(retry_after)) if retry_after.isdigit() else pause
+            if delay > 600:
+                raise RuntimeError(f"API HTTP {exc.code} ({safe_category}): aguarde {delay} segundos antes de retomar") from None
+            time.sleep(delay)
         except (urllib.error.URLError, TimeoutError, OSError, ValueError, KeyError) as exc:
             print(f"Attempt {attempt + 1}/3 failed: {type(exc).__name__}", flush=True)
             if attempt == 2:

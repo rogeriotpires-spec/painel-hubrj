@@ -134,6 +134,32 @@ class ImageGenerationSafetyTests(unittest.TestCase):
             self.assertEqual(gen.generate('prompt', 'test-only', 'gpt-image-2.5-flare'), self.image)
             sleep.assert_called_once_with(120)
 
+    def test_quota_in_error_type_stops_without_retries(self):
+        error = urllib.error.HTTPError('https://api.openai.com', 429, 'Quota', {},
+                                      io.BytesIO(b'{"error":{"code":null,"type":"insufficient_quota","message":"private detail"}}'))
+        with patch.object(gen.urllib.request, 'urlopen', side_effect=error), patch.object(gen.time, 'sleep') as sleep:
+            with self.assertRaisesRegex(RuntimeError, 'sem cota') as raised:
+                gen.generate('prompt', 'test-only', 'gpt-image-2.5-flare')
+            self.assertNotIn('private detail', str(raised.exception))
+            sleep.assert_not_called()
+
+    def test_zero_rate_limit_stops_without_leaking_server_message(self):
+        error = urllib.error.HTTPError('https://api.openai.com', 429, 'Rate limit', {},
+                                      io.BytesIO(b'{"error":{"code":"rate_limit_exceeded","message":"Private organization; Limit: 0"}}'))
+        with patch.object(gen.urllib.request, 'urlopen', side_effect=error), patch.object(gen.time, 'sleep') as sleep:
+            with self.assertRaisesRegex(RuntimeError, 'sem cota') as raised:
+                gen.generate('prompt', 'test-only', 'gpt-image-2.5-flare')
+            self.assertNotIn('Private organization', str(raised.exception))
+            sleep.assert_not_called()
+
+    def test_exhausted_credit_is_not_treated_as_temporary_rate_limit(self):
+        error = urllib.error.HTTPError('https://api.openai.com', 429, 'Credit balance', {},
+                                      io.BytesIO(b'{"error":{"code":"credit_balance_exhausted"}}'))
+        with patch.object(gen.urllib.request, 'urlopen', side_effect=error), patch.object(gen.time, 'sleep') as sleep:
+            with self.assertRaisesRegex(RuntimeError, 'credit_balance_exhausted'):
+                gen.generate('prompt', 'test-only', 'gpt-image-2.5-flare')
+            sleep.assert_not_called()
+
     def test_prompt_excludes_applicant_fields(self):
         self.assertNotIn('DADO PESSOAL', gen.prompt_for(self.projects[0]))
 
