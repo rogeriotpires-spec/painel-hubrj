@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 119,
-  "pending": 24,
+  "ai_image_count": 120,
+  "pending": 23,
   "images": [
     {
       "id": "319520",
@@ -392,6 +392,11 @@
       "id": "319827",
       "title": "PLINAGRO",
       "file": "assets/ai/319827.webp"
+    },
+    {
+      "id": "319829",
+      "title": "Meu Negócio",
+      "file": "assets/ai/319829.webp"
     },
     {
       "id": "319835",
