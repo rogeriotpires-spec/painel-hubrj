@@ -8,7 +8,7 @@ Criada em 14/11/2026, conforme solicitação da coordenação.
 - Portal público preservado: https://rogeriotpires-spec.github.io/painel-hubrj/portal/
 - Aplicação Sites: appgprj_6af87abee08c8191a5edc2ee4cd5b528
 - Versão inicial do código de gestão: 5dc202e47e299cbf23488489c25e31bcc48ae13c, em repositório próprio da hospedagem.
-- Banco Cloudflare D1: tabelas members, invitations, projects, submissions e audit.
+- Banco Cloudflare D1: tabelas members, invitations, projects, submissions, image_submissions e audit; bucket privado para imagens.
 - 143 registros carregados e conferidos campo a campo contra a base original. API de exportação retorna 401 sem a chave da aplicação; API de gestão retorna 401 sem usuário autenticado.
 - Acesso inicial privado do proprietário. Nenhuma permissão externa ou convite foi enviado.
 
@@ -31,7 +31,7 @@ Requer dois segredos de Actions:
 
 Sem ambos, o fluxo registra que aguarda configuração e não altera arquivos. Nenhum valor secreto consta neste documento.
 
-A importação aceita somente versões aprovadas mais recentes. Confere protocolos, resumos originais e metadados; copia apenas os seis campos editoriais; sincroniza a base embutida da vitrine e solicita publicação do Pages. O estado em `portal/data/review-sync.json` impede regressões e detecta edições manuais concorrentes. Não modifica imagens, painel original ou conteúdo do evento.
+A importação aceita somente versões aprovadas mais recentes. Confere protocolos, resumos originais e metadados; copia apenas os seis campos editoriais; sincroniza a base embutida da vitrine e solicita publicação do Pages. O estado em `portal/data/review-sync.json` impede regressões e detecta edições manuais concorrentes. O importador de textos não modifica imagens, painel original ou conteúdo do evento. O importador separado de imagens aceita somente arquivos aprovados, valida WebP, dimensões e SHA-256 e guarda a versão pública anterior em portal/assets/ai/history antes de substituir o arquivo atual.
 
 ## Validação realizada
 
@@ -49,3 +49,11 @@ A importação aceita somente versões aprovadas mais recentes. Confere protocol
 - Conferência visual e móvel da área de gestão; o navegador desta sessão ainda não verificou a aplicação autenticada.
 - Horários/programação e fluxos de inscrição, credenciamento e certificados do evento.
 - E-mail institucional de contato somente no encerramento, conforme orientação expressa do usuário.
+
+## Revisão de imagens
+
+- Cada ficha permite escolher JPG, PNG ou WebP de até 10 MB, com prévia no navegador. O arquivo é convertido para WebP 1536×1024, sem corte nem distorção, com margens quando necessário e remoção de metadados.
+- Arquivos enviados ficam privados, vinculados ao protocolo. Apenas a conta vinculada ou a administração pode consultá-los.
+- Aprovação/devolução registra auditoria e controla a versão da imagem separadamente dos textos. Uma revisão desatualizada não sobrescreve uma imagem aprovada mais recentemente.
+- Objetos enviados e histórico de aprovação são preservados. A publicação no GitHub também arquiva os bytes da imagem pública anterior.
+- Testes: 13 no painel e 12 de importação (textos e imagens), todos aprovados. Validação de envio real pelo navegador ainda pendente; nenhuma imagem de teste foi inserida na base de produção.
