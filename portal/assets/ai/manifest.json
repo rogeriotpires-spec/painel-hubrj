@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 96,
-  "pending": 47,
+  "ai_image_count": 97,
+  "pending": 46,
   "images": [
     {
       "id": "319520",
@@ -222,6 +222,11 @@
       "id": "319726",
       "title": "Recicla Dados - 3° setor com gestão e capacitação",
       "file": "assets/ai/319726.webp"
+    },
+    {
+      "id": "319737",
+      "title": "VitaLongis",
+      "file": "assets/ai/319737.webp"
     },
     {
       "id": "319742",
