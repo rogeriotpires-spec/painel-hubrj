@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 142,
-  "pending": 1,
+  "ai_image_count": 143,
+  "pending": 0,
   "images": [
     {
       "id": "319520",
@@ -482,6 +482,11 @@
       "id": "319860",
       "title": "RapAI",
       "file": "assets/ai/319860.webp"
+    },
+    {
+      "id": "319862",
+      "title": "Método VPGOV – Plataforma de Capacitação Empreendedora para Inserção no Mercado de Compras Públicas",
+      "file": "assets/ai/319862.webp"
     },
     {
       "id": "319863",
