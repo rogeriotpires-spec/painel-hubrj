@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 131,
-  "pending": 12,
+  "ai_image_count": 132,
+  "pending": 11,
   "images": [
     {
       "id": "319520",
@@ -327,6 +327,11 @@
       "id": "319779",
       "title": "Metabox Augmented Reality",
       "file": "assets/ai/319779.webp"
+    },
+    {
+      "id": "319780",
+      "title": "ExploraRio",
+      "file": "assets/ai/319780.webp"
     },
     {
       "id": "319781",
