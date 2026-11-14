@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 86,
-  "pending": 57,
+  "ai_image_count": 87,
+  "pending": 56,
   "images": [
     {
       "id": "319520",
@@ -337,6 +337,11 @@
       "id": "319879",
       "title": "ConcaPay: Plataforma Inteligente de Monetização e Gestão de Comunidades Digitais",
       "file": "assets/ai/319879.webp"
+    },
+    {
+      "id": "319887",
+      "title": "GrupsApp",
+      "file": "assets/ai/319887.webp"
     },
     {
       "id": "319898",
