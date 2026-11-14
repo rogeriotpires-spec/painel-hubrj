@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 104,
-  "pending": 39,
+  "ai_image_count": 105,
+  "pending": 38,
   "images": [
     {
       "id": "319520",
@@ -457,6 +457,11 @@
       "id": "319934",
       "title": "Sistema Integrado de Gestão e Controle de Energia, Eficiência e Utilidades.",
       "file": "assets/ai/319934.webp"
+    },
+    {
+      "id": "319936",
+      "title": "Topei - A Barraca Digital 24h dos Feirantes Cariocas",
+      "file": "assets/ai/319936.webp"
     },
     {
       "id": "319972",
