@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 73,
-  "pending": 70,
+  "ai_image_count": 74,
+  "pending": 69,
   "images": [
     {
       "id": "319520",
@@ -92,6 +92,11 @@
       "id": "319620",
       "title": "Bem Dita Entrega",
       "file": "assets/ai/319620.webp"
+    },
+    {
+      "id": "319631",
+      "title": "Trilha Sonora",
+      "file": "assets/ai/319631.webp"
     },
     {
       "id": "319640",
