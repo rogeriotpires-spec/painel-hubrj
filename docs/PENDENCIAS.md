@@ -39,3 +39,11 @@ Os resumos originais integrais, nomes, protocolos, municípios e áreas foram pr
 - **E-mail ou canal oficial próprio do HUB RJ: adiado a pedido de Rogerio em 14/11/2026. Cobrar somente no encerramento do trabalho; não bloquear as demais entregas por essa pendência.**
 - Infraestrutura criada após confirmação de que não existia. Ponte automática ativa: `HUBRJ_SITE_SERVICE_TOKEN` e `HUBRJ_SYNC_KEY` configurados nos segredos Actions e testados em execução real. Nenhum valor secreto deve ser colocado no repositório.
 - Para testar o acesso externo: definir uma startup piloto e o e-mail da pessoa responsável, com seu protocolo. Isso é distinto do e-mail institucional de contato, que permanece adiado.
+
+## Acesso simplificado dos responsáveis, definido em 14/11/2026
+
+- **Pendente: obter e-mails dos responsáveis vinculados aos protocolos.** Conferidas as seis abas de `HUB_RJ_Inova_2026_Classificacao_Integrada_144_Startups.xlsx`: nenhum endereço de e-mail encontrado. A aba Respostas_Inova contém 70 respostas, sem os contatos. Conferir a exportação original do Forms quando disponível.
+- Novo fluxo solicitado: e-mail autorizado → código temporário → acesso somente à própria startup. Ainda não implementado nem ativado. Necessário configurar remetente/serviço de envio e adaptar autenticação e proteção das rotas; acesso atual permanece por ChatGPT.
+- Preparada importação em lote na área administrativa: prévia com nome da startup, validação de protocolo e e-mail, bloqueio de duplicidades e proteção das contas administrativas. Nenhum contato real importado e nenhuma mensagem enviada.
+- Atualização de imagens pelos responsáveis permanece pendente: envio privado, revisão administrativa, preservação da imagem anterior e publicação somente após aprovação.
+- O e-mail institucional de contato continua adiado para o encerramento, distinto da lista de responsáveis e do serviço de envio de códigos.
