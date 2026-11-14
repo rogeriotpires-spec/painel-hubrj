@@ -62,3 +62,16 @@
 .official-result{padding:12px 16px;background:#e4f3e9;border-radius:8px;font-size:.86rem;line-height:1.5}
 .official-result a{color:#125533;text-decoration:underline;overflow-wrap:anywhere}
 @media(max-width:520px){.obs-controls label{min-width:100%}.obs-controls button{width:100%}}
+
+/* Notícias com fontes e controles acessíveis também no celular. */
+.news-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.news-card{display:flex;flex-direction:column;border:1px solid #d6e0ee;border-radius:14px;padding:24px;background:white;min-width:0}
+.news-meta{font-size:.78rem;font-weight:700;color:#51647b}
+.news-card h3{font-size:1.15rem;line-height:1.4;margin:16px 0 10px;color:#092c60}
+.news-card p{font-size:.92rem;line-height:1.6;color:#43566e;flex:1}
+.news-card a{margin-top:16px;color:#0b428b;text-decoration:underline;font-weight:750}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:24px}
+.contact-grid p{line-height:1.65}.contact-grid h3{color:#092c60}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #e19720;outline-offset:4px}
+@media(max-width:790px){.utility{display:block}.utility-inner{justify-content:flex-end}.utility-inner>span:first-child{display:none}.utility button{min-width:44px;min-height:44px}.news-grid,.contact-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
