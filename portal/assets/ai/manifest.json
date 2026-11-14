@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 120,
-  "pending": 23,
+  "ai_image_count": 121,
+  "pending": 22,
   "images": [
     {
       "id": "319520",
@@ -282,6 +282,11 @@
       "id": "319766",
       "title": "Cuidar Bem",
       "file": "assets/ai/319766.webp"
+    },
+    {
+      "id": "319768",
+      "title": "Projeto IoT - Rio Águas Limpas – Monitoramento Inteligente da Qualidade das Águas",
+      "file": "assets/ai/319768.webp"
     },
     {
       "id": "319769",
