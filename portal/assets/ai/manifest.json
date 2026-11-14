@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 75,
-  "pending": 68,
+  "ai_image_count": 76,
+  "pending": 67,
   "images": [
     {
       "id": "319520",
@@ -342,6 +342,11 @@
       "id": "319985",
       "title": "The Brigde",
       "file": "assets/ai/319985.webp"
+    },
+    {
+      "id": "319986",
+      "title": "TerraSync – Plataforma Inteligente de Apoio a Consultorias Ambientais no Cálculo de Emissões de Gases de Efeito Estufa (GEE)",
+      "file": "assets/ai/319986.webp"
     },
     {
       "id": "319987",
