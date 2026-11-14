@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 72,
-  "pending": 71,
+  "ai_image_count": 73,
+  "pending": 70,
   "images": [
     {
       "id": "319520",
@@ -297,6 +297,11 @@
       "id": "319910",
       "title": "Segunda Casa: A Plataforma que Conecta Estudantes e Cuida da Divisão do Aluguel",
       "file": "assets/ai/319910.webp"
+    },
+    {
+      "id": "319915",
+      "title": "DeepTeachi",
+      "file": "assets/ai/319915.webp"
     },
     {
       "id": "319916",
