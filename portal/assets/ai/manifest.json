@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 91,
-  "pending": 52,
+  "ai_image_count": 92,
+  "pending": 51,
   "images": [
     {
       "id": "319520",
@@ -47,6 +47,11 @@
       "id": "319563",
       "title": "LINKLUIR",
       "file": "assets/ai/319563.webp"
+    },
+    {
+      "id": "319564",
+      "title": "Motify.me - Plataforma de gestão de pessoas desempenhando tarefas",
+      "file": "assets/ai/319564.webp"
     },
     {
       "id": "319565",
