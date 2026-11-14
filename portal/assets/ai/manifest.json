@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 92,
-  "pending": 51,
+  "ai_image_count": 93,
+  "pending": 50,
   "images": [
     {
       "id": "319520",
@@ -322,6 +322,11 @@
       "id": "319817",
       "title": "MEDCLASS – EDUCAÇÃO EM SAÚDE",
       "file": "assets/ai/319817.webp"
+    },
+    {
+      "id": "319821",
+      "title": "Dispositivo de monitoramento para cercas elétricas rurais.",
+      "file": "assets/ai/319821.webp"
     },
     {
       "id": "319827",
