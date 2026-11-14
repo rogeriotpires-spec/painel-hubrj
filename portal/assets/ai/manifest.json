@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 110,
-  "pending": 33,
+  "ai_image_count": 111,
+  "pending": 32,
   "images": [
     {
       "id": "319520",
@@ -552,6 +552,11 @@
       "id": "320109",
       "title": "INOVA RESP: Plataforma Integrada de Diagnóstico Pulmonar Portátil e Itinerante",
       "file": "assets/ai/320109.webp"
+    },
+    {
+      "id": "320151",
+      "title": "Uthic - Guarde fácil. Caminhe livre.",
+      "file": "assets/ai/320151.webp"
     }
   ]
 }
