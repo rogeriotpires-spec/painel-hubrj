@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 103,
-  "pending": 40,
+  "ai_image_count": 104,
+  "pending": 39,
   "images": [
     {
       "id": "319520",
@@ -417,6 +417,11 @@
       "id": "319887",
       "title": "GrupsApp",
       "file": "assets/ai/319887.webp"
+    },
+    {
+      "id": "319895",
+      "title": "MetaScope - Plataforma SaaS de Inteligência Artificial Aplicada ao Desenvolvimento de Produtos e Processos Industriais: Aceleração de Inovação Tecnológica com Rigor Técnico e Velocidade Digital para Indústrias Metal-Mecânicas e Siderúrgicas do Estado do Rio de Janeiro",
+      "file": "assets/ai/319895.webp"
     },
     {
       "id": "319898",
