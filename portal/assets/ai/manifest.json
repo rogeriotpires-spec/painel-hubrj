@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 107,
-  "pending": 36,
+  "ai_image_count": 108,
+  "pending": 35,
   "images": [
     {
       "id": "319520",
@@ -482,6 +482,11 @@
       "id": "319980",
       "title": "The Lightseeker",
       "file": "assets/ai/319980.webp"
+    },
+    {
+      "id": "319983",
+      "title": "Freedumeet - O ecossistema de gestão, times e projetos com videoconferência integrada",
+      "file": "assets/ai/319983.webp"
     },
     {
       "id": "319985",
