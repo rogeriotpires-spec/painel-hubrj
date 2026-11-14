@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 105,
-  "pending": 38,
+  "ai_image_count": 106,
+  "pending": 37,
   "images": [
     {
       "id": "319520",
@@ -382,6 +382,11 @@
       "id": "319846",
       "title": "IRFácil – Imposto de Renda com Inteligência Artificial",
       "file": "assets/ai/319846.webp"
+    },
+    {
+      "id": "319847",
+      "title": "Laroye Clube",
+      "file": "assets/ai/319847.webp"
     },
     {
       "id": "319848",
