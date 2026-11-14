@@ -1,0 +1,1016 @@
+{
+  "date": "2026-11-14",
+  "source_commit": "c8aa02a87f814c8d55dd94e05996da1496533f56",
+  "full_editorial_reviews": [
+    "319712",
+    "319594",
+    "319864",
+    "319842",
+    "319852",
+    "319910",
+    "319746",
+    "319526",
+    "319573",
+    "319773",
+    "319758",
+    "319876",
+    "319754",
+    "319936",
+    "320078",
+    "319863"
+  ],
+  "institutional_approval": "pending",
+  "records": [
+    {
+      "id": "319712",
+      "source_sha256": "f14dc0444521b4de0c9416e788ab0727c19a3ea0d33a2df11b54563e821e1958",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "A inteligência artificial (IA) ajusta dinamicamente a dificuldade dos desafios, analisando erros e acertos para oferecer exercícios adequados ao ritmo individual.",
+          "after": "Aplicativos com exercícios isolados e gamificação superficial dificultam a construção de uma jornada contínua de aprendizagem de inglês para crianças."
+        },
+        {
+          "field": "solution",
+          "before": "O aplicativo combina elementos lúdicos e interativos para criar uma experiência imersiva, onde o aprendizado ocorre por meio de desafios contextualizados, recompensas progressivas e narrativas envolventes.",
+          "after": "Aplicativo de inglês para crianças de 8 a 12 anos, com tabuleiro virtual, desafios contextualizados, recompensas e dificuldade adaptada por inteligência artificial."
+        },
+        {
+          "field": "difference",
+          "before": "Isso inclui a integração com APIs de tradução automatizada, como Google Translate, para adaptar diálogos, e um banco de dados modular que armazena conteúdos de cada idioma separadamente, acelerando a localização.",
+          "after": "Integra uma narrativa contínua de jogo, progressão vinculada às habilidades linguísticas, personalização por IA e metodologia alinhada ao CEFR."
+        },
+        {
+          "field": "market",
+          "before": "A criança explora um tabuleiro virtual dividido em ambientes temáticos como escola, aeroporto, zoológico e supermercado, cada um representando um contexto de uso do inglês.",
+          "after": "Voltado ao ensino de inglês para crianças de 8 a 12 anos, com versões previstas para dispositivos móveis e expansão de escopo para a web."
+        },
+        {
+          "field": "mission",
+          "before": "Ao contrário da maioria dos aplicativos educacionais que oferecem mini jogos isolados e desconectados, o Poli-English Game propõe uma jornada gamificada contínua.",
+          "after": "Tornar a aprendizagem de inglês mais envolvente, contextualizada e adaptada ao ritmo de cada criança."
+        }
+      ]
+    },
+    {
+      "id": "319594",
+      "source_sha256": "24058f2b8efb729af58f376a9ef7b66cdf6e7c2f3a1dd3abb1174a839fd87571",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": null,
+          "after": "A proposta busca ampliar o acesso das cidades a tecnologias de segurança inteligente, reduzindo a dependência do processamento em hardware local."
+        },
+        {
+          "field": "solution",
+          "before": "Ao desacoplar a inteligência artificial do hardware local e centralizar o processamento na nuvem, criamos uma solução que é simultaneamente mais poderosa, mais acessível e mais escalável do que qualquer alternativa tradicional.",
+          "after": "Plataforma de segurança urbana compartilhada que centraliza o processamento de inteligência artificial na nuvem."
+        },
+        {
+          "field": "difference",
+          "before": null,
+          "after": "Combina processamento em nuvem e colaboração entre diferentes participantes para transformar dados em ações preventivas."
+        },
+        {
+          "field": "market",
+          "before": null,
+          "after": "Direcionada a cidades de diferentes portes e aos participantes de suas redes de segurança urbana."
+        },
+        {
+          "field": "mission",
+          "before": "Ao desacoplar a inteligência artificial do hardware local e centralizar o processamento na nuvem, criamos uma solução que é simultaneamente mais poderosa, mais acessível e mais escalável do que qualquer alternativa tradicional.",
+          "after": "Ampliar o acesso à segurança urbana inteligente e favorecer uma atuação preventiva e colaborativa."
+        }
+      ]
+    },
+    {
+      "id": "319864",
+      "source_sha256": "c02a3b0a1194035c8ce9b22050e83b389989ce665f6f7d532240389b2243227f",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "Diante dos desafios enfrentados pelo turismo no interior do Rio de Janeiro, como a falta de visibilidade das atrações, a desconexão com a economia local e a acessibilidade limitada, o Passeio 360° Interior surge como uma:solução abrangente e eficaz.",
+          "after": "Atrações do interior fluminense enfrentam baixa visibilidade, pouca integração com os negócios locais e limitações de acessibilidade turística."
+        },
+        {
+          "field": "solution",
+          "before": "O Passeio 360° Interior será uma plataforma de fomento ao turismo que visa impulsionar o desenvolvimento econômico e social do interior do Estado do Rio de Janeiro.",
+          "after": "Plataforma que reúne mapa geolocalizado, histórias locais, produtos culturais, ingressos, passeios guiados e roteiros gamificados."
+        },
+        {
+          "field": "difference",
+          "before": "A disruptividade reside na capacidade de transformar a forma como o turismo é vivenciado, oferecendo experiências personalizadas, acessíveis e imersivas, que valorizam a autenticidade e a diversidade do interior.",
+          "after": "Integra descoberta de atrações, comércio cultural e experiências personalizadas em uma mesma proposta, com previsão de acesso multilíngue."
+        },
+        {
+          "field": "market",
+          "before": "Ao conectar turistas, moradores e negócios locais, a plataforma impulsiona o desenvolvimento econômico e social da região, promovendo a inclusão e a valorização da cultura local.",
+          "after": "Voltada a turistas, moradores e negócios locais das cidades do interior do Rio de Janeiro."
+        },
+        {
+          "field": "stage",
+          "before": null,
+          "after": "O resumo propõe aperfeiçoar o aplicativo Passeio Carioca e expandir seu modelo para outras cidades; não informa a conclusão da nova plataforma."
+        },
+        {
+          "field": "mission",
+          "before": "O projeto visa ampliar o acesso ao turismo, diversificar o perfil dos beneficiários, alcançar o público do interior e as comunidades mais vulneráveis socialmente, promovendo a inclusão e o desenvolvimento econômico local.",
+          "after": "Valorizar a cultura e as atrações do interior, ampliar o acesso ao turismo e estimular a economia local."
+        }
+      ]
+    },
+    {
+      "id": "319842",
+      "source_sha256": "3aae86ce2ef7adb06ce058729706fcc5c059bff04e973e0144920f0e4083d1e1",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "O problema maior é que muitas vezes, órteses não biomecanicamente projetadas para o paciente, podem muitas vezes retardar a recuperação do paciente ou até mesmo piorar seu quadro clínico pois elas não levam em condições fatores vitais como a anatomia específica do paciente, tipo de lesão ou condição, requisitos de mobilidade e suporte e…",
+          "after": "Órteses padronizadas podem não atender à anatomia, às necessidades de suporte e às condições de mobilidade de cada paciente."
+        },
+        {
+          "field": "solution",
+          "before": "Em um segundo momento, nossa solução será oferecida para clínicas privadas de fisioterapia e reabilitação física e em então, para prefeituras da região através de mutirões de saúde.",
+          "after": "Proposta de fabricar órteses personalizadas por impressão 3D, usando escaneamento dos membros e filamentos produzidos com PET reciclado."
+        },
+        {
+          "field": "difference",
+          "before": "Estamos não apenas criando um produto inovador, mas estabelecendo um novo paradigma na fabricação de dispositivos médicos, onde excelência clínica e responsabilidade ambiental caminham lado a lado.",
+          "after": "Combina personalização anatômica, reciclagem de PET e fabricação digital, com previsão de participação de cooperativas e profissionais de fisioterapia."
+        },
+        {
+          "field": "market",
+          "before": "O setor de órteses e próteses é um dos que mais crescem na indústria da saúde, com uma taxa anual de crescimento global (CAGR) prevista para exceder os 7§ entre 2020 e 2027.:: Para entrar nesse imenso mercado, criamos uma startup inovadora que combina sustentabilidade ambiental e tecnologia de…",
+          "after": "Modelo B2B2C planejado para hospitais, clínicas e fisioterapeutas, com expansão futura por parcerias e atendimento ao setor público."
+        },
+        {
+          "field": "stage",
+          "before": "Entretanto, também temos em mente oferecer um modelo de negócios onde teremos fisioterapeutas “revendedores” nas respectivas instituições que eles trabalham.:: Atualmente o proponente é fisioterapeuta intensivista em dois…",
+          "after": "O resumo apresenta como próximos passos a aplicação de protótipos rudimentares, a coleta de feedback e o desenvolvimento de MVPs; não confirma sua execução."
+        },
+        {
+          "field": "mission",
+          "before": "Nosso modelo de negócio integra duas cadeias produtivas distintas em um ciclo virtuoso: a reciclagem de materiais plásticos PET para produção de filamentos de alta qualidade e a fabricação de órteses personalizadas através de impressão 3D para pacientes em…",
+          "after": "Desenvolver órteses sob medida com materiais reciclados, buscando conforto, adequação ao paciente e redução do descarte de plástico."
+        }
+      ]
+    },
+    {
+      "id": "319852",
+      "source_sha256": "5fd738372b2680d60a9ff540a1a21656f43c309785687e7337542bed60d0b508",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "O Socializei é um aplicativo integrado que aborda os principais desafios de comunicação enfrentados por pessoas no espectro autista, com transtornos relacionados à ansiedade e depressão ou que enfrentam dificuldades nas interações sociais.",
+          "after": "Pessoas com dificuldades de interação social podem enfrentar ansiedade e obstáculos para interpretar mensagens e se preparar para conversas."
+        },
+        {
+          "field": "solution",
+          "before": "Mais do que simplesmente sugerir respostas, o sistema ajudará a interpretar nuances e subtextos em mensagens recebidas, reduzindo a ansiedade comum em interações mediadas por tecnologia.",
+          "after": "Aplicativo proposto com assistente de mensagens e simulações de situações sociais, apoiados por inteligência artificial."
+        },
+        {
+          "field": "difference",
+          "before": "O diferencial conceitual do Socializei está na sua abordagem holística e personalizável, que combina suporte e treinamento.",
+          "after": "Reúne suporte à comunicação digital e prática guiada, com personalização conforme as características e necessidades do usuário."
+        },
+        {
+          "field": "market",
+          "before": "A funcionalidade “Treinamento de Cenários Sociais” oferecerá diversos cenários elaborados com a orientação de um profissional de saúde.",
+          "after": "Prevê acesso freemium, com versão gratuita limitada e versão premium, para pessoas com dificuldades de comunicação, incluindo pessoas autistas."
+        },
+        {
+          "field": "mission",
+          "before": "Mais do que simplesmente sugerir respostas, o sistema ajudará a interpretar nuances e subtextos em mensagens recebidas, reduzindo a ansiedade comum em interações mediadas por tecnologia.",
+          "after": "Apoiar a comunicação cotidiana e a preparação para interações sociais por meio de assistência digital e exercícios personalizados."
+        }
+      ]
+    },
+    {
+      "id": "319910",
+      "source_sha256": "4ebeaf4d4c8f7f9e2dfaaefb6fe367c5ff3b1697619eca7a719a29275a6fd3d9",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "No âmbito jurídico, a plataforma introduz inovações contratuais que atendem às reais necessidades do público universitário.",
+          "after": "Estudantes enfrentam dificuldades para encontrar moradia compartilhada, organizar contratos, dividir despesas e apresentar garantias de aluguel."
+        },
+        {
+          "field": "solution",
+          "before": "A estrutura de custos é enxuta, composta principalmente por despesas variáveis como tecnologia, marketing de aquisição e suporte operacional, permitindo eficiência desde o início.",
+          "after": "Plataforma de moradia universitária compartilhada com catálogo de vagas, verificação dos imóveis, contratos adaptados e organização dos pagamentos."
+        },
+        {
+          "field": "difference",
+          "before": null,
+          "after": "Integra busca de vagas, gestão individual da ocupação, possibilidade de separar locatário e morador e proposta de seguro-fiança."
+        },
+        {
+          "field": "market",
+          "before": "O aprendizado durante o PAFE foi crucial para refinar essa estratégia, validando a viabilidade de um teste de mercado focado inicialmente no polo universitário de Campos dos Goytacazes.",
+          "after": "Direcionada a estudantes, famílias e proprietários, com teste de mercado planejado em Campos dos Goytacazes e taxa de administração proposta de 5% do aluguel."
+        },
+        {
+          "field": "stage",
+          "before": "Esta abordagem metódica, validada pelo PAFE, assegurando um teste do modelo de negócios.",
+          "after": "O resumo relata refinamento do modelo de negócios durante o PAFE e planejamento de um teste de mercado; a captação de contratos é apresentada como projeção."
+        },
+        {
+          "field": "mission",
+          "before": "Transformamos a busca por repúblicas e moradias compartilhadas em uma experiência tranquila, segura e eficaz para todos.",
+          "after": "Simplificar o acesso à moradia universitária compartilhada e a administração de vagas pelos proprietários."
+        }
+      ]
+    },
+    {
+      "id": "319746",
+      "source_sha256": "270ac52128076db82117d9c917624b62f9708ad94c7b319bb409166399da4256",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "A MaCyberTech é uma plataforma que conecta empresas que enfrentam desafios para encontrar talentos qualificados a profissionais preparados sob medida para essas oportunidades.",
+          "after": "Empresas de tecnologia têm dificuldade para encontrar profissionais com as competências específicas de suas vagas."
+        },
+        {
+          "field": "solution",
+          "before": "Na plataforma, mentores podem oferecer seus serviços e disponibilizar horários de atendimento, permitindo que alunos escolham e agendem sessões personalizadas de acordo com suas necessidades e ritmo de aprendizado.",
+          "after": "Plataforma que conecta oportunidades de trabalho a trilhas de formação personalizadas e mentorias com especialistas."
+        },
+        {
+          "field": "difference",
+          "before": "Por meio de trilhas formativas personalizadas e a possibilidade de mentorias práticas com especialistas, a plataforma se torna um novo vetor de empregabilidade, conexão e desenvolvimento profissional no setor tech.",
+          "after": "Integra capacitação, agendamento de mentorias e conexão com demandas de empresas, adaptando a jornada às necessidades do participante."
+        },
+        {
+          "field": "market",
+          "before": "Por meio de trilhas formativas personalizadas e a possibilidade de mentorias práticas com especialistas, a plataforma se torna um novo vetor de empregabilidade, conexão e desenvolvimento profissional no setor tech.",
+          "after": "Direcionada a empresas em busca de talentos, profissionais que desejam entrar ou avançar no setor de tecnologia e mentores especializados."
+        },
+        {
+          "field": "mission",
+          "before": "Na plataforma, mentores podem oferecer seus serviços e disponibilizar horários de atendimento, permitindo que alunos escolham e agendem sessões personalizadas de acordo com suas necessidades e ritmo de aprendizado.",
+          "after": "Aproximar a formação profissional das necessidades de contratação do setor de tecnologia."
+        }
+      ]
+    },
+    {
+      "id": "319526",
+      "source_sha256": "47f097ee972f0013da5bb081edda9f57f09fe64e602c532f3c183c0eeb0955a0",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "Trata-se de um segmento caracterizado por rotina móvel, baixa previsibilidade de renda e necessidade de controle tributário simplificado, atributos diretamente endereçados pela proposta da ZapCont.",
+          "after": "Motoristas e entregadores MEIs enfrentam dificuldades de gestão fiscal e baixa adesão a sistemas contábeis tradicionais, apesar da familiaridade com o WhatsApp."
+        },
+        {
+          "field": "solution",
+          "before": "O sistema executa conciliação financeira automática, verificação de status cadastral do MEI junto à Receita Federal e integração com plataformas de pagamento e emissão fiscal.",
+          "after": "Assistente conversacional no WhatsApp para orientar a gestão do MEI e integrar tarefas como emissão de notas, consulta ao DAS e registro de receitas e despesas."
+        },
+        {
+          "field": "difference",
+          "before": "A operação é automatizada: a IA conduz o atendimento, enquanto painéis de monitoramento garantem controle de métricas como tempo médio de resposta, satisfação (NPS) e número de obrigações cumpridas por usuário.",
+          "after": "Combina linguagem natural, automações contábeis e uma interface adaptada à rotina de motoristas e entregadores, sem exigir outro aplicativo."
+        },
+        {
+          "field": "market",
+          "before": "O “Seu João” atua como uma persona de mediação tecnológica, projetada para compreender variações linguísticas e contextos socioculturais típicos do público-alvo.",
+          "after": "Voltada inicialmente a motoristas e entregadores formalizados como MEIs, com modelo de assinatura acessível descrito pelo proponente."
+        },
+        {
+          "field": "stage",
+          "before": null,
+          "after": "O resumo relata validação do recorte de público durante o PAFE, com análise de dados e interações com potenciais usuários; não confirma lançamento comercial."
+        },
+        {
+          "field": "mission",
+          "before": "O modelo de negócio adota assinatura acessível (R$ 29,79 mensais) e visa sustentabilidade por escala.",
+          "after": "Simplificar a gestão fiscal e financeira dos MEIs de transporte e entregas por um canal que já utilizam no cotidiano."
+        }
+      ]
+    },
+    {
+      "id": "319573",
+      "source_sha256": "f6bce2cdb4a271e3684669bac7bd65b5eeb11e155c310e3d197aefbbc9b4f045",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "Mais do que identificar os riscos, a solução propõe planos de ação personalizados, construídos a partir da capacidade real de cada empresa, com base em dados próprios e indicadores internos acompanhados ao longo do tempo.",
+          "after": "Empresas precisam identificar riscos psicossociais e transformar os diagnósticos em medidas compatíveis com sua capacidade de atuação."
+        },
+        {
+          "field": "solution",
+          "before": "A solução se alinha aos Objetivos de Desenvolvimento Sustentável (ODS 3, 5 e 8) e ao eixo de ESG, tornando-se uma aliada estratégica na construção de ambientes corporativos saudáveis, inclusivos e sustentáveis.",
+          "after": "Plataforma de diagnóstico e gestão emocional, com painéis, análise do perfil das equipes e planos de ação orientados por dados."
+        },
+        {
+          "field": "difference",
+          "before": "Mais do que identificar os riscos, a solução propõe planos de ação personalizados, construídos a partir da capacidade real de cada empresa, com base em dados próprios e indicadores internos acompanhados ao longo do tempo.",
+          "after": "Propõe recomendações adaptadas aos dados e à capacidade de cada empresa, com acompanhamento de indicadores ao longo do tempo."
+        },
+        {
+          "field": "market",
+          "before": "A tecnologia está em fase de testes com 6 clientes e mais de 200 vidas: ABRADIF (Associação Brasileira de Concessionários da FORD) - 3 concessionárias, Ambiental (consultoria ambiental corporativa) entre outros.",
+          "after": "Direcionada especialmente a médias empresas dos setores de indústria, saúde e tecnologia."
+        },
+        {
+          "field": "stage",
+          "before": null,
+          "after": "O proponente declara testes em andamento com seis clientes e mais de 200 pessoas abrangidas, na época do resumo da Fase 02."
+        },
+        {
+          "field": "mission",
+          "before": "Mais do que identificar os riscos, a solução propõe planos de ação personalizados, construídos a partir da capacidade real de cada empresa, com base em dados próprios e indicadores internos acompanhados ao longo do tempo.",
+          "after": "Apoiar empresas no mapeamento e na prevenção de riscos psicossociais e no acompanhamento de ações de saúde emocional."
+        }
+      ]
+    },
+    {
+      "id": "319773",
+      "source_sha256": "19cb0f9a22b1b9f32d0caf463d4ff5643a829c12f48d1f11335cf7eb28b122a3",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "Essas demandas foram validadas com uma pesquisa aplicada a 53 produtores hidropônicos no Brasil, dos quais 67,9% apontaram o controle de pragas e doenças como o maior desafio, seguido pelo controle de variáveis ambientais e da solução nutritiva (47,2§).",
+          "after": "Pequenos e médios produtores hidropônicos precisam controlar variáveis ambientais, solução nutritiva, pragas, insumos e energia com atenção constante."
+        },
+        {
+          "field": "solution",
+          "before": "A PlantaAI é uma solução tecnológica inovadora voltada à automação agrícola inteligente e à agricultura de precisão no cultivo hidropônico, com foco em pequenos e médios produtores.",
+          "after": "Sistema de automação hidropônica que integra sensores IoT, controle automatizado, visão computacional e inteligência artificial."
+        },
+        {
+          "field": "difference",
+          "before": "Em síntese, a PlantaAI é a ponte entre a inovação tecnológica e o campo, oferecendo uma solução escalável, inteligente, validada em ambiente real e com alto impacto social e econômico.",
+          "after": "Propõe monitoramento e decisões locais, inclusive sem conexão, com planejamento de cultivos apoiado em conhecimento estruturado de produção agrícola."
+        },
+        {
+          "field": "market",
+          "before": "A PlantaAI também agrega valor estratégico ao produtor ao reduzir desperdícios de água, energia e insumos, aumentar o número de ciclos de cultivo por ano e gerar dados valiosos para rastreabilidade, análise preditiva e melhoria contínua.",
+          "after": "Direcionado a pequenos e médios produtores hidropônicos, com pesquisa de necessidades realizada com 53 produtores, segundo o resumo."
+        },
+        {
+          "field": "stage",
+          "before": "Em síntese, a PlantaAI é a ponte entre a inovação tecnológica e o campo, oferecendo uma solução escalável, inteligente, validada em ambiente real e com alto impacto social e econômico.",
+          "after": "O proponente declara TRL 4 e protótipos funcionais em testes em uma estufa do IFF. A evolução para TRL 6 e 7 é apresentada como objetivo futuro."
+        },
+        {
+          "field": "mission",
+          "before": "A PlantaAI é uma solução tecnológica inovadora voltada à automação agrícola inteligente e à agricultura de precisão no cultivo hidropônico, com foco em pequenos e médios produtores.",
+          "after": "Automatizar o manejo hidropônico para reduzir desperdícios e ampliar a autonomia dos produtores."
+        }
+      ]
+    },
+    {
+      "id": "319758",
+      "source_sha256": "81e2e211b224d9c563458918529da8a17bcde0e4ea119d3c4c2f87089961df4b",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "A Personaliza Aí foca também em mitigar riscos e ineficiências das IAs atuais, que frequentemente “alucinam jurisprudência” e geram retrabalho.",
+          "after": "Escritórios de advocacia lidam com fluxos pouco estruturados, coleta dispersa de documentos e retrabalho no uso de ferramentas genéricas de IA."
+        },
+        {
+          "field": "solution",
+          "before": "Em cada etapa do processo em que é necessária a utilização de inteligência artificial, como criação de e-mails ou conferência de documentos, a plataforma acopla a IA automaticamente, garantindo geração padronizada.",
+          "after": "Plataforma que transforma a descrição do trabalho do advogado em etapas organizadas de coleta de informações, notificações e tarefas apoiadas por IA."
+        },
+        {
+          "field": "difference",
+          "before": "O objetivo principal da Personaliza Aí é tornar a inteligência artificial acessível e escalável para escritórios de advocacia e advogados.",
+          "after": "Combina fluxos personalizáveis por arrastar e soltar, instruções padronizadas para IA e possibilidade de testar diferentes modelos de linguagem."
+        },
+        {
+          "field": "market",
+          "before": "A empresa escolheu a advocacia como o seu nicho definitivo devido ao potencial de mercado, mirando em um setor que movimenta 50 bilhões de reais por ano no Brasil, onde atuam 1,3 milhão de advogados.",
+          "after": "Direcionada a advogados e escritórios, com validação de assinatura SaaS, cobrança por uso e coparticipação."
+        },
+        {
+          "field": "stage",
+          "before": "A plataforma só dispara um alerta, por exemplo, para o advogado realizar a petição após o cliente ter anexado e validado todas as informações.",
+          "after": "O resumo declara três projetos piloto em andamento, nas áreas de consumidor, imobiliário e empresarial/tributário, além de testes de modelos de monetização."
+        },
+        {
+          "field": "mission",
+          "before": "O objetivo principal da Personaliza Aí é tornar a inteligência artificial acessível e escalável para escritórios de advocacia e advogados.",
+          "after": "Tornar o uso da inteligência artificial mais organizado, acessível e adaptável ao método de trabalho de cada escritório."
+        }
+      ]
+    },
+    {
+      "id": "319876",
+      "source_sha256": "29540f915e4823ed7f033ba398aebd0740fa62048376686ab4d257c98e800904",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "O projeto visa preencher uma lacuna crítica: a ausência de ferramentas de gestão comercial e operacional adequadas às necessidades dos integradores solares.",
+          "after": "Integradores solares dependem de sistemas de gestão genéricos que exigem adaptações dispendiosas para suas rotinas comerciais e operacionais."
+        },
+        {
+          "field": "solution",
+          "before": "Nossa plataforma permitirá que os integradores foquem naquilo que realmente importa: relacionamentos com seus clientes e a expansão dos seus negócios, enquanto delegam atividades administrativas ao sistema.",
+          "after": "CRM especializado para integradores de energia solar, com geração de orçamentos, gestão de atividades e acompanhamento de projetos."
+        },
+        {
+          "field": "difference",
+          "before": "Além disso, planeja-se integrar inteligência artificial para otimizar ainda mais o processo de análise de documentos e precificação personalizada.",
+          "after": "Propõe funcionalidades específicas do setor solar e futura integração de IA para análise de documentos e precificação."
+        },
+        {
+          "field": "market",
+          "before": "A ideia nasceu a partir da nossa experiência prática no setor, onde percebemos que as soluções existentes no mercado eram genéricas e necessitavam de personalizações dispendiosas para atender ao nosso modelo de negócios.",
+          "after": "Direcionado a empresas integradoras de energia solar que precisam organizar vendas, atividades e projetos."
+        },
+        {
+          "field": "stage",
+          "before": null,
+          "after": "O resumo declara que o CRM está em fase de desenvolvimento; as funcionalidades e a integração de IA são apresentadas como planejadas."
+        },
+        {
+          "field": "mission",
+          "before": "O projeto visa preencher uma lacuna crítica: a ausência de ferramentas de gestão comercial e operacional adequadas às necessidades dos integradores solares.",
+          "after": "Reduzir o esforço administrativo dos integradores solares e apoiar a gestão de seus negócios."
+        }
+      ]
+    },
+    {
+      "id": "319754",
+      "source_sha256": "119928adba4e687705d9904c4be9e0f39d63c235e9c3b14551f7054bc2da5e86",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "Um projeto que une ciência, afeto e tecnologia para enfrentar, com inovação e sensibilidade, dois dos maiores desafios da infância neurodivergente: a obesidade infantil e a seletividade alimentar.",
+          "after": "Crianças neurodivergentes com seletividade alimentar e baixa atividade física podem encontrar barreiras motoras e sensoriais em jogos e recursos de cuidado convencionais."
+        },
+        {
+          "field": "solution",
+          "before": "A proposta é desenvolver um jogo digital acessível, baseado em visão computacional e inteligência artificial embarcada, no qual o corpo da criança se torna o próprio controle do jogo.",
+          "after": "Jogo digital proposto com detecção de movimentos pela câmera do celular, narrativa lúdica e desafios relacionados a movimento e alimentação."
+        },
+        {
+          "field": "difference",
+          "before": "Um projeto que une ciência, afeto e tecnologia para enfrentar, com inovação e sensibilidade, dois dos maiores desafios da infância neurodivergente: a obesidade infantil e a seletividade alimentar.",
+          "after": "Combina interação corporal, IA executada no dispositivo e desenho acessível para perfis sensoriais diversos, dispensando sensores externos."
+        },
+        {
+          "field": "market",
+          "before": "O jogo é construído sobre bases interdisciplinares — nutrição, neuropsicologia, psicomotricidade, pedagogia e educação inclusiva — e desenvolvido com apoio de profissionais das áreas da saúde e da tecnologia.",
+          "after": "Prevê disponibilização pública gratuita para crianças de 5 a 11 anos, com uso doméstico e em escolas, organizações e serviços de saúde."
+        },
+        {
+          "field": "stage",
+          "before": "O que antes era um protótipo sonhado, hoje é um sistema validado tecnicamente e pronto para escalar.",
+          "after": "O resumo relata uma prova de conceito da detecção de gestos executada pela GAPS STUDIOS. Testes de usabilidade e avaliação de impacto aparecem como etapas posteriores."
+        },
+        {
+          "field": "mission",
+          "before": "Essa é a essência da Missão Comilândia: transformar resistência em descoberta, transformar exclusão em pertencimento.",
+          "after": "Oferecer um recurso lúdico e acessível de apoio ao cuidado e à educação, sem substituir terapias nem apresentar metas clínicas como resultados alcançados."
+        }
+      ]
+    },
+    {
+      "id": "319936",
+      "source_sha256": "70c6a8d6d69cac06486f63ef8156369ff1881ccd526950312a881037dd1fc1fd",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": null,
+          "after": "Feirantes usam canais digitais de forma improvisada e carecem de ferramentas adequadas para continuar vendendo fora do horário das feiras."
+        },
+        {
+          "field": "solution",
+          "before": "A Topei é uma plataforma digital feita sob medida para feirantes e microempreendedores populares, que funciona como uma barraca virtual 24h — permitindo que o feirante continue vendendo mesmo quando o horário da feira física termina.",
+          "after": "Barraca digital com catálogo de produtos, negociação por ofertas e confirmação das vendas pelo WhatsApp Business."
+        },
+        {
+          "field": "difference",
+          "before": null,
+          "after": "Adapta ao ambiente digital a negociação típica das feiras, com preço inicial visível, limite mínimo reservado e proposta de assinatura sem comissão por venda."
+        },
+        {
+          "field": "market",
+          "before": "O feirante escolhe o que quer vender, define um preço âncora que ficará visível na plataforma e um preço mínimo (não visível aos consumidores), e pode aceitar ou recusar cada proposta feita pelos usuários — sem comissões sobre a venda.",
+          "after": "Direcionada a feirantes e microempreendedores populares, com assinatura mensal proposta de R$ 69."
+        },
+        {
+          "field": "stage",
+          "before": "O orçamento validado junto à FAPERJ será destinado principalmen-te ao desenvolvimento, suporte técnico em campo e primeiros ciclos de ativação digital.",
+          "after": "O resumo relata um protótipo navegável no Figma e pesquisa de feiras na Fase 1. O desenvolvimento do MVP técnico é previsto para a Fase 2."
+        },
+        {
+          "field": "mission",
+          "before": "Muitos feirantes usam o WhatsApp e o Instagram de forma improvisada para atender seus clientes, mas não possuem uma ferramenta estruturada, confiável e culturalmente adequada à sua forma de vender.",
+          "after": "Ampliar a presença digital e as oportunidades de venda dos feirantes, preservando o vínculo direto com os clientes."
+        }
+      ]
+    },
+    {
+      "id": "320078",
+      "source_sha256": "9d297490f4c11797dbb664ba610d0a1cc93ac7ab168d897a64f63854a752d5ff",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": null,
+          "after": "A proposta busca tornar a música educativa mais conectada às características de cada criança e às diferentes fases da infância."
+        },
+        {
+          "field": "solution",
+          "before": "Estamos desenvolvendo uma solução inovadora que utiliza ferramentas de Inteligência Artificial para criar músicas:educativas para crianças, com potencial de personalização em larga escala.",
+          "after": "Produção de músicas educativas com ferramentas de IA, incluindo canções prontas e possibilidade de encomendas personalizadas."
+        },
+        {
+          "field": "difference",
+          "before": "Essa infraestrutura permite a construção de um produto:escalável e de custo reduzido, viabilizando sua aplicação tanto em larga escala (como canal de streaming) quanto em:experiências altamente personalizadas.",
+          "after": "Combina geração de som, voz, imagem e vídeo por IA com curadoria humana e atenção aos conteúdos infantis."
+        },
+        {
+          "field": "market",
+          "before": "O setor de conteúdos infantis ainda é pouco explorado no:campo da IA aplicada à música, mas possui um enorme potencial de fidelização e desdobramentos em novos produtos:e serviços, como livros, personagens, brinquedos e experiências educacionais gamificadas.",
+          "after": "Direcionada a famílias, crianças e canais de conteúdo infantil, com possibilidade de músicas personalizadas e distribuição digital."
+        },
+        {
+          "field": "stage",
+          "before": null,
+          "after": "O resumo declara fase inicial de desenvolvimento (ideação), testes de músicas com famílias e crianças e testes de um formato de plataforma de encomendas."
+        },
+        {
+          "field": "mission",
+          "before": "Nosso objetivo é tornar a experiência:musical educativa mais envolvente, acessível e conectada com o universo infantil, respeitando o desenvolvimento:cognitivo e emocional das crianças.",
+          "after": "Criar experiências musicais educativas mais envolventes e personalizadas para o público infantil."
+        }
+      ]
+    },
+    {
+      "id": "319863",
+      "source_sha256": "f4625b7b7b7c88183c3102b9ed332031dff828faf0778fc20fc10a19aceb3b2b",
+      "scope": "six_editorial_fields",
+      "reason": "Síntese revisada a partir do resumo integral, sem alterar o documento original nem tratar metas como resultados.",
+      "changes": [
+        {
+          "field": "problem",
+          "before": "Seu destaque se dá por oferecer dificuldade ajustável, ritmo próprio e ausência de punições severas (características que:têm promovido, inclusive, alto engajamento entre crianças do espectro autista).",
+          "after": "A proposta busca reduzir barreiras de dificuldade, ritmo e punição que podem limitar o acesso de diferentes públicos aos jogos."
+        },
+        {
+          "field": "solution",
+          "before": "Além de ser um título digital com potencial multiplataforma, Super Roller Dud representa uma contribuição:significativa para o fortalecimento da propriedade intelectual brasileira no cenário global, promovendo inclusão, inovação:e diversidade no mercado de games.",
+          "after": "Jogo digital com dificuldade ajustável, ritmo próprio e ausência de punições severas."
+        },
+        {
+          "field": "difference",
+          "before": null,
+          "after": "Prioriza acessibilidade e adaptação da experiência ao jogador, com potencial de distribuição em diferentes plataformas."
+        },
+        {
+          "field": "market",
+          "before": null,
+          "after": "Voltado principalmente a jovens e adultos; o resumo relata também interesse de crianças autistas e potencial de distribuição multiplataforma."
+        },
+        {
+          "field": "stage",
+          "before": null,
+          "after": "O resumo declara fase de prova de conceito (PoC) e negociação com a ID@XBOX. A negociação não é apresentada como investimento já recebido."
+        },
+        {
+          "field": "mission",
+          "before": "Além de ser um título digital com potencial multiplataforma, Super Roller Dud representa uma contribuição:significativa para o fortalecimento da propriedade intelectual brasileira no cenário global, promovendo inclusão, inovação:e diversidade no mercado de games.",
+          "after": "Desenvolver um jogo acessível e ampliar a presença de uma propriedade intelectual brasileira no mercado de games."
+        }
+      ]
+    },
+    {
+      "id": "320060",
+      "source_sha256": "97a946874cd304224c41dc09766a9bee3dede071365a50d18a182f213d67e70f",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "MVP: Jogo da Força – jogo eletrônico sério, modulável e personalizável para atender às demandas específicas de clientes e mercados.",
+          "after": "O texto descreve um protótipo conceitual e apresenta o MVP entre os resultados esperados; não confirma que o MVP esteja concluído."
+        }
+      ]
+    },
+    {
+      "id": "319565",
+      "source_sha256": "33a50d650aa9e168a54d6676d4432439957ad65074bdcc1d8fa0fcbab9561350",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Ao desenvolver um MVP com potencial de escalabilidade e monetização, a:solução fortalece a autonomia econômico-financeira da startup proponente.",
+          "after": "O resumo declara que o aplicativo Pró-Reforma já foi validado no mercado. O MVP da nova funcionalidade Pró-Carbono é apresentado como desenvolvimento proposto."
+        }
+      ]
+    },
+    {
+      "id": "319703",
+      "source_sha256": "61f73936978296aa4ef0059c4be66325d00a2d99eb73f043314322549bad63b4",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Diagnóstico e planejamento ? desenvolvimento do MVP integrado via APIs ? capacitação (workshops) ? suporte contínuo e monitoramento ? testes em campo ? lançamento e evolução contínua.",
+          "after": "O resumo apresenta um roteiro de implementação, incluindo desenvolvimento do MVP e testes em campo, sem confirmar a conclusão dessas etapas."
+        }
+      ]
+    },
+    {
+      "id": "319613",
+      "source_sha256": "b6aa6b7c8d783a7a11dd6ea127da36fa606a54290038972a53a16bfb494b29ea",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "A proposta combina formação continuada, práticas gamificadas e recursos digitais acessíveis, culminando na entrega de um MVP funcional: uma plataforma que oferece trilhas de aprendizagem, atividades pedagógicas integradas à IA…",
+          "after": "O MVP funcional é descrito como entrega prevista da proposta; o resumo não confirma sua conclusão."
+        }
+      ]
+    },
+    {
+      "id": "319583",
+      "source_sha256": "7f67ed0cb536f2422e01017d1806be7f0bffd34d50b872c83f76a40bbd7fb89f",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "A meta da Fase 2 é lançar o MVP com 5 módulos e testar com 20 empresas piloto, validando tração e métricas de uso.",
+          "after": "O lançamento de um MVP com cinco módulos e testes com 20 empresas é apresentado como meta da Fase 2, não como resultado já alcançado."
+        }
+      ]
+    },
+    {
+      "id": "319879",
+      "source_sha256": "2e5a935f3cbe29fa7832f64fe63c1c2e48858a4cfa8ead30d1a4fd1f975e997c",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "A plataforma já se encontra em estágio de maturidade tecnológica TRL 6, com MVP funcional validado por mais de 50 criadores, sendo 18 deles residentes no Rio de Janeiro.",
+          "after": "O proponente declara TRL 6 e MVP funcional validado por mais de 50 criadores. O avanço para TRL 7 é apresentado como objetivo da Fase 2."
+        }
+      ]
+    },
+    {
+      "id": "319721",
+      "source_sha256": "02b4f5a57f1c79a6262f329a62899027f72d3cd3833d0dbd600ee01edaa421ed",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "O modelo de pele artificial já está em ampla utilização nas linhas de pesquisa desenvolvidas no Laboratório de Biologia Celular e Tecidual da UENF, com patente depositada (Uso de Pele Artificial para Cicatrização de tecido…",
+          "after": "O resumo declara uso dos modelos de pele em pesquisas na UERJ e na UENF e depósitos de patentes. Essas declarações não equivalem a comprovação de operação comercial."
+        }
+      ]
+    },
+    {
+      "id": "319694",
+      "source_sha256": "a2abcc2882e848435ad49bfb0b07874f5c8d26c1ac135564e2c997a33e023422",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "O MVP será desenvolvido para validar a aderência do consumidor e a viabilidade técnica, com lançamento piloto na região metropolitana do Rio de Janeiro.",
+          "after": "O resumo apresenta o desenvolvimento do MVP e um lançamento piloto na região metropolitana do Rio de Janeiro como próximos passos."
+        }
+      ]
+    },
+    {
+      "id": "319779",
+      "source_sha256": "1e33cfa2e258032a25a84a423a60c0e5b695e93c9e550997118ebbe3e8e7bdd0",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "A Metabox AR propõe-se como um MVP de alta escalabilidade, capaz de.",
+          "after": "O MVP é apresentado como proposta; o resumo não informa sua conclusão nem resultados de testes."
+        }
+      ]
+    },
+    {
+      "id": "319895",
+      "source_sha256": "d550f5e1a7ad1b8d4aa0579a709cae35439f834c1fb2a40d6f614fe555a96b6d",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "A saída deste módulo é um blueprint técnico validado, contendo análise de viabilidade, revisão de estado da arte, especificações preliminares e direcionamento metodológico fundamentado.",
+          "after": "O proponente relata validação comercial durante o PAFE, por meio de três projetos piloto com clientes de setores industriais distintos."
+        }
+      ]
+    },
+    {
+      "id": "319983",
+      "source_sha256": "424673a082dc3d55b4db484b58066c0517bf08815d791e4d59bfefb8c0ce878d",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "A equipe já desenvolveu um protótipo funcional que incorpora recursos estratégicos para ambientes de projetos e times, como geração automática de atas de reuniões com identificação de responsáveis e prazos, transcrição em tempo…",
+          "after": "O resumo declara um protótipo funcional já desenvolvido, com recursos de atas automáticas e transcrição para apoiar a gestão de projetos e equipes."
+        }
+      ]
+    },
+    {
+      "id": "320054",
+      "source_sha256": "4ad84013599f10ad3de62fbb00d1458bd42a6c10b5413a56ba83bcbdba9a57d0",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "O MVP (Produto Mínimo Viável) da ai-OPV ERDE será composto por quatro módulos sensoriais principais — umidade do solo, temperatura, condutividade elétrica e luminosidade — integrados a células solares de plástico otimizadas para…",
+          "after": "O MVP com módulos sensoriais e células solares é descrito como desenvolvimento previsto, sem confirmação de conclusão no resumo."
+        }
+      ]
+    },
+    {
+      "id": "319999",
+      "source_sha256": "ab7496609fc062baa652fc2a29d2b9554723894c1cb5fac4e501db06414941b8",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "O projeto conta atualmente com 30 fases e teve seu potencial validado em testes abertos e eventos culturais no estado:do Rio de Janeiro, como o Maricá Games, que gerou 77 horas de gameplay em apenas dois dias, com alta adesão…",
+          "after": "O resumo declara um jogo com 30 fases e testes abertos em eventos, incluindo 77 horas de gameplay no Maricá Games. Os números são declarações do proponente."
+        }
+      ]
+    },
+    {
+      "id": "320005",
+      "source_sha256": "bd31737fe48fe17be5011a774506db17d1bd1c97202de4ece284d25c731a0bc0",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Com base nisso, foram validados os principais elementos do projeto: escopo, funcionalidades centrais, perfil dos usuários, estratégia de adesão e diferenciais frente às plataformas existentes.",
+          "after": "O resumo relata validação de escopo e estruturação do modelo de dados na Fase 1. O desenvolvimento técnico e a entrega do MVP são previstos para fases posteriores."
+        }
+      ]
+    },
+    {
+      "id": "319780",
+      "source_sha256": "4f5fbba5c96d48cf815a1fb9c8361cf125c4882281d63afa1179e0c689402094",
+      "scope": "stage",
+      "reason": "Correção da distinção entre declaração histórica, produto existente e etapa futura.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Ambientado inicialmente em Vassouras, no coração do Vale do Café, o jogo apresenta um protótipo (MVP) no qual o jogador explora a cidade e interage com um NPC inteligente integrado a uma IA conectada em tempo real, capaz de…",
+          "after": "O resumo declara um protótipo (MVP) ambientado em Vassouras, com interação com personagem integrado a IA para consulta de informações turísticas."
+        }
+      ]
+    },
+    {
+      "id": "319750",
+      "source_sha256": "853efb39dfd8d13aafc7975f983506fa21e6ffa7486f063133d7025f40645977",
+      "scope": "stage",
+      "reason": "Validação de ações por monitores é uma função da solução, não evidência de maturidade do produto.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Cada ação é validada por:monitores, garantindo transparência.",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319987",
+      "source_sha256": "1ecff906f42d6e683d41d1e5edd058b615032ae64a2a3365c83ccd918a3dfbe2",
+      "scope": "stage",
+      "reason": "Protocolos clínicos validados não demonstram que a plataforma foi testada ou implantada.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "A Triagem Inteligente de Sintomas e Demandas, utilizando Inteligência Artificial (NLP e machine learning), realiza triagens automatizadas baseadas em protocolos clínicos validados, oferecendo orientações iniciais e a localização…",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319798",
+      "source_sha256": "0a919e0d7f1be4c30d95051d10f9f0d2771831ad234b27a5429a1fa476d997eb",
+      "scope": "stage",
+      "reason": "Protótipos produzidos por alunos são resultados formativos previstos, não o estágio da plataforma.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "As formações utilizam metodologias ativas de aprendizagem, que colocam o jovem como protagonista do próprio processo, estimulando o “aprender fazendo”, o pensamento crítico e a criação de protótipos aplicáveis à realidade local.",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319763",
+      "source_sha256": "66c7abc5159eab5a718eee2d04a99b9a99170908d9283360f29c75c5ba78a00c",
+      "scope": "stage",
+      "reason": "A expressão MVP aparece no título, sem esclarecer sua conclusão no trecho usado como estágio.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "App Lumina – Inovação em Liderança para o Gerenciamento de Riscos Psicossociais (MVP) O Lumina é uma solução: digital inovadora desenvolvida para atender às novas exigências da NR-1 (Programa de Gerenciamento de Riscos.",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319671",
+      "source_sha256": "9370788e9b13d860161a33182feaf79ecfadba4e33ac983d02e20db6ca68912f",
+      "scope": "stage",
+      "reason": "A validação de uma metodologia de recrutamento não demonstra maturidade da plataforma.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Somado ao treinamentos de recrutadores internos e gestores contratantes com a metodologia de recrutamento utilizada e validada pelos maiores headhunters globais.:- Modelo: B2B:- Formato: SaaS - \"Software as a Service\" ou Software…",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319640",
+      "source_sha256": "93a5f170300ffeda4552b45fe471682712e177d12054af3c9af129e362273f93",
+      "scope": "stage",
+      "reason": "Uma base de recomendações validada não é validação do produto.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Tecnologicamente, utilizaremos modelos de linguagem (LLMs) via API integrados com arquitetura RAG (Retrieval-Augmented Generation), garantindo que recomendações venham de nossa base validada e não de \"alucinações\" da IA.",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319916",
+      "source_sha256": "20d15c9bd0560d8163b46e0c6337f910d26bf17967f12373e65d33935e7d124b",
+      "scope": "stage",
+      "reason": "O estágio profissional dos alunos não é o estágio de desenvolvimento do projeto.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "O principal objetivo da EngenharIA é reduzir os índices de evasão e retenção nos cursos de Engenharia, especialmente nas etapas finais, quando muitos alunos já estão estagiando ou trabalhando em outras cidades e possuem poucas…",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319726",
+      "source_sha256": "f9fc21158bf6d820f4656eb9d3b65e2430ab88251eab25ec8b6bedbc1266b4ec",
+      "scope": "stage",
+      "reason": "A função de validar informações não indica maturidade da solução.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "O Recicla Dados será o validador de informações necessárias, por exemplo, de prefeituras que almejam receber os créditos de ICMS verde.",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319986",
+      "source_sha256": "da2a48590c144e634e4df5f6a39b4d05409ab06e985c043975164b5cda5be981",
+      "scope": "stage",
+      "reason": "O segundo estágio de uma implementação futura não informa a etapa já alcançada.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Num segundo estágio, será implementado o módulo rodoviário, voltado à simulação das emissões de transporte, através de parâmetros como tipo de veículo, combustível, carga e percurso.",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319929",
+      "source_sha256": "b102ad5fa386d49c9188b46ff4e2b5edbaa977ec60a1802e5ac2a2b4870a5e6b",
+      "scope": "stage",
+      "reason": "A maturidade do princípio Maglev usado em trens não comprova maturidade do novo rolamento.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Por isso, a inovação é considerada disruptiva, com princípio validado e com grau de capacidade expansão imenso.",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319894",
+      "source_sha256": "d167d9504f7d83777c416aa11c624f9daaa2f76607f5bba28b5e178220820442",
+      "scope": "stage",
+      "reason": "Abordagens didáticas validadas não comprovam testes da plataforma.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Recursos digitais acessíveis, como vídeos explicativos e guias de referência rápida: Os vídeos educativos mostrarão depoimentos reais, estratégias bem-sucedidas e abordagens didáticas validadas por especialistas em autismo e…",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319804",
+      "source_sha256": "e2da8c0f13382731b9d13d0b8f33785d6f5976f9956b54ac2bf2e640b2c33c4c",
+      "scope": "stage",
+      "reason": "A explicação do nome do produto não descreve seu estágio de desenvolvimento.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "A escolha do nome Quest.on carrega uma carga semântica que sintetiza a missão do produto::“question”: em inglês, remete à pergunta — ferramenta central da proposta pedagógica do app, que parte do questionamento como motor do…",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319877",
+      "source_sha256": "5abe305028c20334b054640cff9817fd466a0b793bda6de70f99fd0760e3b3c8",
+      "scope": "stage",
+      "reason": "Revisão de conteúdo jurídico por especialistas não comprova validação do software.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Nossa plataforma é alimentada por inteligência jurídica validada por especialistas, unindo a agilidade da tecnologia com a confiabilidade do Direito.",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319589",
+      "source_sha256": "745b6b2d2225439fa591efb2273614bab5053c99d1a6be103213e10a3f4a73f2",
+      "scope": "stage",
+      "reason": "Soluções de terceiros validadas não informam o estágio da plataforma integradora.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "O ISAIAS (Integrador de Soluções do Agro com Inteligência Artificial Simples) é uma plataforma inteligente que conecta produtores rurais, corporações, cooperativas e startups do agro a soluções tecnológicas validadas.",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319792",
+      "source_sha256": "9e34d531980bdcf48e05c747e09d41cbc802a5a44a9f0871b7e13287abe126e8",
+      "scope": "stage",
+      "reason": "Funcionalidades futuras não demonstram o estágio já alcançado.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Também serão implementadas funcionalidades de busca por elementos visuais em imagens publicadas no Instagram e legendas automatizadas de vídeos do YouTube, ampliando as possibilidades de interpretação do conteúdo multimídia…",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "319862",
+      "source_sha256": "74a4c8484ae5f70921c30df7ee05eef55a2dca10bfeb303439cbd4a2d03f8ca7",
+      "scope": "stage",
+      "reason": "Experiência comercial do proponente não comprova implantação da plataforma.",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "A proposta nasce da experiência prática do proponente, Gabriel Borgongino, empreendedor que já forneceu para diversos órgãos públicos, transformando sua vivência em uma metodologia acessível e validada com resultados reais.",
+          "after": null
+        }
+      ]
+    }
+  ]
+}

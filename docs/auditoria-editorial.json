@@ -5,11 +5,11 @@
   "areas": 33,
   "official_protocols_matched": 143,
   "missing_fields": {
-    "problem": 59,
+    "problem": 56,
     "solution": 0,
-    "difference": 29,
-    "market": 33,
-    "stage": 105,
+    "difference": 25,
+    "market": 31,
+    "stage": 115,
     "mission": 0
   },
   "editorial_queue": [
@@ -25,24 +25,14 @@
       "id": "319594",
       "title": "Sentinel X",
       "missing": [
-        "problem",
-        "difference",
-        "market",
         "stage"
       ],
-      "repeated_fields": [
-        [
-          "solution",
-          "mission"
-        ]
-      ]
+      "repeated_fields": []
     },
     {
       "id": "319864",
       "title": "Passeio 360° Interior - Plataforma de Fomento ao Turismo para o Desenvolvimento Econômico e Social de Cidades do Estado do Rio de Janeiro",
-      "missing": [
-        "stage"
-      ],
+      "missing": [],
       "repeated_fields": []
     },
     {
@@ -57,19 +47,12 @@
       "missing": [
         "stage"
       ],
-      "repeated_fields": [
-        [
-          "solution",
-          "mission"
-        ]
-      ]
+      "repeated_fields": []
     },
     {
       "id": "319910",
       "title": "Segunda Casa: A Plataforma que Conecta Estudantes e Cuida da Divisão do Aluguel",
-      "missing": [
-        "difference"
-      ],
+      "missing": [],
       "repeated_fields": []
     },
     {
@@ -78,23 +61,12 @@
       "missing": [
         "stage"
       ],
-      "repeated_fields": [
-        [
-          "solution",
-          "mission"
-        ],
-        [
-          "difference",
-          "market"
-        ]
-      ]
+      "repeated_fields": []
     },
     {
       "id": "319526",
       "title": "ZapCont – a primeira contabilidade 100% no WhatsApp para MEIs de transporte e entregas",
-      "missing": [
-        "stage"
-      ],
+      "missing": [],
       "repeated_fields": []
     },
     {
@@ -167,14 +139,6 @@
         [
           "difference",
           "market"
-        ],
-        [
-          "difference",
-          "stage"
-        ],
-        [
-          "market",
-          "stage"
         ]
       ]
     },
@@ -284,7 +248,8 @@
       "id": "319750",
       "title": "CoraConecta: leitura que une e transforma comunidades",
       "missing": [
-        "problem"
+        "problem",
+        "stage"
       ],
       "repeated_fields": [
         [
@@ -333,7 +298,9 @@
     {
       "id": "319987",
       "title": "Atendimento Automatizado e Follow-up com  Inteligência Artificial via WhatsApp Integrado à APS  por meio das Unidades de Saúde da Família.",
-      "missing": [],
+      "missing": [
+        "stage"
+      ],
       "repeated_fields": [
         [
           "market",
@@ -395,7 +362,9 @@
     {
       "id": "319798",
       "title": "Movimento Voa: Plataforma de Educação Tecnológica e Soluções Territoriais",
-      "missing": [],
+      "missing": [
+        "stage"
+      ],
       "repeated_fields": [
         [
           "problem",
@@ -500,23 +469,8 @@
     {
       "id": "319573",
       "title": "Althea Engenharia de Emoções",
-      "missing": [
-        "stage"
-      ],
-      "repeated_fields": [
-        [
-          "problem",
-          "difference"
-        ],
-        [
-          "problem",
-          "mission"
-        ],
-        [
-          "difference",
-          "mission"
-        ]
-      ]
+      "missing": [],
+      "repeated_fields": []
     },
     {
       "id": "320018",
@@ -543,16 +497,7 @@
       "id": "319773",
       "title": "PlantaAI - Automação Hidropônica",
       "missing": [],
-      "repeated_fields": [
-        [
-          "solution",
-          "mission"
-        ],
-        [
-          "difference",
-          "stage"
-        ]
-      ]
+      "repeated_fields": []
     },
     {
       "id": "319648",
@@ -601,20 +546,13 @@
       "id": "319763",
       "title": "App Lumina (MVP)- Liderar é iluminar. Nova NR1 (PGR) Qualidade da sua saúde  emocional e da sua equipe. Neurociência aplicada.",
       "missing": [
-        "market"
+        "market",
+        "stage"
       ],
       "repeated_fields": [
         [
           "problem",
           "difference"
-        ],
-        [
-          "problem",
-          "stage"
-        ],
-        [
-          "difference",
-          "stage"
         ]
       ]
     },
@@ -640,7 +578,8 @@
       "id": "319671",
       "title": "IBRS - Instituto Brasileiro de Recrutamento e Seleção: Soluções em Recrutamento e Seleção que promovem autonomia a Operações e Carreiras.",
       "missing": [
-        "problem"
+        "problem",
+        "stage"
       ],
       "repeated_fields": [
         [
@@ -653,7 +592,8 @@
       "id": "319640",
       "title": "rubi",
       "missing": [
-        "problem"
+        "problem",
+        "stage"
       ],
       "repeated_fields": [
         [
@@ -760,7 +700,9 @@
     {
       "id": "319916",
       "title": "EngenharIA",
-      "missing": [],
+      "missing": [
+        "stage"
+      ],
       "repeated_fields": []
     },
     {
@@ -854,12 +796,7 @@
       "id": "319758",
       "title": "Personaliza.Ai",
       "missing": [],
-      "repeated_fields": [
-        [
-          "difference",
-          "mission"
-        ]
-      ]
+      "repeated_fields": []
     },
     {
       "id": "319610",
@@ -933,7 +870,9 @@
     {
       "id": "319726",
       "title": "Recicla Dados - 3° setor com gestão e capacitação",
-      "missing": [],
+      "missing": [
+        "stage"
+      ],
       "repeated_fields": [
         [
           "market",
@@ -945,7 +884,8 @@
       "id": "319986",
       "title": "TerraSync – Plataforma Inteligente de Apoio a Consultorias Ambientais no Cálculo de Emissões de Gases de Efeito Estufa (GEE)",
       "missing": [
-        "problem"
+        "problem",
+        "stage"
       ],
       "repeated_fields": [
         [
@@ -995,15 +935,8 @@
     {
       "id": "319876",
       "title": "VISOL | Sistema CRM Especializado para Integradores de Energia Solar",
-      "missing": [
-        "stage"
-      ],
-      "repeated_fields": [
-        [
-          "problem",
-          "mission"
-        ]
-      ]
+      "missing": [],
+      "repeated_fields": []
     },
     {
       "id": "319694",
@@ -1056,13 +989,10 @@
     {
       "id": "319929",
       "title": "Giro Sustentável - Rolamento Magnético",
-      "missing": [],
-      "repeated_fields": [
-        [
-          "difference",
-          "stage"
-        ]
-      ]
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
     },
     {
       "id": "319554",
@@ -1111,12 +1041,7 @@
       "missing": [
         "problem"
       ],
-      "repeated_fields": [
-        [
-          "stage",
-          "mission"
-        ]
-      ]
+      "repeated_fields": []
     },
     {
       "id": "319817",
@@ -1262,12 +1187,7 @@
       "id": "319754",
       "title": "Missão Comilândia - Jogo digital terapeutico e educativo para crianças neurodivergentes com obesidade e seletividade alimentar - alinhado as diretrizes da Faperj HUB RJ Startup 2025",
       "missing": [],
-      "repeated_fields": [
-        [
-          "problem",
-          "difference"
-        ]
-      ]
+      "repeated_fields": []
     },
     {
       "id": "319702",
@@ -1325,10 +1245,7 @@
     {
       "id": "319936",
       "title": "Topei - A Barraca Digital 24h dos Feirantes Cariocas",
-      "missing": [
-        "problem",
-        "difference"
-      ],
+      "missing": [],
       "repeated_fields": []
     },
     {
@@ -1433,7 +1350,9 @@
     {
       "id": "319894",
       "title": "INCLUIRTEA",
-      "missing": [],
+      "missing": [
+        "stage"
+      ],
       "repeated_fields": []
     },
     {
@@ -1478,10 +1397,7 @@
     {
       "id": "320078",
       "title": "Musicando a Mente",
-      "missing": [
-        "problem",
-        "stage"
-      ],
+      "missing": [],
       "repeated_fields": []
     },
     {
@@ -1567,7 +1483,8 @@
       "id": "319804",
       "title": "Quest.on - Gamificação o e inteligência artificial para jovens protagonistas.",
       "missing": [
-        "market"
+        "market",
+        "stage"
       ],
       "repeated_fields": []
     },
@@ -1601,22 +1518,15 @@
     {
       "id": "319863",
       "title": "Super Roller Dud",
-      "missing": [
-        "difference",
-        "market",
-        "stage"
-      ],
-      "repeated_fields": [
-        [
-          "solution",
-          "mission"
-        ]
-      ]
+      "missing": [],
+      "repeated_fields": []
     },
     {
       "id": "319877",
       "title": "UpLegal - Plataforma SaaS de Gestão Jurídica para Empresas",
-      "missing": [],
+      "missing": [
+        "stage"
+      ],
       "repeated_fields": [
         [
           "solution",
@@ -1729,7 +1639,9 @@
     {
       "id": "319589",
       "title": "ISAIAS (Integrador de Soluções do Agro com Inteligência Artificial Simples): Plataforma Inteligente para Diagnóstico de Desafios no Agro e Conexão com Soluções Existentes via Inteligência Artificial.",
-      "missing": [],
+      "missing": [
+        "stage"
+      ],
       "repeated_fields": [
         [
           "solution",
@@ -1738,14 +1650,6 @@
         [
           "difference",
           "market"
-        ],
-        [
-          "difference",
-          "stage"
-        ],
-        [
-          "market",
-          "stage"
         ]
       ]
     },
@@ -1800,7 +1704,8 @@
       "title": "DEBATIM",
       "missing": [
         "problem",
-        "market"
+        "market",
+        "stage"
       ],
       "repeated_fields": []
     },
@@ -1821,19 +1726,12 @@
       "id": "319862",
       "title": "Método VPGOV – Plataforma de Capacitação Empreendedora para Inserção no Mercado de Compras Públicas",
       "missing": [
-        "difference"
+        "difference",
+        "stage"
       ],
       "repeated_fields": [
         [
           "solution",
-          "stage"
-        ],
-        [
-          "solution",
-          "mission"
-        ],
-        [
-          "stage",
           "mission"
         ]
       ]

@@ -12,11 +12,13 @@ Atualizado em 14/11/2026. O painel original na raiz e as 143 imagens foram prese
 - Busca do portal aceita protocolo, resumo completo e palavras sem acentos.
 - Auditoria reproduzível das duas bases e dos campos editoriais: `python scripts/audit_hubrj_portal.py`.
 
+- Primeira revisão editorial: 47 fichas corrigidas, sendo 16 com os seis campos revisados, totalizando 123 alterações rastreáveis. A homologação institucional permanece pendente.
+
 ## Próximas entregas
 
 | Frente | Situação observada | Trabalho necessário |
 | --- | --- | --- |
-| Revisão editorial | 59 problemas, 29 diferenciais, 33 mercados e 105 estágios vazios; há campos preenchidos com trechos inadequados | Revisar os 143 resumos, separar evidência de intenção futura e submeter conteúdo à homologação. Fila por protocolo em `auditoria-editorial.json`. Não inferir maturidade por seleção para a Fase 3. |
+| Revisão editorial | 56 problemas, 25 diferenciais, 31 mercados e 115 estágios sem confirmação; 16 fichas com os seis campos revisados e correções em 47 fichas | Concluir a revisão integral das outras 127 fichas e submeter conteúdo à homologação. Etapas futuras e declarações históricas foram separadas na primeira revisão. Fila por protocolo em `auditoria-editorial.json`. Não inferir maturidade por seleção para a Fase 3. |
 | Resultados e painel de execução | Seleção da Fase 3 conferida; ranking, notas e agentes não reconciliados | Conferir os documentos específicos antes de publicar notas, posições e agentes. O PDF de selecionados não fornece esses dados. |
 | Administração e acesso das startups | Há funções antigas para `/api/login` e `/api/updates`, mas não há servidor nem formulários ativos | Definir hospedagem de API e banco, autenticação, vínculo entre usuário e startup, papéis de administrador e revisão, histórico de alterações e aprovação no servidor. GitHub Pages permanece como portal público. |
 | Evento | Datas divergentes e programação ainda sem confirmação documental | Consolidar data, local e programação oficiais; depois implementar inscrições, credenciamento e certificados no servidor. Não abrir inscrições fictícias. |
@@ -26,4 +28,4 @@ Atualizado em 14/11/2026. O painel original na raiz e as 143 imagens foram prese
 
 ## Preservação
 
-Os dados narrativos, nomes, protocolos, municípios e áreas originais não foram reescritos nesta etapa. A classificação confirmada está em `officialResult`, separada da referência documental F02. Não foram geradas novas imagens nem alterado o fluxo de geração.
+Os resumos originais integrais, nomes, protocolos, municípios e áreas foram preservados. Os campos de síntese foram corrigidos conforme o histórico em `revisao-editorial-2026-11-14.json`, com valores anteriores, novos e hash do resumo de origem. A classificação confirmada está em `officialResult`, separada da referência documental F02. Não foram geradas novas imagens nem alterado o fluxo de geração.
