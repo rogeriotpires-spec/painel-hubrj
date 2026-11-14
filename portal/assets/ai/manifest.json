@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 140,
-  "pending": 3,
+  "ai_image_count": 141,
+  "pending": 2,
   "images": [
     {
       "id": "319520",
@@ -367,6 +367,11 @@
       "id": "319789",
       "title": "Mobtrack: Solução que transforma a jornada do cuidado.",
       "file": "assets/ai/319789.webp"
+    },
+    {
+      "id": "319792",
+      "title": "DEBATIM",
+      "file": "assets/ai/319792.webp"
     },
     {
       "id": "319797",
