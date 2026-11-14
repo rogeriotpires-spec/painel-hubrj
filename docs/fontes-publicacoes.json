@@ -25,5 +25,15 @@
     "url": "https://www.faperj.br/email.phtml",
     "scope": "Atendimento da Fundação. Canal próprio da coordenação HUB RJ não confirmado."
   },
-  "event_date": "Não confirmada nas fontes consultadas. Não usar data de RIW ou de inauguração como data do HUB RJ Inova 2026."
+  "event_date": "3 e 4 de dezembro de 2026, conforme convite fornecido pela coordenação em 14/11/2026.",
+  "event": {
+    "start_date": "2026-12-03",
+    "end_date_inclusive": "2026-12-04",
+    "time": null,
+    "location": "Rua do Catete, 243, Rio de Janeiro/RJ",
+    "source": "portal/assets/evento/hubrj-inova-2026-convite.png",
+    "source_sha256": "018f3642ebb0fdf7ec78cdfe1ba3fe55c35dcf7c08b670cd0989346558361092",
+    "calendar_note": "Reserva dos dias completos; horários não informados no material. Não constitui inscrição."
+  },
+  "hub_contact_followup": "Solicitar somente ao final do trabalho, conforme orientação do usuário em 14/11/2026."
 }

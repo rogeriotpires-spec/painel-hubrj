@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HUB RJ//Portal de Inovacao//PT-BR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:hubrj-inova-2026@rogeriotpires-spec.github.io
+DTSTAMP:20261114T150000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261205
+SUMMARY:HUB RJ Inova 2026
+LOCATION:Rua do Catete\, 243 - Rio de Janeiro/RJ
+DESCRIPTION:Reserve os dias 3 e 4 de dezembro. Horarios e programacao
+  serao divulgados pela organizacao. Este lembrete nao constitui inscricao.
+URL:https://rogeriotpires-spec.github.io/painel-hubrj/portal/#evento
+END:VEVENT
+END:VCALENDAR
