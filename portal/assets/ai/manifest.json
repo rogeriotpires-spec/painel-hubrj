@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 88,
-  "pending": 55,
+  "ai_image_count": 89,
+  "pending": 54,
   "images": [
     {
       "id": "319520",
@@ -272,6 +272,11 @@
       "id": "319775",
       "title": "HÉDRA",
       "file": "assets/ai/319775.webp"
+    },
+    {
+      "id": "319779",
+      "title": "Metabox Augmented Reality",
+      "file": "assets/ai/319779.webp"
     },
     {
       "id": "319785",
