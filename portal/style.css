@@ -51,3 +51,14 @@
 @media(max-width:720px){.dossier-top{grid-template-columns:1fr 1fr}.dossier-top .solution{grid-column:1/-1}.dossier-bottom{grid-template-columns:repeat(3,minmax(0,1fr))}.dossier-block h4{font-size:.62rem}.dossier-block p{font-size:.68rem}.dossier-header{gap:10px}.dossier-year{min-width:115px}.dossier-mission{display:block}.dossier-mission strong{display:block;margin-bottom:7px}}
 @media(max-width:520px){.brand-logo{max-width:133px}.dossier-top{grid-template-columns:1fr 1fr}.dossier-top .dossier-image{min-height:180px}.dossier-top .dossier-image img{min-height:155px}.dossier-bottom{grid-template-columns:1fr}.dossier-header{min-height:90px;padding:14px}.dossier-header h3{font-size:.92rem}.dossier-year{font-size:.69rem;min-width:92px}.dossier-year small{font-size:.51rem}.dossier-block h4{font-size:.72rem}.dossier-block p{font-size:.73rem}.dossier-actions{flex-wrap:wrap}.project-grid.catalog .dossier-header h3{font-size:1rem}.project-grid.catalog .dossier-block p{font-size:.73rem}.modal-dossier{padding:7px}.modal-dossier .dossier-top{grid-template-columns:1fr}.modal-dossier .dossier-bottom{grid-template-columns:1fr}.modal-dossier .dossier-header h3{font-size:1.1rem}.modal-dossier .dossier-image img{min-height:220px}.modal-dossier .sheet-footer{flex-wrap:wrap}.dossier-mission span{font-size:.77rem}}
 @media print{body>*:not(dialog){display:none!important}#projectModal{display:block!important;position:static!important;max-height:none!important;overflow:visible!important;box-shadow:none!important;max-width:100%!important;width:100%!important}.modal-dossier{padding:0!important;background:white}.modal-dossier .dossier-top{grid-template-columns:1fr 1.24fr 1fr!important}.modal-dossier .dossier-bottom{grid-template-columns:1fr 1.38fr 1fr!important}.modal-dossier .dossier-block p{font-size:9pt!important}.modal-dossier .original-summary,.modal-dossier .sheet-footer,.modal-source,.modal-close{display:none!important}.dossier-image img{min-height:200px!important} }
+
+/* Observatório: cobertura integral da base e filtros próprios. */
+.obs-controls{display:flex;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.obs-controls label{display:grid;gap:8px;flex:1;min-width:200px;font-weight:700;font-size:.85rem}
+.obs-controls select{width:100%;min-height:46px;padding:10px 12px;border:1px solid #cbd8e8;border-radius:8px;font:inherit;background:white;color:#142e51}
+.obs-hint{font-size:.82rem;line-height:1.6;max-width:850px;margin:12px 0 24px}
+#obsCount{font-weight:750}.obs-grid .bars{max-height:480px;overflow:auto;padding-right:10px}
+.obs-grid .bar-label{white-space:normal;overflow-wrap:anywhere;line-height:1.4}
+.official-result{padding:12px 16px;background:#e4f3e9;border-radius:8px;font-size:.86rem;line-height:1.5}
+.official-result a{color:#125533;text-decoration:underline;overflow-wrap:anywhere}
+@media(max-width:520px){.obs-controls label{min-width:100%}.obs-controls button{width:100%}}

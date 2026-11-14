@@ -1,30 +1,23 @@
-# Portal HUB RJ | Vitrine de Startups
-
-## Endereços publicados no GitHub Pages
+# Portal HUB RJ
 
 - Portal: https://rogeriotpires-spec.github.io/painel-hubrj/portal/
-- Vitrine com fichas completas: https://rogeriotpires-spec.github.io/painel-hubrj/portal/vitrine.html
+- Vitrine: https://rogeriotpires-spec.github.io/painel-hubrj/portal/vitrine.html
 
-## Entrega v2
+143 projetos, 143 imagens ilustrativas geradas por IA, 25 municípios e 33 áreas. Os protocolos foram conciliados com a lista oficial de selecionados para a Fase 3 publicada em 03/06/2026. Cada ficha ampliada contém o link para a página correspondente do PDF. Imagens são ilustrações, não fotografias dos produtos.
 
-- 143 projetos extraídos da planilha `HUBRJ25_ResumoProjeto_F02.xlsx`.
-- 143 ilustrações vetoriais temáticas individuais (`assets/startups/*.svg`).
-- 143 fichas com problema, solução, diferencial, potencial de mercado, estágio declarado, objetivo e resumo original.
-- Pesquisa em texto, filtros por município e setor, modos de galeria e catálogo.
-- Download da ilustração SVG, impressão da ficha como PDF e exportação CSV sem CPF nem e-mail pessoal.
-- Vitrine autônoma `vitrine.html`, com dados e ilustrações incorporados, pronta para GitHub Pages.
+Os resumos e campos narrativos continuam sendo dados declarados na Fase 02, sujeitos à revisão editorial. A seleção oficial não comprova estágio de maturidade, vendas ou posição no ranking. Campos ausentes não foram inventados.
 
-## Limitações documentais
+O Observatório apresenta todos os municípios e áreas, filtros independentes e exportação CSV do recorte selecionado. A vitrine oferece galeria, catálogo, ficha ampliada, impressão e download da imagem atual.
 
-- A planilha não é um resultado oficial de classificação/aprovação, nem inclui agentes de inovação ou ranking de pitch.
-- Os textos são extraídos automaticamente dos resumos enviados e exigem revisão editorial antes da chancela institucional.
-- As artes são ilustrações vetoriais temáticas, não imagens fotorrealistas produzidas por IA nem fotografias dos produtos.
-- Stage, mercado e outros campos sem evidência nos resumos são identificados como não informados.
-- Backend de login, aprovação de atualizações, inscrições, credenciamento e certificados não são oferecidos por hospedagem estática do GitHub Pages.
-- As datas do evento ainda apresentam divergência entre os materiais.
+## Validação
 
-## Teste local
+```sh
+python scripts/audit_hubrj_portal.py
+python scripts/generate_hubrj_images.py --validate-only
+```
 
-`python3 -m http.server 8000`
+Executar a partir da raiz do repositório. A auditoria verifica a paridade da base JSON com a base incorporada em `vitrine.html`, os protocolos oficiais e a presença das imagens, e atualiza `docs/auditoria-editorial.json`.
 
-Abrir `http://localhost:8000/vitrine.html`. O arquivo `vitrine.html` também pode ser aberto diretamente no navegador sem servidor.
+## Pendências
+
+Acompanhar `../docs/PENDENCIAS.md`. Administração, acesso individual, aprovação de alterações, inscrições, credenciamento e certificados ainda precisam de servidor e banco de dados. Datas do evento aguardam confirmação. A tradução atual cobre apenas a navegação. O painel existente na raiz permanece preservado.

@@ -1,0 +1,1842 @@
+{
+  "checked_at": "2026-11-14",
+  "projects": 143,
+  "cities": 25,
+  "areas": 33,
+  "official_protocols_matched": 143,
+  "missing_fields": {
+    "problem": 59,
+    "solution": 0,
+    "difference": 29,
+    "market": 33,
+    "stage": 105,
+    "mission": 0
+  },
+  "editorial_queue": [
+    {
+      "id": "319712",
+      "title": "Poli-English Game",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319594",
+      "title": "Sentinel X",
+      "missing": [
+        "problem",
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319864",
+      "title": "Passeio 360° Interior - Plataforma de Fomento ao Turismo para o Desenvolvimento Econômico e Social de Cidades do Estado do Rio de Janeiro",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319842",
+      "title": "Prótec 3D",
+      "missing": [],
+      "repeated_fields": []
+    },
+    {
+      "id": "319852",
+      "title": "Socializei: Sempre Saiba o Que Dizer",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319910",
+      "title": "Segunda Casa: A Plataforma que Conecta Estudantes e Cuida da Divisão do Aluguel",
+      "missing": [
+        "difference"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319746",
+      "title": "Plataforma MACyberTech",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319526",
+      "title": "ZapCont – a primeira contabilidade 100% no WhatsApp para MEIs de transporte e entregas",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319744",
+      "title": "InterBook – Unindo tecnologia e educação para transformar livros em experiências vivas",
+      "missing": [
+        "problem",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319788",
+      "title": "BEZ app (BEZ Estat)",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319797",
+      "title": "FIQuestLife: Plataforma Figital de Saúde, Negócios e Estilo de Vida Gamificados",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ],
+        [
+          "problem",
+          "market"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "320019",
+      "title": "Título - Precision.me: Desenvolvimento de interface amigável para diagnóstico genético de Precisão",
+      "missing": [
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "market"
+        ],
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "320060",
+      "title": "JOGOS SÉRIOS ELETRÔNICOS - JOGO DA FORÇA - FORÇA COGNITIVA",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "difference",
+          "market"
+        ],
+        [
+          "difference",
+          "stage"
+        ],
+        [
+          "market",
+          "stage"
+        ]
+      ]
+    },
+    {
+      "id": "319770",
+      "title": "AtypicalCare",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319620",
+      "title": "Bem Dita Entrega",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "market"
+        ],
+        [
+          "problem",
+          "mission"
+        ],
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319875",
+      "title": "Ka´aViva Mata Atlântica- Plataforma colaborativa que conecta pessoas, empresas e meio ambiente.",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319598",
+      "title": "Sistema IoT de Aproveitamento da Chuva (startup BR Rain)",
+      "missing": [
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ],
+        [
+          "problem",
+          "mission"
+        ],
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319752",
+      "title": "Avalia  | Plataforma Web para Avaliação Colaborativa e Formativa no Ensino",
+      "missing": [
+        "problem",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319602",
+      "title": "VidaPet.Tech: A Nuvenzinha Que Cuida do Seu Animal de Estimação",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319565",
+      "title": "Pró-Carbono: tecnologia digital para calcular o custo ambiental de reformas de imóveis promovendo escolhas sustentáveis na construção civil.",
+      "missing": [],
+      "repeated_fields": []
+    },
+    {
+      "id": "319703",
+      "title": "PlanAI",
+      "missing": [],
+      "repeated_fields": []
+    },
+    {
+      "id": "319750",
+      "title": "CoraConecta: leitura que une e transforma comunidades",
+      "missing": [
+        "problem"
+      ],
+      "repeated_fields": [
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319972",
+      "title": "GliomaChip: modelo 3D bioimpresso de glioblastoma para testes pré-clínicos personalizados",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319520",
+      "title": "FireGuard (Monitoramente e Prevenção de Incêndios Florestais com IA e Drones)",
+      "missing": [
+        "problem",
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319998",
+      "title": "Conecta Mulher - Capacitando e Conectando Mulheres Empreendedoras do Rio de Janeiro: Uma Plataforma Digital Integrada de Gestão, E-commerce e EAD para Promover Autonomia Financeira, Qualidade de Vida e o Florescimento de Novos Negócios Digitais em todo o Ecossistema de Inovação Fluminense, Contribuindo para a Diversificação e Interiorização do Empreendedorismo Feminino no Estado",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319987",
+      "title": "Atendimento Automatizado e Follow-up com  Inteligência Artificial via WhatsApp Integrado à APS  por meio das Unidades de Saúde da Família.",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319690",
+      "title": "Mulher Conecta",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "320003",
+      "title": "COPAR - Cuidar em dobro",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319681",
+      "title": "Grava Brasil",
+      "missing": [],
+      "repeated_fields": []
+    },
+    {
+      "id": "319661",
+      "title": "MeuEnredo",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319657",
+      "title": "SelfBrain",
+      "missing": [
+        "problem",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319798",
+      "title": "Movimento Voa: Plataforma de Educação Tecnológica e Soluções Territoriais",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ]
+      ]
+    },
+    {
+      "id": "319775",
+      "title": "HÉDRA",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319668",
+      "title": "Di Maior",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319613",
+      "title": "ENSINA.AI: Formação Docente Ativa com Inteligência Artificial",
+      "missing": [
+        "problem",
+        "market"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319827",
+      "title": "PLINAGRO",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319687",
+      "title": "EducaTech - Plataforma de Educação Tecnológica Audiovisual",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319879",
+      "title": "ConcaPay: Plataforma Inteligente de Monetização e Gestão de Comunidades Digitais",
+      "missing": [],
+      "repeated_fields": []
+    },
+    {
+      "id": "319985",
+      "title": "The Brigde",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319583",
+      "title": "SÓCIO IA – MUDA.LOG: infraestrutura de inteligência artificial e automação aplicada ao setor de mudanças e transporte leve.",
+      "missing": [
+        "problem"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319573",
+      "title": "Althea Engenharia de Emoções",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ],
+        [
+          "problem",
+          "mission"
+        ],
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "320018",
+      "title": "adsfa",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319612",
+      "title": "MakerCircuit",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319773",
+      "title": "PlantaAI - Automação Hidropônica",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "stage"
+        ]
+      ]
+    },
+    {
+      "id": "319648",
+      "title": "ENIGMA X MACHINE",
+      "missing": [
+        "problem",
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319555",
+      "title": "Health Data Insights",
+      "missing": [
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "320001",
+      "title": "OrigginWatch - Seu Espresso, Nossa Tecnologia - Sistema de monitoramento de qualidade na extração do café expresso",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319763",
+      "title": "App Lumina (MVP)- Liderar é iluminar. Nova NR1 (PGR) Qualidade da sua saúde  emocional e da sua equipe. Neurociência aplicada.",
+      "missing": [
+        "market"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ],
+        [
+          "problem",
+          "stage"
+        ],
+        [
+          "difference",
+          "stage"
+        ]
+      ]
+    },
+    {
+      "id": "319769",
+      "title": "KappaLife",
+      "missing": [
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319713",
+      "title": "Tree Tales",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319671",
+      "title": "IBRS - Instituto Brasileiro de Recrutamento e Seleção: Soluções em Recrutamento e Seleção que promovem autonomia a Operações e Carreiras.",
+      "missing": [
+        "problem"
+      ],
+      "repeated_fields": [
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319640",
+      "title": "rubi",
+      "missing": [
+        "problem"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319641",
+      "title": "Bidwall",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319559",
+      "title": "Empreende Mulher SulFlu",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319721",
+      "title": "MODELOS IN VITRO DE PELE BIOLÓGICA E ARTIFICIAL PARA TESTES DE PRODUTOS FARMACÊUTICOS E COSMÉTICOS",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319651",
+      "title": "Feelings – Um jogo Metroidvania para fortalecimento emocional e comunicação interpessoal",
+      "missing": [
+        "market",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319603",
+      "title": "ORGANIZE - CONECTANDO STARTUPS AO FUTURO",
+      "missing": [
+        "problem",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319542",
+      "title": "BrainHeal: Plataforma de Monitoramento Contínuo da Saúde Mental com Acolhimento Personalizado e Inteligência Artificial",
+      "missing": [
+        "problem",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319920",
+      "title": "UTur - Projeto de Aplicativo bilingue relacionado com o turismo na cidade do Rio de Janeiro.",
+      "missing": [
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319813",
+      "title": "STEMWise: Conectando Professores à Educação do Futuro",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319916",
+      "title": "EngenharIA",
+      "missing": [],
+      "repeated_fields": []
+    },
+    {
+      "id": "319563",
+      "title": "LINKLUIR",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319812",
+      "title": "Gameta – Plataforma híbrida de aprendizagem com jogos compactos e tecnologias emergentes para o desenvolvimento de competências socioemocionais em jovens",
+      "missing": [
+        "problem",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319606",
+      "title": "CARE - Sistema de Gestão Inteligente de Ocorrências",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319934",
+      "title": "Sistema Integrado de Gestão e Controle de Energia, Eficiência e Utilidades.",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319660",
+      "title": "Ludotopia",
+      "missing": [
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ],
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319785",
+      "title": "Global Brasil Conecta. Conectando profissionais e clientes a uma plataforma marketplace de soluções profissionais.",
+      "missing": [
+        "problem",
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319980",
+      "title": "The Lightseeker",
+      "missing": [
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319758",
+      "title": "Personaliza.Ai",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319610",
+      "title": "Booknook: conexões baseadas em experiências literárias compartilhadas.",
+      "missing": [
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319789",
+      "title": "Mobtrack: Solução que transforma a jornada do cuidado.",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319774",
+      "title": "foodbreak - menos fila, mais evento",
+      "missing": [
+        "problem",
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319915",
+      "title": "DeepTeachi",
+      "missing": [
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319631",
+      "title": "Trilha Sonora",
+      "missing": [
+        "problem",
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319726",
+      "title": "Recicla Dados - 3° setor com gestão e capacitação",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319986",
+      "title": "TerraSync – Plataforma Inteligente de Apoio a Consultorias Ambientais no Cálculo de Emissões de Gases de Efeito Estufa (GEE)",
+      "missing": [
+        "problem"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319997",
+      "title": "AceleraYÁ",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319898",
+      "title": "BiS – Plataforma de Sistema Bioeconômico Integrado ESG",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ]
+      ]
+    },
+    {
+      "id": "319553",
+      "title": "Anahita Saúde: Assistente virtual humanizada na orientação à saúde",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319876",
+      "title": "VISOL | Sistema CRM Especializado para Integradores de Energia Solar",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319694",
+      "title": "NotaFlash - O menor preço em compras de supermercado",
+      "missing": [
+        "problem",
+        "difference"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319742",
+      "title": "Projeto 313479 - Plataforma 55Jam - Educação Musical Inteligente e Conectada",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319766",
+      "title": "Cuidar Bem",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319545",
+      "title": "Inteligência em Inovação (InIn) – Plataforma para Monitoramento de Ecossistemas de Inovação",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319929",
+      "title": "Giro Sustentável - Rolamento Magnético",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "difference",
+          "stage"
+        ]
+      ]
+    },
+    {
+      "id": "319554",
+      "title": "Cafeinapp – Seu barista de bolso",
+      "missing": [
+        "problem",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319887",
+      "title": "GrupsApp",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319579",
+      "title": "SisContaBot – Assistente virtual em legislação brasileira com precisão, rastreabilidade e ética",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319779",
+      "title": "Metabox Augmented Reality",
+      "missing": [
+        "problem"
+      ],
+      "repeated_fields": [
+        [
+          "stage",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319817",
+      "title": "MEDCLASS – EDUCAÇÃO EM SAÚDE",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ],
+        [
+          "problem",
+          "market"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319835",
+      "title": "IUS PREMIUM – EDUCAÇÃO JURÍDICA CONTINUADA",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319564",
+      "title": "Motify.me - Plataforma de gestão de pessoas desempenhando tarefas",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319821",
+      "title": "Dispositivo de monitoramento para cercas elétricas rurais.",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319781",
+      "title": "Momo – Plataforma Digital de Eventos",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319608",
+      "title": "Medicamento Certo",
+      "missing": [
+        "problem",
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319649",
+      "title": "Eye.AI: um olhar inteligente sobre a gestão operacional",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319737",
+      "title": "VitaLongis",
+      "missing": [
+        "problem",
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "320109",
+      "title": "INOVA RESP: Plataforma Integrada de Diagnóstico Pulmonar Portátil e Itinerante",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319848",
+      "title": "Bombordo Br -",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319754",
+      "title": "Missão Comilândia - Jogo digital terapeutico e educativo para crianças neurodivergentes com obesidade e seletividade alimentar - alinhado as diretrizes da Faperj HUB RJ Startup 2025",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ]
+      ]
+    },
+    {
+      "id": "319702",
+      "title": "MindGov - Multiplataforma em Saúde Mental",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319846",
+      "title": "IRFácil – Imposto de Renda com Inteligência Artificial",
+      "missing": [
+        "problem",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319802",
+      "title": "Eu Monitoro: Desenvolvimento de Aplicativo Integrado para Monitoramento de Restauração Florestal",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ]
+      ]
+    },
+    {
+      "id": "319895",
+      "title": "MetaScope - Plataforma SaaS de Inteligência Artificial Aplicada ao Desenvolvimento de Produtos e Processos Industriais: Aceleração de Inovação Tecnológica com Rigor Técnico e Velocidade Digital para Indústrias Metal-Mecânicas e Siderúrgicas do Estado do Rio de Janeiro",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "problem",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319936",
+      "title": "Topei - A Barraca Digital 24h dos Feirantes Cariocas",
+      "missing": [
+        "problem",
+        "difference"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319847",
+      "title": "Laroye Clube",
+      "missing": [
+        "problem",
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319815",
+      "title": "Dejavu",
+      "missing": [
+        "problem",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319983",
+      "title": "Freedumeet - O ecossistema de gestão, times e projetos com videoconferência integrada",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319859",
+      "title": "TrackSpot",
+      "missing": [
+        "problem",
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "320054",
+      "title": "ai-OPV ERDE: Plataforma de Sensoriamento Autônoma e Inteligente para Agricultura de Precisão Alimentado por Células Solares de Plástico",
+      "missing": [],
+      "repeated_fields": []
+    },
+    {
+      "id": "320151",
+      "title": "Uthic - Guarde fácil. Caminhe livre.",
+      "missing": [
+        "problem",
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319979",
+      "title": "GeneTrack: Prevenção Personalizada com Base no DNA para Doenças Crônicas em Famílias com Risco Genético Aumentado",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319808",
+      "title": "Ecolyfe: Tecnologia Digital Aplicada à Análise da Microbiota do Solo",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319894",
+      "title": "INCLUIRTEA",
+      "missing": [],
+      "repeated_fields": []
+    },
+    {
+      "id": "319621",
+      "title": "Clim Care - Monitoramento inteligente da qualidade do ar interno.",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "320037",
+      "title": "MindTrace: Sistema Integrado de Prevenção e Diagnóstico Precoce de Burnout",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "difference"
+        ]
+      ]
+    },
+    {
+      "id": "319786",
+      "title": "Koletividade",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "320078",
+      "title": "Musicando a Mente",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319778",
+      "title": "Mind Care 360",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319829",
+      "title": "Meu Negócio",
+      "missing": [
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319768",
+      "title": "Projeto IoT - Rio Águas Limpas – Monitoramento Inteligente da Qualidade das Águas",
+      "missing": [
+        "problem",
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319944",
+      "title": "SalvaLar - IA para resgate de residências: Conectando vendedores e compradores para evitar leilões e endividamento",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "market"
+        ],
+        [
+          "difference",
+          "mission"
+        ],
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319749",
+      "title": "Cris - Modo Discípulo",
+      "missing": [
+        "problem",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319804",
+      "title": "Quest.on - Gamificação o e inteligência artificial para jovens protagonistas.",
+      "missing": [
+        "market"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319999",
+      "title": "Lineland",
+      "missing": [
+        "difference"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "320000",
+      "title": "SmartWheels: Mobilidade inteligente para uma vida sem limites",
+      "missing": [
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319863",
+      "title": "Super Roller Dud",
+      "missing": [
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319877",
+      "title": "UpLegal - Plataforma SaaS de Gestão Jurídica para Empresas",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "320005",
+      "title": "MENA - Memória das Exposições Nacionais de Arte",
+      "missing": [],
+      "repeated_fields": []
+    },
+    {
+      "id": "319982",
+      "title": "ALERTA (Análise Local de Risco e Tendências Criminais)",
+      "missing": [
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "problem",
+          "market"
+        ],
+        [
+          "problem",
+          "mission"
+        ],
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319984",
+      "title": "Miguelando",
+      "missing": [
+        "problem",
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319780",
+      "title": "ExploraRio",
+      "missing": [
+        "problem"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319904",
+      "title": "Como Ler Igrejas",
+      "missing": [
+        "problem",
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319935",
+      "title": "Sistema de Navegação Veicular com ênfase na segurança do usuário",
+      "missing": [
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319854",
+      "title": "HUBFY",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319860",
+      "title": "RapAI",
+      "missing": [
+        "problem",
+        "difference",
+        "market",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319589",
+      "title": "ISAIAS (Integrador de Soluções do Agro com Inteligência Artificial Simples): Plataforma Inteligente para Diagnóstico de Desafios no Agro e Conexão com Soluções Existentes via Inteligência Artificial.",
+      "missing": [],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "market"
+        ],
+        [
+          "difference",
+          "stage"
+        ],
+        [
+          "market",
+          "stage"
+        ]
+      ]
+    },
+    {
+      "id": "320172",
+      "title": "Zeed - Plataforma inteligente de troca e apoio materno-infantil.",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319557",
+      "title": "Hyper Relations",
+      "missing": [
+        "problem",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "difference",
+          "market"
+        ]
+      ]
+    },
+    {
+      "id": "319990",
+      "title": "Livros pela Rede",
+      "missing": [
+        "problem",
+        "difference",
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "market",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319792",
+      "title": "DEBATIM",
+      "missing": [
+        "problem",
+        "market"
+      ],
+      "repeated_fields": []
+    },
+    {
+      "id": "319837",
+      "title": "SafeEPI",
+      "missing": [
+        "stage"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "mission"
+        ]
+      ]
+    },
+    {
+      "id": "319862",
+      "title": "Método VPGOV – Plataforma de Capacitação Empreendedora para Inserção no Mercado de Compras Públicas",
+      "missing": [
+        "difference"
+      ],
+      "repeated_fields": [
+        [
+          "solution",
+          "stage"
+        ],
+        [
+          "solution",
+          "mission"
+        ],
+        [
+          "stage",
+          "mission"
+        ]
+      ]
+    }
+  ]
+}
