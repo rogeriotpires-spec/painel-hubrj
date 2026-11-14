@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 141,
-  "pending": 2,
+  "ai_image_count": 142,
+  "pending": 1,
   "images": [
     {
       "id": "319520",
@@ -437,6 +437,11 @@
       "id": "319835",
       "title": "IUS PREMIUM – EDUCAÇÃO JURÍDICA CONTINUADA",
       "file": "assets/ai/319835.webp"
+    },
+    {
+      "id": "319837",
+      "title": "SafeEPI",
+      "file": "assets/ai/319837.webp"
     },
     {
       "id": "319842",
