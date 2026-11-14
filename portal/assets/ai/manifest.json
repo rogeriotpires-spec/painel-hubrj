@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 137,
-  "pending": 6,
+  "ai_image_count": 138,
+  "pending": 5,
   "images": [
     {
       "id": "319520",
@@ -687,6 +687,11 @@
       "id": "320151",
       "title": "Uthic - Guarde fácil. Caminhe livre.",
       "file": "assets/ai/320151.webp"
+    },
+    {
+      "id": "320172",
+      "title": "Zeed - Plataforma inteligente de troca e apoio materno-infantil.",
+      "file": "assets/ai/320172.webp"
     }
   ]
 }
