@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 95,
-  "pending": 48,
+  "ai_image_count": 96,
+  "pending": 47,
   "images": [
     {
       "id": "319520",
@@ -142,6 +142,11 @@
       "id": "319648",
       "title": "ENIGMA X MACHINE",
       "file": "assets/ai/319648.webp"
+    },
+    {
+      "id": "319649",
+      "title": "Eye.AI: um olhar inteligente sobre a gestão operacional",
+      "file": "assets/ai/319649.webp"
     },
     {
       "id": "319651",
