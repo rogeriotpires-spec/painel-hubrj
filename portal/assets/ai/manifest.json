@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 127,
-  "pending": 16,
+  "ai_image_count": 128,
+  "pending": 15,
   "images": [
     {
       "id": "319520",
@@ -467,6 +467,11 @@
       "id": "319876",
       "title": "VISOL | Sistema CRM Especializado para Integradores de Energia Solar",
       "file": "assets/ai/319876.webp"
+    },
+    {
+      "id": "319877",
+      "title": "UpLegal - Plataforma SaaS de Gestão Jurídica para Empresas",
+      "file": "assets/ai/319877.webp"
     },
     {
       "id": "319879",
