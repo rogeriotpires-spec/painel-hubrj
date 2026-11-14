@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 100,
-  "pending": 43,
+  "ai_image_count": 101,
+  "pending": 42,
   "images": [
     {
       "id": "319520",
@@ -197,6 +197,11 @@
       "id": "319694",
       "title": "NotaFlash - O menor preço em compras de supermercado",
       "file": "assets/ai/319694.webp"
+    },
+    {
+      "id": "319702",
+      "title": "MindGov - Multiplataforma em Saúde Mental",
+      "file": "assets/ai/319702.webp"
     },
     {
       "id": "319703",
