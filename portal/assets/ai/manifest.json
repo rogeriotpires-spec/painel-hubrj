@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 82,
-  "pending": 61,
+  "ai_image_count": 83,
+  "pending": 60,
   "images": [
     {
       "id": "319520",
@@ -227,6 +227,11 @@
       "id": "319763",
       "title": "App Lumina (MVP)- Liderar é iluminar. Nova NR1 (PGR) Qualidade da sua saúde  emocional e da sua equipe. Neurociência aplicada.",
       "file": "assets/ai/319763.webp"
+    },
+    {
+      "id": "319766",
+      "title": "Cuidar Bem",
+      "file": "assets/ai/319766.webp"
     },
     {
       "id": "319769",
