@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 136,
-  "pending": 7,
+  "ai_image_count": 137,
+  "pending": 6,
   "images": [
     {
       "id": "319520",
@@ -72,6 +72,11 @@
       "id": "319583",
       "title": "SÓCIO IA – MUDA.LOG: infraestrutura de inteligência artificial e automação aplicada ao setor de mudanças e transporte leve.",
       "file": "assets/ai/319583.webp"
+    },
+    {
+      "id": "319589",
+      "title": "ISAIAS (Integrador de Soluções do Agro com Inteligência Artificial Simples): Plataforma Inteligente para Diagnóstico de Desafios no Agro e Conexão com Soluções Existentes via Inteligência Artificial.",
+      "file": "assets/ai/319589.webp"
     },
     {
       "id": "319594",
