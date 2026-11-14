@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 59,
-  "pending": 84,
+  "ai_image_count": 60,
+  "pending": 83,
   "images": [
     {
       "id": "319520",
@@ -212,6 +212,11 @@
       "id": "319798",
       "title": "Movimento Voa: Plataforma de Educação Tecnológica e Soluções Territoriais",
       "file": "assets/ai/319798.webp"
+    },
+    {
+      "id": "319813",
+      "title": "STEMWise: Conectando Professores à Educação do Futuro",
+      "file": "assets/ai/319813.webp"
     },
     {
       "id": "319827",
