@@ -1,6 +1,10 @@
 name: Sincronizar fichas aprovadas HUB RJ
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/sincronizar-fichas-hubrj.yml
   schedule:
     - cron: '7,22,37,52 * * * *'
 permissions:
