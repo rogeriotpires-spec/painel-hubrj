@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 125,
-  "pending": 18,
+  "ai_image_count": 126,
+  "pending": 17,
   "images": [
     {
       "id": "319520",
@@ -577,6 +577,11 @@
       "id": "319999",
       "title": "Lineland",
       "file": "assets/ai/319999.webp"
+    },
+    {
+      "id": "320000",
+      "title": "SmartWheels: Mobilidade inteligente para uma vida sem limites",
+      "file": "assets/ai/320000.webp"
     },
     {
       "id": "320001",
