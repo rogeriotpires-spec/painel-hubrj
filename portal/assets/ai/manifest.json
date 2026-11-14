@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 122,
-  "pending": 21,
+  "ai_image_count": 123,
+  "pending": 20,
   "images": [
     {
       "id": "319520",
@@ -252,6 +252,11 @@
       "id": "319746",
       "title": "Plataforma MACyberTech",
       "file": "assets/ai/319746.webp"
+    },
+    {
+      "id": "319749",
+      "title": "Cris - Modo Discípulo",
+      "file": "assets/ai/319749.webp"
     },
     {
       "id": "319750",
