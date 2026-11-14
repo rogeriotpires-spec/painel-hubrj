@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 87,
-  "pending": 56,
+  "ai_image_count": 88,
+  "pending": 55,
   "images": [
     {
       "id": "319520",
@@ -57,6 +57,11 @@
       "id": "319573",
       "title": "Althea Engenharia de Emoções",
       "file": "assets/ai/319573.webp"
+    },
+    {
+      "id": "319579",
+      "title": "SisContaBot – Assistente virtual em legislação brasileira com precisão, rastreabilidade e ética",
+      "file": "assets/ai/319579.webp"
     },
     {
       "id": "319583",
