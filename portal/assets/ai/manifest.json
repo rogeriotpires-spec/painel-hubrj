@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 84,
-  "pending": 59,
+  "ai_image_count": 85,
+  "pending": 58,
   "images": [
     {
       "id": "319520",
@@ -357,6 +357,11 @@
       "id": "319920",
       "title": "UTur - Projeto de Aplicativo bilingue relacionado com o turismo na cidade do Rio de Janeiro.",
       "file": "assets/ai/319920.webp"
+    },
+    {
+      "id": "319929",
+      "title": "Giro Sustentável - Rolamento Magnético",
+      "file": "assets/ai/319929.webp"
     },
     {
       "id": "319934",
