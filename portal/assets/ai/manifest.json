@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 99,
-  "pending": 44,
+  "ai_image_count": 100,
+  "pending": 43,
   "images": [
     {
       "id": "319520",
@@ -252,6 +252,11 @@
       "id": "319752",
       "title": "Avalia  | Plataforma Web para Avaliação Colaborativa e Formativa no Ensino",
       "file": "assets/ai/319752.webp"
+    },
+    {
+      "id": "319754",
+      "title": "Missão Comilândia - Jogo digital terapeutico e educativo para crianças neurodivergentes com obesidade e seletividade alimentar - alinhado as diretrizes da Faperj HUB RJ Startup 2025",
+      "file": "assets/ai/319754.webp"
     },
     {
       "id": "319758",
