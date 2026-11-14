@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 121,
-  "pending": 22,
+  "ai_image_count": 122,
+  "pending": 21,
   "images": [
     {
       "id": "319520",
@@ -512,6 +512,11 @@
       "id": "319936",
       "title": "Topei - A Barraca Digital 24h dos Feirantes Cariocas",
       "file": "assets/ai/319936.webp"
+    },
+    {
+      "id": "319944",
+      "title": "SalvaLar - IA para resgate de residências: Conectando vendedores e compradores para evitar leilões e endividamento",
+      "file": "assets/ai/319944.webp"
     },
     {
       "id": "319972",
