@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 133,
-  "pending": 10,
+  "ai_image_count": 134,
+  "pending": 9,
   "images": [
     {
       "id": "319520",
@@ -537,6 +537,11 @@
       "id": "319934",
       "title": "Sistema Integrado de Gestão e Controle de Energia, Eficiência e Utilidades.",
       "file": "assets/ai/319934.webp"
+    },
+    {
+      "id": "319935",
+      "title": "Sistema de Navegação Veicular com ênfase na segurança do usuário",
+      "file": "assets/ai/319935.webp"
     },
     {
       "id": "319936",
