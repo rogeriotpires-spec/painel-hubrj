@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 108,
-  "pending": 35,
+  "ai_image_count": 109,
+  "pending": 34,
   "images": [
     {
       "id": "319520",
@@ -402,6 +402,11 @@
       "id": "319852",
       "title": "Socializei: Sempre Saiba o Que Dizer",
       "file": "assets/ai/319852.webp"
+    },
+    {
+      "id": "319859",
+      "title": "TrackSpot",
+      "file": "assets/ai/319859.webp"
     },
     {
       "id": "319864",
