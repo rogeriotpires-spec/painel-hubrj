@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 69,
-  "pending": 74,
+  "ai_image_count": 70,
+  "pending": 73,
   "images": [
     {
       "id": "319520",
@@ -72,6 +72,11 @@
       "id": "319606",
       "title": "CARE - Sistema de Gestão Inteligente de Ocorrências",
       "file": "assets/ai/319606.webp"
+    },
+    {
+      "id": "319610",
+      "title": "Booknook: conexões baseadas em experiências literárias compartilhadas.",
+      "file": "assets/ai/319610.webp"
     },
     {
       "id": "319612",
