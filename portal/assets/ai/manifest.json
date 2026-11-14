@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 97,
-  "pending": 46,
+  "ai_image_count": 98,
+  "pending": 45,
   "images": [
     {
       "id": "319520",
@@ -487,6 +487,11 @@
       "id": "320060",
       "title": "JOGOS SÉRIOS ELETRÔNICOS - JOGO DA FORÇA - FORÇA COGNITIVA",
       "file": "assets/ai/320060.webp"
+    },
+    {
+      "id": "320109",
+      "title": "INOVA RESP: Plataforma Integrada de Diagnóstico Pulmonar Portátil e Itinerante",
+      "file": "assets/ai/320109.webp"
     }
   ]
 }
