@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 111,
-  "pending": 32,
+  "ai_image_count": 112,
+  "pending": 31,
   "images": [
     {
       "id": "319520",
@@ -482,6 +482,11 @@
       "id": "319972",
       "title": "GliomaChip: modelo 3D bioimpresso de glioblastoma para testes pré-clínicos personalizados",
       "file": "assets/ai/319972.webp"
+    },
+    {
+      "id": "319979",
+      "title": "GeneTrack: Prevenção Personalizada com Base no DNA para Doenças Crônicas em Famílias com Risco Genético Aumentado",
+      "file": "assets/ai/319979.webp"
     },
     {
       "id": "319980",
