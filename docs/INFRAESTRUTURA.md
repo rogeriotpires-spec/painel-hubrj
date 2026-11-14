@@ -22,7 +22,7 @@ Aprovações usam transação no banco, verificam a versão anterior e registram
 
 ## Sincronização com o GitHub Pages
 
-Fluxo preparado: `.github/workflows/sincronizar-fichas-hubrj.yml`, execução manual ou a cada 15 minutos, sujeita ao agendamento do GitHub.
+Fluxo ativo e validado: `.github/workflows/sincronizar-fichas-hubrj.yml`, execução manual ou a cada 15 minutos, sujeita ao agendamento do GitHub.
 
 Requer dois segredos de Actions:
 
@@ -44,8 +44,8 @@ A importação aceita somente versões aprovadas mais recentes. Confere protocol
 
 ## Ainda necessário
 
-- Cadastrar os dois segredos no GitHub e executar um ciclo real de sincronização.
-- Testar login administrativo e um usuário piloto, incluindo a liberação de visitante e o vínculo ao protocolo.
+- Ciclo real concluído em 14/11/2026: https://github.com/rogeriotpires-spec/painel-hubrj/actions/runs/43613970965. As duas credenciais foram aceitas, os seis testes passaram e 143 protocolos foram conciliados. Sem novas revisões aprovadas, nenhum conteúdo foi alterado. A publicação de uma nova aprovação ainda requer validação ponta a ponta.
+- Login do proprietário confirmado pelo acesso à página de configuração. Falta testar um usuário piloto, incluindo liberação de visitante, vínculo ao protocolo, proposta e aprovação.
 - Conferência visual e móvel da área de gestão; o navegador desta sessão ainda não verificou a aplicação autenticada.
 - Horários/programação e fluxos de inscrição, credenciamento e certificados do evento.
 - E-mail institucional de contato somente no encerramento, conforme orientação expressa do usuário.
