@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 70,
-  "pending": 73,
+  "ai_image_count": 71,
+  "pending": 72,
   "images": [
     {
       "id": "319520",
@@ -232,6 +232,11 @@
       "id": "319788",
       "title": "BEZ app (BEZ Estat)",
       "file": "assets/ai/319788.webp"
+    },
+    {
+      "id": "319789",
+      "title": "Mobtrack: Solução que transforma a jornada do cuidado.",
+      "file": "assets/ai/319789.webp"
     },
     {
       "id": "319797",
