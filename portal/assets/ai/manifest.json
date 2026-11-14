@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 89,
-  "pending": 54,
+  "ai_image_count": 90,
+  "pending": 53,
   "images": [
     {
       "id": "319520",
@@ -312,6 +312,11 @@
       "id": "319813",
       "title": "STEMWise: Conectando Professores à Educação do Futuro",
       "file": "assets/ai/319813.webp"
+    },
+    {
+      "id": "319817",
+      "title": "MEDCLASS – EDUCAÇÃO EM SAÚDE",
+      "file": "assets/ai/319817.webp"
     },
     {
       "id": "319827",
