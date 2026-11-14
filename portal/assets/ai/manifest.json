@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 81,
-  "pending": 62,
+  "ai_image_count": 82,
+  "pending": 61,
   "images": [
     {
       "id": "319520",
@@ -192,6 +192,11 @@
       "id": "319726",
       "title": "Recicla Dados - 3° setor com gestão e capacitação",
       "file": "assets/ai/319726.webp"
+    },
+    {
+      "id": "319742",
+      "title": "Projeto 313479 - Plataforma 55Jam - Educação Musical Inteligente e Conectada",
+      "file": "assets/ai/319742.webp"
     },
     {
       "id": "319744",
