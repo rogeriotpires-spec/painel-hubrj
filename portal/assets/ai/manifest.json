@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 98,
-  "pending": 45,
+  "ai_image_count": 99,
+  "pending": 44,
   "images": [
     {
       "id": "319520",
@@ -362,6 +362,11 @@
       "id": "319842",
       "title": "Prótec 3D",
       "file": "assets/ai/319842.webp"
+    },
+    {
+      "id": "319848",
+      "title": "Bombordo Br -",
+      "file": "assets/ai/319848.webp"
     },
     {
       "id": "319852",
