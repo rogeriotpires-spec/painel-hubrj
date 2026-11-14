@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 79,
-  "pending": 64,
+  "ai_image_count": 80,
+  "pending": 63,
   "images": [
     {
       "id": "319520",
@@ -302,6 +302,11 @@
       "id": "319875",
       "title": "Ka´aViva Mata Atlântica- Plataforma colaborativa que conecta pessoas, empresas e meio ambiente.",
       "file": "assets/ai/319875.webp"
+    },
+    {
+      "id": "319876",
+      "title": "VISOL | Sistema CRM Especializado para Integradores de Energia Solar",
+      "file": "assets/ai/319876.webp"
     },
     {
       "id": "319879",
