@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 77,
-  "pending": 66,
+  "ai_image_count": 78,
+  "pending": 65,
   "images": [
     {
       "id": "319520",
@@ -302,6 +302,11 @@
       "id": "319879",
       "title": "ConcaPay: Plataforma Inteligente de Monetização e Gestão de Comunidades Digitais",
       "file": "assets/ai/319879.webp"
+    },
+    {
+      "id": "319898",
+      "title": "BiS – Plataforma de Sistema Bioeconômico Integrado ESG",
+      "file": "assets/ai/319898.webp"
     },
     {
       "id": "319910",
