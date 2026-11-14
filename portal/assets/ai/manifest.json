@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 130,
-  "pending": 13,
+  "ai_image_count": 131,
+  "pending": 12,
   "images": [
     {
       "id": "319520",
@@ -562,6 +562,11 @@
       "id": "319983",
       "title": "Freedumeet - O ecossistema de gestão, times e projetos com videoconferência integrada",
       "file": "assets/ai/319983.webp"
+    },
+    {
+      "id": "319984",
+      "title": "Miguelando",
+      "file": "assets/ai/319984.webp"
     },
     {
       "id": "319985",
