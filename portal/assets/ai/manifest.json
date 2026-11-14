@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 106,
-  "pending": 37,
+  "ai_image_count": 107,
+  "pending": 36,
   "images": [
     {
       "id": "319520",
@@ -352,6 +352,11 @@
       "id": "319813",
       "title": "STEMWise: Conectando Professores à Educação do Futuro",
       "file": "assets/ai/319813.webp"
+    },
+    {
+      "id": "319815",
+      "title": "Dejavu",
+      "file": "assets/ai/319815.webp"
     },
     {
       "id": "319817",
