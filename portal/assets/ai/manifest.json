@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 102,
-  "pending": 41,
+  "ai_image_count": 103,
+  "pending": 40,
   "images": [
     {
       "id": "319520",
@@ -337,6 +337,11 @@
       "id": "319798",
       "title": "Movimento Voa: Plataforma de Educação Tecnológica e Soluções Territoriais",
       "file": "assets/ai/319798.webp"
+    },
+    {
+      "id": "319802",
+      "title": "Eu Monitoro: Desenvolvimento de Aplicativo Integrado para Monitoramento de Restauração Florestal",
+      "file": "assets/ai/319802.webp"
     },
     {
       "id": "319812",
