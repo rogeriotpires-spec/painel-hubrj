@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 123,
-  "pending": 20,
+  "ai_image_count": 124,
+  "pending": 19,
   "images": [
     {
       "id": "319520",
@@ -367,6 +367,11 @@
       "id": "319802",
       "title": "Eu Monitoro: Desenvolvimento de Aplicativo Integrado para Monitoramento de Restauração Florestal",
       "file": "assets/ai/319802.webp"
+    },
+    {
+      "id": "319804",
+      "title": "Quest.on - Gamificação o e inteligência artificial para jovens protagonistas.",
+      "file": "assets/ai/319804.webp"
     },
     {
       "id": "319808",
