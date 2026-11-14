@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 66,
-  "pending": 77,
+  "ai_image_count": 67,
+  "pending": 76,
   "images": [
     {
       "id": "319520",
@@ -212,6 +212,11 @@
       "id": "319775",
       "title": "HÉDRA",
       "file": "assets/ai/319775.webp"
+    },
+    {
+      "id": "319785",
+      "title": "Global Brasil Conecta. Conectando profissionais e clientes a uma plataforma marketplace de soluções profissionais.",
+      "file": "assets/ai/319785.webp"
     },
     {
       "id": "319788",
