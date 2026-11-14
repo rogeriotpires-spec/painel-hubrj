@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 83,
-  "pending": 60,
+  "ai_image_count": 84,
+  "pending": 59,
   "images": [
     {
       "id": "319520",
@@ -17,6 +17,11 @@
       "id": "319542",
       "title": "BrainHeal: Plataforma de Monitoramento Contínuo da Saúde Mental com Acolhimento Personalizado e Inteligência Artificial",
       "file": "assets/ai/319542.webp"
+    },
+    {
+      "id": "319545",
+      "title": "Inteligência em Inovação (InIn) – Plataforma para Monitoramento de Ecossistemas de Inovação",
+      "file": "assets/ai/319545.webp"
     },
     {
       "id": "319553",
