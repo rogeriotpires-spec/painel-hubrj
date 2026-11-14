@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 128,
-  "pending": 15,
+  "ai_image_count": 129,
+  "pending": 14,
   "images": [
     {
       "id": "319520",
@@ -602,6 +602,11 @@
       "id": "320003",
       "title": "COPAR - Cuidar em dobro",
       "file": "assets/ai/320003.webp"
+    },
+    {
+      "id": "320005",
+      "title": "MENA - Memória das Exposições Nacionais de Arte",
+      "file": "assets/ai/320005.webp"
     },
     {
       "id": "320018",
