@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 62,
-  "pending": 81,
+  "ai_image_count": 63,
+  "pending": 80,
   "images": [
     {
       "id": "319520",
@@ -217,6 +217,11 @@
       "id": "319798",
       "title": "Movimento Voa: Plataforma de Educação Tecnológica e Soluções Territoriais",
       "file": "assets/ai/319798.webp"
+    },
+    {
+      "id": "319812",
+      "title": "Gameta – Plataforma híbrida de aprendizagem com jogos compactos e tecnologias emergentes para o desenvolvimento de competências socioemocionais em jovens",
+      "file": "assets/ai/319812.webp"
     },
     {
       "id": "319813",
