@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 85,
-  "pending": 58,
+  "ai_image_count": 86,
+  "pending": 57,
   "images": [
     {
       "id": "319520",
@@ -27,6 +27,11 @@
       "id": "319553",
       "title": "Anahita Saúde: Assistente virtual humanizada na orientação à saúde",
       "file": "assets/ai/319553.webp"
+    },
+    {
+      "id": "319554",
+      "title": "Cafeinapp – Seu barista de bolso",
+      "file": "assets/ai/319554.webp"
     },
     {
       "id": "319555",
