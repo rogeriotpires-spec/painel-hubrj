@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 118,
-  "pending": 25,
+  "ai_image_count": 119,
+  "pending": 24,
   "images": [
     {
       "id": "319520",
@@ -307,6 +307,11 @@
       "id": "319775",
       "title": "HÉDRA",
       "file": "assets/ai/319775.webp"
+    },
+    {
+      "id": "319778",
+      "title": "Mind Care 360",
+      "file": "assets/ai/319778.webp"
     },
     {
       "id": "319779",
