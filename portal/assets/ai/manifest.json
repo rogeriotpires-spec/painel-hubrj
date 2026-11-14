@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 80,
-  "pending": 63,
+  "ai_image_count": 81,
+  "pending": 62,
   "images": [
     {
       "id": "319520",
@@ -162,6 +162,11 @@
       "id": "319690",
       "title": "Mulher Conecta",
       "file": "assets/ai/319690.webp"
+    },
+    {
+      "id": "319694",
+      "title": "NotaFlash - O menor preço em compras de supermercado",
+      "file": "assets/ai/319694.webp"
     },
     {
       "id": "319703",
