@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 135,
-  "pending": 8,
+  "ai_image_count": 136,
+  "pending": 7,
   "images": [
     {
       "id": "319520",
@@ -457,6 +457,11 @@
       "id": "319859",
       "title": "TrackSpot",
       "file": "assets/ai/319859.webp"
+    },
+    {
+      "id": "319860",
+      "title": "RapAI",
+      "file": "assets/ai/319860.webp"
     },
     {
       "id": "319863",
