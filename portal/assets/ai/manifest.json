@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 76,
-  "pending": 67,
+  "ai_image_count": 77,
+  "pending": 66,
   "images": [
     {
       "id": "319520",
@@ -352,6 +352,11 @@
       "id": "319987",
       "title": "Atendimento Automatizado e Follow-up com  Inteligência Artificial via WhatsApp Integrado à APS  por meio das Unidades de Saúde da Família.",
       "file": "assets/ai/319987.webp"
+    },
+    {
+      "id": "319997",
+      "title": "AceleraYÁ",
+      "file": "assets/ai/319997.webp"
     },
     {
       "id": "319998",
