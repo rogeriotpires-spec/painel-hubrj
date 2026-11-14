@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 134,
-  "pending": 9,
+  "ai_image_count": 135,
+  "pending": 8,
   "images": [
     {
       "id": "319520",
@@ -447,6 +447,11 @@
       "id": "319852",
       "title": "Socializei: Sempre Saiba o Que Dizer",
       "file": "assets/ai/319852.webp"
+    },
+    {
+      "id": "319854",
+      "title": "HUBFY",
+      "file": "assets/ai/319854.webp"
     },
     {
       "id": "319859",
