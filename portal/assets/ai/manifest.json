@@ -1,7 +1,7 @@
 {
   "total_projects": 143,
-  "ai_image_count": 132,
-  "pending": 11,
+  "ai_image_count": 133,
+  "pending": 10,
   "images": [
     {
       "id": "319520",
@@ -502,6 +502,11 @@
       "id": "319898",
       "title": "BiS – Plataforma de Sistema Bioeconômico Integrado ESG",
       "file": "assets/ai/319898.webp"
+    },
+    {
+      "id": "319904",
+      "title": "Como Ler Igrejas",
+      "file": "assets/ai/319904.webp"
     },
     {
       "id": "319910",
