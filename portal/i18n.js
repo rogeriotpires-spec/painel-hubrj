@@ -28,7 +28,13 @@ const interfaceTranslations = [
  ['#editais .section-head p','FAPERJ documents and announcements. Links lead to official sources.'],
  ['.doc-card:nth-child(1) strong','FAPERJ Call No. 04/2025'],['.doc-card:nth-child(1) p','HUB RJ Startup 2025 program and official publications.'],['.doc-card:nth-child(1) small','OPEN DOCUMENTATION ↗'],
  ['.doc-card:nth-child(2) strong','Selected for Phase 03'],['.doc-card:nth-child(2) p','Published June 3, 2026. All 143 application numbers were checked against the official list.'],['.doc-card:nth-child(2) small','VIEW SOURCE ↗'],
- ['.doc-card:nth-child(3) strong','Existing program dashboard'],['.doc-card:nth-child(3) p','Phases 01 and 02, comparison and ranking. Restricted access.'],['.doc-card:nth-child(3) small','OPEN ORIGINAL DASHBOARD ↗'],
+ ['.doc-card:nth-child(3) strong','Program dashboard (team)'],['.doc-card:nth-child(3) p','Aggregated, anonymised results for Phases 01 and 02 are available in the Program Results section. The original dashboard remains restricted.'],
+ ['#resultados .section-head .eyebrow','PROGRAM DELIVERY · PHASES 01 AND 02'],['#resultados h2','Program <span>Results</span>'],
+ ['.rx-lede','Delivery indicators for the first two phases, from application to selection for Phase 03: territory, training, mentoring, validation and final pitch. Aggregated, anonymised data with no names of startups, applicants or Innovation Agents.'],
+ ['#rxTabs [data-rx="geral"]','Overview'],['#rxTabs [data-rx="f1"]','Phase 01'],['#rxTabs [data-rx="f2"]','Phase 02'],['#rxTabs [data-rx="cmp"]','Phase 01 × Phase 02'],['#rxTabs [data-rx="rank"]','Pitch_02 ranking'],
+ ['.rx-footer strong','About these figures'],
+ ['.rx-footer p','Source: HUB RJ team delivery reports (Phase 01 v0.9, Phase 02 v0.6) and Table 9 of the Pitch_02 report. Each figure states its base: the Showcase and the Observatory use the 143 projects selected for Phase 3 (25 municipalities); Phase 01 includes 246 projects in 31 municipalities; Phase 02, 150 startups in 26 municipalities. Ranking and performance bands reflect the delivery report and are not equivalent to FAPERJ’s official selection.'],
+ ['.footer-grid a[href="#resultados"]','Results'],['.doc-card:nth-child(3) small','OPEN ORIGINAL DASHBOARD ↗'],
  ['#evento .eyebrow','STARTUPS, SCIENCE AND TECHNOLOGY MEETUP'],['.event-lede','Startups, innovation and connections to transform our state.'],
  ['.event-details p:first-child','<strong>December 3–4, 2026</strong>'],['.event-details p:last-child','Times and program will be announced soon.'],
  ['.event-details + p','A gathering of professionals, researchers and entrepreneurs leading technological change in the state.'],
@@ -56,7 +62,7 @@ const interfaceAttributes = [
  ['#contrastToggle','aria-label','Toggle contrast'],['#fontToggle','aria-label','Increase text size'],['#mainNav','aria-label','Main navigation'],
  ['#globalSearchBtn','aria-label','Search the portal'],['#closeSearch','aria-label','Close'],['#closeModal','aria-label','Close'],
  ['#projectModal','aria-label','Full project profile'],['#viewGrid','aria-label','Gallery view'],['#viewList','aria-label','Catalogue view'],
- ['#indicadores','aria-label','Dataset indicators'],['.brand','aria-label','HUB RJ, home'],
+ ['#indicadores','aria-label','Dataset indicators'],['#rxTabs','aria-label','Program results'],['#resultados','aria-label','Program results'],['.brand','aria-label','HUB RJ, home'],
  ['.event-visual a','aria-label','Enlarge the HUB RJ Inova 2026 invitation'],
  ['.event-poster','alt','HUB RJ Inova 2026 invitation in Portuguese. December 3–4, Rua do Catete, 243, Rio de Janeiro. Further details to be announced.']
 ];
@@ -79,5 +85,39 @@ function applyInterfaceLanguage(){
  for(const [selector,en,pt] of [['#cityFilter','All municipalities','Todos os municípios'],['#obsCity','All municipalities','Todos os municípios'],['#areaFilter','All fields','Todas as áreas'],['#obsArea','All fields','Todas as áreas']]){const first=document.querySelector(selector).options[0];if(first)first.textContent=currentLang==='en'?en:pt;}
  document.querySelector('#menuToggle').setAttribute('aria-label',currentLang==='en'?(document.querySelector('#mainNav').classList.contains('open')?'Close menu':'Open menu'):(document.querySelector('#mainNav').classList.contains('open')?'Fechar menu':'Abrir menu'));
  document.querySelector('#langToggle').setAttribute('aria-label',currentLang==='en'?'Mudar para português':'Switch to English');
- setSlide(activeSlide);render();updateObservatory();
+ setSlide(activeSlide);render();updateObservatory();if(typeof renderExecucao==='function')renderExecucao();
 }
+
+/* Program results section (data/execucao.json). Data labels from the delivery reports stay in Portuguese. */
+const execucaoText={
+ pt:{loading:'Carregando resultados de execução...',error:'Não foi possível carregar os resultados de execução.',source:'Fonte',version:'Versão',base:'Base',
+  funnel:'Funil do Programa',funnelSub:'Da inscrição à classificação para a Fase 03',ofApplied:'das inscritas',consolidated:'Indicadores consolidados',
+  period:'Período',territory:'Território',byPolo:'por polo de referência',mainCities:'Principais municípios',metro:'Região Metropolitana',
+  baseF1:'Base: 246 projetos ingressantes da Fase 01, em 31 municípios.',baseF2:'Base: 150 startups ingressantes da Fase 02, em 26 municípios. A Vitrine e o Observatório usam os 143 projetos classificados para a Fase 3, em 25 municípios.',
+  training:'Capacitações',themes:'temas na trilha',classes:'turmas',meetings:'encontros Tema–Turma',hours:'horas-turma',attendance:'presenças individuais',
+  track:'Trilha, presenças e percepção',trackSub:'Remota e síncrona, com o SEBRAE-RJ. Percepção: média dos dez critérios, escala 0 a 10',code:'Código',theme:'Tema',load:'Carga',presences:'Presenças',perception:'Percepção',
+  byClass:'Presenças por turma',byClassSub:'Participante presente em cada encontro',perCrit:'Percepção por critério',perCritSub:'Formulário facultativo, escala 0 a 10',
+  mentoring:'Mentorias (agregado)',agents:'Agentes de Inovação',records:'registros',followed:'acompanhados(as)',mentNote:'Somente agregados. A distribuição por Agente de Inovação não é publicada.',
+  dims:'Dimensões estruturadas',dimsSub:'Escala 1 a 5 · média conjunta',regularity:'Regularidade do acompanhamento, não desempenho',
+  complementary:'Atividades complementares',compSub:'Contabilizadas à parte da trilha principal',
+  validation:'Avaliação das validações (Fase 02)',valGlobal:'Classificação global',validated:'Validado',inValidation:'Em validação',notValidated:'Não validado',
+  valMean:'Média das 9 dimensões (escala 0 a 2)',valMedian:'Mediana',valCount:'Avaliadas na S14 / S17',valBoth:'nas duas',valDims:'Dimensões avaliadas',valScale:'Escala: 0 não validado, 1 em validação, 2 validado. Avaliação preliminar na Semana 14 e final na Semana 17.',
+  pitch:'Avaliação final',mean:'média geral, escala 1 a 10',evaluated:'avaliados(as)',indiv:'registros individuais',evaluators:'avaliadores internos + externos',dimMeans:'Médias por dimensão',bands:'Distribuição por faixa de desempenho',bandsNote:'Faixas de leitura analítica do relatório de execução. Não equivalem, isoladamente, à classificação oficial da FAPERJ para a fase seguinte.',
+  summary:'Quadro-resumo',indicator:'Indicador',phase1:'Fase 01',phase2:'Fase 02',cmpPitch:'Pitch final: dimensões comuns',cmpPitchSub:'Escala 1 a 10. A sexta dimensão mudou entre as fases',cmpMen:'Mentorias: dimensões estruturadas',cmpMenSub:'Escala 1 a 5',cmpPerc:'Percepção das capacitações',retention:'Permanência por polo',retentionSub:'Startups na Fase 02 em relação aos projetos do polo na Fase 01',cmpBands:'Faixas de desempenho no pitch final',cmpBandsSub:'Percentual das avaliadas em cada fase (218 no Pitch_01; 143 no Pitch_02)',
+  rank:'Ranking do Pitch_02 (anonimizado)',rankSub:'Posição, protocolo, polo e faixa. Sem nomes de startups ou proponentes.',position:'Posição',protocol:'Protocolo',polo:'Polo',band:'Faixa',all:'Todas',allPolos:'Todos os polos',searchProtocol:'Buscar protocolo',shown:'exibidas',of:'de',none:'Nenhum registro com esse filtro.',cov2:'em 6 ou mais dos 10 períodos',cov1:'cobertura dos 246 projetos',avg2:'períodos com presença, em média',avg1:'registros por projeto',municipalities:'municípios',labelsNote:''},
+ en:{loading:'Loading program results...',error:'Program results could not be loaded.',source:'Source',version:'Version',base:'Base',
+  funnel:'Program funnel',funnelSub:'From application to selection for Phase 03',ofApplied:'of applications',consolidated:'Consolidated indicators',
+  period:'Period',territory:'Territory',byPolo:'by regional hub',mainCities:'Main municipalities',metro:'Metropolitan Region',
+  baseF1:'Base: 246 projects admitted to Phase 01, in 31 municipalities.',baseF2:'Base: 150 startups admitted to Phase 02, in 26 municipalities. The Showcase and the Observatory use the 143 projects selected for Phase 3, in 25 municipalities.',
+  training:'Training',themes:'themes in the track',classes:'classes',meetings:'theme–class sessions',hours:'class-hours',attendance:'individual attendances',
+  track:'Track, attendance and perception',trackSub:'Remote and live, with SEBRAE-RJ. Perception: mean of ten criteria, 0–10 scale',code:'Code',theme:'Theme',load:'Hours',presences:'Attendance',perception:'Perception',
+  byClass:'Attendance by class',byClassSub:'Participant present at each session',perCrit:'Perception by criterion',perCritSub:'Optional form, 0–10 scale',
+  mentoring:'Mentoring (aggregated)',agents:'Innovation Agents',records:'records',followed:'followed',mentNote:'Aggregates only. The breakdown by Innovation Agent is not published.',
+  dims:'Structured dimensions',dimsSub:'1–5 scale · overall mean',regularity:'Follow-up regularity, not performance',
+  complementary:'Complementary activities',compSub:'Counted separately from the main track',
+  validation:'Validation assessment (Phase 02)',valGlobal:'Overall classification',validated:'Validated',inValidation:'In validation',notValidated:'Not validated',
+  valMean:'Mean of 9 dimensions (0–2 scale)',valMedian:'Median',valCount:'Assessed in W14 / W17',valBoth:'in both',valDims:'Assessed dimensions',valScale:'Scale: 0 not validated, 1 in validation, 2 validated. Preliminary assessment in Week 14, final in Week 17.',
+  pitch:'Final assessment',mean:'overall mean, 1–10 scale',evaluated:'assessed',indiv:'individual scores',evaluators:'internal + external evaluators',dimMeans:'Mean by dimension',bands:'Distribution by performance band',bandsNote:'Analytical bands from the delivery report. On their own they are not equivalent to FAPERJ’s official selection for the next phase.',
+  summary:'Summary table',indicator:'Indicator',phase1:'Phase 01',phase2:'Phase 02',cmpPitch:'Final pitch: shared dimensions',cmpPitchSub:'1–10 scale. The sixth dimension changed between phases',cmpMen:'Mentoring: structured dimensions',cmpMenSub:'1–5 scale',cmpPerc:'Training perception',retention:'Retention by hub',retentionSub:'Phase 02 startups relative to the hub’s Phase 01 projects',cmpBands:'Final pitch performance bands',cmpBandsSub:'Share of assessed teams in each phase (218 in Pitch_01; 143 in Pitch_02)',
+  rank:'Pitch_02 ranking (anonymised)',rankSub:'Position, application number, hub and band. No startup or applicant names.',position:'Position',protocol:'Application no.',polo:'Hub',band:'Band',all:'All',allPolos:'All hubs',searchProtocol:'Search application number',shown:'shown',of:'of',none:'No records match this filter.',cov2:'in 6 or more of the 10 periods',cov1:'coverage of the 246 projects',avg2:'periods attended, on average',avg1:'records per project',municipalities:'municipalities',labelsNote:'Data labels from the delivery reports remain in Portuguese.'}
+};

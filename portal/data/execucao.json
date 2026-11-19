@@ -1,0 +1,1693 @@
+{
+ "titulo": "Resultados de execução do Programa HUB RJ Startup 2025 (Fases 01 e 02)",
+ "versao": "2026-11-19",
+ "fonte": "Painel de execução da equipe HUB RJ (relatórios de execução F01 v0.9 e F02 v0.6; Tabela 9 do relatório do Pitch_02)",
+ "anonimizacao": "Publicação sem nomes de startups, proponentes ou Agentes de Inovação. O ranking traz apenas posição, protocolo, polo e faixa; as mentorias aparecem só em agregados.",
+ "programa": {
+  "fonte": "Painel de execução HUB RJ · Visão geral (relatórios F01 v0.9 e F02 v0.6)",
+  "versao": "F01 v0.9 · F02 v0.6",
+  "funil": [
+   {
+    "rot": "Propostas inscritas",
+    "v": 554,
+    "nota": "Edital FAPERJ nº 04/2025"
+   },
+   {
+    "rot": "Selecionados para a Fase 01",
+    "v": 246,
+    "nota": "limite do edital: 250"
+   },
+   {
+    "rot": "Avaliados no Pitch_01",
+    "v": 218,
+    "nota": "nov/2025"
+   },
+   {
+    "rot": "Classificados para a Fase 02",
+    "v": 150,
+    "nota": "61,0% dos ingressantes"
+   },
+   {
+    "rot": "Classificados para a Fase 03",
+    "v": 143,
+    "nota": "após 7 desistências"
+   }
+  ],
+  "consolidados": [
+   [
+    "554",
+    "propostas inscritas"
+   ],
+   [
+    "246",
+    "projetos na Fase 01"
+   ],
+   [
+    "150",
+    "startups na Fase 02"
+   ],
+   [
+    "143",
+    "startups na Fase 03"
+   ],
+   [
+    "9",
+    "polos regionais"
+   ],
+   [
+    "8",
+    "regiões governamentais"
+   ],
+   [
+    "3.673",
+    "presenças em capacitações (F01 + F02)"
+   ],
+   [
+    "1.924",
+    "registros de acompanhamento (F01 + F02)"
+   ]
+  ],
+  "polos": [
+   "Rio de Janeiro",
+   "Niterói",
+   "Petrópolis",
+   "Campos dos Goytacazes",
+   "Itaperuna",
+   "Angra dos Reis",
+   "Vassouras",
+   "Volta Redonda",
+   "Cabo Frio"
+  ],
+  "regioes": [
+   "Metropolitana",
+   "Metropolitana",
+   "Serrana",
+   "Norte Fluminense",
+   "Noroeste Fluminense",
+   "Costa Verde",
+   "Centro-Sul Fluminense",
+   "Médio Paraíba",
+   "Baixadas Litorâneas"
+  ],
+  "menDims": [
+   "Problema e Oportunidade",
+   "Proposta de Valor e Solução",
+   "Time e Capacidade de Execução",
+   "Validação e Tração Inicial",
+   "Mercado e Concorrência"
+  ],
+  "faixasRot": [
+   "Destaque (≥ 8,0)",
+   "Promissor (7,0 a 7,9)",
+   "Intermediário (6,0 a 6,9)",
+   "Atenção (< 6,0)"
+  ],
+  "nota": "Indicadores com unidades diferentes (projetos, participantes, registros) não devem ser somados entre si; os totais de presenças e registros somam as duas fases."
+ },
+ "f1": {
+  "nome": "Fase 01",
+  "titulo": "Desenvolvimento da Pessoa Empreendedora",
+  "sub": "Programa Avançado de Formação Empreendedora (PAFE)",
+  "periodo": "04/08 a 21/11/2025",
+  "processamento": "resultados até 12/12/2025",
+  "versao": "Relatório v0.9",
+  "kpis": [
+   [
+    "246",
+    "projetos ingressantes"
+   ],
+   [
+    "31",
+    "municípios"
+   ],
+   [
+    "9",
+    "polos"
+   ],
+   [
+    "12",
+    "semanas de PAFE"
+   ],
+   [
+    "2.650",
+    "presenças nas capacitações"
+   ],
+   [
+    "741",
+    "registros de mentoria"
+   ],
+   [
+    "218",
+    "avaliados no Pitch_01"
+   ],
+   [
+    "150",
+    "classificados para a Fase 02"
+   ]
+  ],
+  "porPolo": [
+   121,
+   40,
+   26,
+   17,
+   11,
+   10,
+   9,
+   8,
+   4
+  ],
+  "municipios": [
+   [
+    "Rio de Janeiro",
+    118
+   ],
+   [
+    "Niterói",
+    24
+   ],
+   [
+    "Petrópolis",
+    17
+   ],
+   [
+    "Campos dos Goytacazes",
+    14
+   ],
+   [
+    "Angra dos Reis",
+    10
+   ],
+   [
+    "Itaperuna",
+    8
+   ],
+   [
+    "Maricá",
+    7
+   ],
+   [
+    "São Gonçalo",
+    7
+   ],
+   [
+    "Nova Friburgo",
+    7
+   ],
+   [
+    "Vassouras",
+    4
+   ],
+   [
+    "Eng. Paulo de Frontin",
+    3
+   ],
+   [
+    "Volta Redonda",
+    3
+   ],
+   [
+    "Outros 19 municípios",
+    24
+   ]
+  ],
+  "cap": {
+   "temas": 9,
+   "turmas": 13,
+   "encontros": 117,
+   "horasTurma": 30,
+   "horasTotal": 390,
+   "presencas": 2650,
+   "trilha": [
+    [
+     "C_01",
+     "Empreendedorismo e Startups",
+     3,
+     266,
+     9.36
+    ],
+    [
+     "C_02",
+     "Ideação: Problema × Solução",
+     3,
+     311,
+     9.25
+    ],
+    [
+     "C_03",
+     "Modelagem de Negócio",
+     4,
+     337,
+     9.32
+    ],
+    [
+     "C_04",
+     "Validação e Pesquisa de Mercado",
+     4,
+     302,
+     9.45
+    ],
+    [
+     "C_05",
+     "Monetização e Precificação",
+     3,
+     297,
+     9.29
+    ],
+    [
+     "C_06",
+     "Marketing e Aquisição de Cliente",
+     3,
+     288,
+     9.43
+    ],
+    [
+     "C_07",
+     "Cultura Organizacional e Liderança",
+     3,
+     289,
+     9.31
+    ],
+    [
+     "C_08",
+     "Gestão Financeira e Operacional",
+     3,
+     292,
+     9.3
+    ],
+    [
+     "C_09",
+     "Pitch Eficaz",
+     4,
+     268,
+     9.48
+    ]
+   ],
+   "turmasLista": [
+    [
+     "RJ_01",
+     25,
+     274
+    ],
+    [
+     "RJ_02",
+     25,
+     258
+    ],
+    [
+     "RJ_03",
+     25,
+     220
+    ],
+    [
+     "RJ_04",
+     25,
+     302
+    ],
+    [
+     "RJ_05",
+     22,
+     277
+    ],
+    [
+     "NT_01",
+     23,
+     195
+    ],
+    [
+     "NT_02",
+     16,
+     142
+    ],
+    [
+     "CA_01",
+     17,
+     205
+    ],
+    [
+     "PT_01",
+     17,
+     184
+    ],
+    [
+     "AN_01",
+     10,
+     100
+    ],
+    [
+     "VV_01",
+     17,
+     199
+    ],
+    [
+     "CF_01",
+     13,
+     151
+    ],
+    [
+     "IT_01",
+     11,
+     143
+    ]
+   ],
+   "percepcao": [
+    [
+     "Conhecimento prévio da equipe",
+     7.56
+    ],
+    [
+     "Aplicação das ferramentas",
+     9.16
+    ],
+    [
+     "Aplicabilidade prática",
+     9.4
+    ],
+    [
+     "Relevância",
+     9.65
+    ],
+    [
+     "Domínio técnico",
+     9.65
+    ],
+    [
+     "Cumprimento da carga",
+     9.66
+    ],
+    [
+     "Esclarecimento de dúvidas",
+     9.71
+    ],
+    [
+     "Gestão de conflitos/opiniões",
+     9.72
+    ],
+    [
+     "Atendimento às expectativas",
+     9.52
+    ],
+    [
+     "Atendimento SEBRAE",
+     9.53
+    ]
+   ]
+  },
+  "men": {
+   "ais": 20,
+   "registros": 741,
+   "startups": 223,
+   "cobertura": "90,7%",
+   "mediaReg": "3,3",
+   "periodo": "13/10 a 08/11/2025",
+   "serieRot": [
+    "13/10",
+    "20/10",
+    "27/10",
+    "03/11"
+   ],
+   "serie": [
+    208,
+    192,
+    197,
+    144
+   ],
+   "serieTitulo": "Registros por semana",
+   "distRot": [
+    "1 registro",
+    "2 registros",
+    "3 registros",
+    "4 registros"
+   ],
+   "dist": [
+    4,
+    27,
+    85,
+    107
+   ],
+   "distTitulo": "Projetos por quantidade de registros",
+   "dims": [
+    4.22,
+    4.07,
+    4.14,
+    3.45,
+    4.15
+   ],
+   "dimsMedia": 4.01
+  },
+  "comp": [
+   [
+    "Como fazer seu primeiro Pitch",
+    "3 encontros de 3h",
+    "Preparação para o Pitch_00 no Rio Innovation Week 2025 (208 equipes no palco RIW Disruptivo)"
+   ],
+   [
+    "Orçamento e Cronograma de Execução",
+    "3 encontros de 3h",
+    "Atualização da proposta à FAPERJ para a avaliação final"
+   ]
+  ],
+  "compTotal": "6 encontros, 18h, remoto e síncrono",
+  "pitch": {
+   "nome": "Pitch_01",
+   "periodo": "10 a 14/11/2025",
+   "local": "Bancas presenciais nos polos",
+   "avaliados": 218,
+   "registros": 762,
+   "internos": 16,
+   "externos": 41,
+   "dimsRot": [
+    "Conceito do Produto/Serviço",
+    "Equipe",
+    "Modelo de Negócios",
+    "Escalabilidade",
+    "Potencial de Mercado",
+    "Orçamento e Cronograma"
+   ],
+   "dims": [
+    6.55,
+    6.62,
+    5.86,
+    6.47,
+    6.84,
+    6.09
+   ],
+   "media": 6.41,
+   "faixas": [
+    16,
+    60,
+    71,
+    71
+   ]
+  },
+  "fonte": "Relatório de Execução da Fase 01, Equipe HUB RJ",
+  "municipiosTotal": 31,
+  "entidade": "projetos"
+ },
+ "f2": {
+  "nome": "Fase 02",
+  "titulo": "Desenvolvimento e Validação da Ideia",
+  "sub": "Validação do problema, da solução e do modelo de negócio",
+  "periodo": "19/01 a 05/06/2026",
+  "processamento": "20 semanas",
+  "versao": "Relatório v0.6",
+  "kpis": [
+   [
+    "150",
+    "startups ingressantes"
+   ],
+   [
+    "26",
+    "municípios"
+   ],
+   [
+    "7",
+    "desistências"
+   ],
+   [
+    "20",
+    "semanas"
+   ],
+   [
+    "1.023",
+    "presenças nas capacitações"
+   ],
+   [
+    "1.183",
+    "registros de acompanhamento"
+   ],
+   [
+    "143",
+    "avaliadas no Pitch_02"
+   ],
+   [
+    "143",
+    "classificadas para a Fase 03"
+   ]
+  ],
+  "porPolo": [
+   78,
+   23,
+   20,
+   8,
+   5,
+   2,
+   5,
+   7,
+   2
+  ],
+  "municipios": [
+   [
+    "Rio de Janeiro",
+    76
+   ],
+   [
+    "Petrópolis",
+    14
+   ],
+   [
+    "Niterói",
+    10
+   ],
+   [
+    "Campos dos Goytacazes",
+    6
+   ],
+   [
+    "São Gonçalo",
+    6
+   ],
+   [
+    "Maricá",
+    5
+   ],
+   [
+    "Nova Friburgo",
+    4
+   ],
+   [
+    "Itaperuna",
+    4
+   ],
+   [
+    "Volta Redonda",
+    4
+   ],
+   [
+    "Angra dos Reis",
+    2
+   ],
+   [
+    "Vassouras",
+    2
+   ],
+   [
+    "Eng. Paulo de Frontin",
+    2
+   ],
+   [
+    "Resende",
+    2
+   ],
+   [
+    "Outros 13 municípios",
+    13
+   ]
+  ],
+  "cap": {
+   "temas": 8,
+   "turmas": 8,
+   "encontros": 64,
+   "horasTurma": 21,
+   "horasTotal": 168,
+   "presencas": 1023,
+   "trilha": [
+    [
+     "C_01",
+     "Liderança e Estruturação de Equipes",
+     2,
+     130,
+     9.31
+    ],
+    [
+     "C_02",
+     "Planejamento Estratégico",
+     2,
+     118,
+     9.46
+    ],
+    [
+     "C_03",
+     "Gestão Ágil para Startup",
+     3,
+     133,
+     9.51
+    ],
+    [
+     "C_04",
+     "Jornada do Cliente e Gargalos de Conversão",
+     3,
+     124,
+     9.39
+    ],
+    [
+     "C_05",
+     "MVP Vivo e Análise Operacional",
+     3,
+     119,
+     9.41
+    ],
+    [
+     "C_06",
+     "Viabilidade Econômica, Monetização e Precificação",
+     2,
+     137,
+     9.38
+    ],
+    [
+     "C_07",
+     "Dossiê Técnico de Validação e Mérito",
+     3,
+     120,
+     9.46
+    ],
+    [
+     "C_08",
+     "Pitch de Mérito, Defesa Técnica e Projeção da Fase 3",
+     3,
+     142,
+     9.21
+    ]
+   ],
+   "turmasLista": [
+    [
+     "RJ_01",
+     20,
+     164
+    ],
+    [
+     "RJ_02",
+     20,
+     133
+    ],
+    [
+     "RJ_03",
+     20,
+     102
+    ],
+    [
+     "RJ_04",
+     18,
+     144
+    ],
+    [
+     "SU_01",
+     13,
+     114
+    ],
+    [
+     "NT_01",
+     24,
+     149
+    ],
+    [
+     "NO_01",
+     17,
+     110
+    ],
+    [
+     "PT_01",
+     18,
+     107
+    ]
+   ],
+   "percepcao": [
+    [
+     "Conhecimento prévio da equipe",
+     7.82
+    ],
+    [
+     "Aplicação das ferramentas",
+     9.21
+    ],
+    [
+     "Aplicabilidade prática",
+     9.44
+    ],
+    [
+     "Relevância",
+     9.66
+    ],
+    [
+     "Domínio técnico",
+     9.62
+    ],
+    [
+     "Cumprimento da carga",
+     9.66
+    ],
+    [
+     "Esclarecimento de dúvidas",
+     9.71
+    ],
+    [
+     "Gestão de conflitos/opiniões",
+     9.74
+    ],
+    [
+     "Atendimento às expectativas",
+     9.52
+    ],
+    [
+     "Atendimento SEBRAE",
+     9.51
+    ]
+   ],
+   "respostas": "512 respostas em 57 das 64 combinações Tema–Turma"
+  },
+  "men": {
+   "ais": 17,
+   "registros": 1183,
+   "startups": 147,
+   "cobertura": "73%",
+   "mediaReg": "6,8",
+   "periodo": "02/02 a 27/05/2026",
+   "padrao": 902,
+   "validacao": 281,
+   "serieRot": [
+    "Fev/26",
+    "Mar/26",
+    "Abr/26",
+    "Mai/26"
+   ],
+   "serie": [
+    230,
+    326,
+    398,
+    229
+   ],
+   "serieTitulo": "Registros por mês",
+   "distRot": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+   ],
+   "dist": [
+    1,
+    2,
+    5,
+    12,
+    20,
+    25,
+    22,
+    22,
+    23,
+    15
+   ],
+   "distTitulo": "Startups por períodos com presença (de 10)",
+   "dims": [
+    4.33,
+    4.22,
+    4.26,
+    3.95,
+    4.26
+   ],
+   "dimsMedia": 4.2
+  },
+  "comp": [
+   [
+    "Regras para Utilização do Fomento e Processo de Aquisição",
+    "1 encontro de 3h (S03)",
+    "Orientação aos outorgados com participação técnica da FAPERJ"
+   ],
+   [
+    "Prestação de Contas",
+    "1 encontro de 3h (S04)",
+    "Registro e comprovação do uso dos recursos, com a FAPERJ"
+   ]
+  ],
+  "compTotal": "2 encontros, 6h, remoto e síncrono",
+  "valid": {
+   "s14": 139,
+   "s17": 142,
+   "ambos": 138,
+   "media": [
+    1.379,
+    1.486
+   ],
+   "mediana": [
+    1.333,
+    1.556
+   ],
+   "global": [
+    [
+     40.3,
+     45.3,
+     14.4
+    ],
+    [
+     53.5,
+     40.1,
+     6.3
+    ]
+   ],
+   "dims": [
+    "Segmento de Clientes",
+    "Proposta de Valor",
+    "Canais",
+    "Relacionamento com Clientes",
+    "Fontes de Receita",
+    "Recursos-Chave",
+    "Atividades-Chave",
+    "Parcerias-Chave",
+    "Estrutura de Custos"
+   ]
+  },
+  "pitch": {
+   "nome": "Pitch_02",
+   "periodo": "18 a 22/05/2026",
+   "local": "Sede do HUB RJ, Catete",
+   "avaliados": 143,
+   "registros": 526,
+   "internos": 18,
+   "externos": 14,
+   "dimsRot": [
+    "Conceito do Produto/Serviço",
+    "Equipe",
+    "Modelo de Negócios",
+    "Escalabilidade",
+    "Potencial de Mercado",
+    "Validação, Objetivos e Metas (F03)"
+   ],
+   "dims": [
+    6.9,
+    7.03,
+    6.41,
+    6.71,
+    6.94,
+    6.48
+   ],
+   "media": 6.74,
+   "faixas": [
+    19,
+    46,
+    44,
+    34
+   ]
+  },
+  "fonte": "Relatório de Execução da Fase 02, Equipe HUB RJ",
+  "municipiosTotal": 26,
+  "entidade": "startups"
+ },
+ "comparativo": {
+  "fonte": "Painel de execução HUB RJ · Comparativo (relatórios F01 v0.9 e F02 v0.6)",
+  "versao": "F01 v0.9 · F02 v0.6",
+  "quadro": [
+   [
+    "Ingressantes",
+    "246 projetos",
+    "150 startups"
+   ],
+   [
+    "Municípios",
+    "31",
+    "26"
+   ],
+   [
+    "Duração",
+    "12 semanas de PAFE",
+    "20 semanas"
+   ],
+   [
+    "Temas · turmas",
+    "9 · 13",
+    "8 · 8"
+   ],
+   [
+    "Horas por turma · horas-turma",
+    "30h · 390h",
+    "21h · 168h"
+   ],
+   [
+    "Presenças individuais",
+    "2.650",
+    "1.023"
+   ],
+   [
+    "Agentes de Inovação",
+    "20",
+    "17"
+   ],
+   [
+    "Registros de acompanhamento",
+    "741",
+    "1.183"
+   ],
+   [
+    "Atividades complementares",
+    "18h",
+    "6h"
+   ],
+   [
+    "Avaliadores (internos + externos)",
+    "16 + 41",
+    "18 + 14"
+   ],
+   [
+    "Média do pitch final",
+    "6,41",
+    "6,74"
+   ],
+   [
+    "Faixas Destaque + Promissor",
+    "76 (34,9%)",
+    "65 (45,5%)"
+   ],
+   [
+    "Classificados para a fase seguinte",
+    "150 (61,0%)",
+    "143 (95,3%)"
+   ]
+  ]
+ },
+ "rankingPitch02": {
+  "fonte": "Tabela 9 do relatório do Pitch_02 (Fase 02)",
+  "versao": "Relatório v0.6",
+  "campos": [
+   "posicao",
+   "protocolo",
+   "polo",
+   "faixa"
+  ],
+  "nota": "Ordenação pela média final consolidada no Pitch_02. As faixas são de leitura analítica do relatório de execução e não equivalem à classificação oficial da FAPERJ para a Fase 3. O relatório recebido traz as posições 1 a 120 das 143 startups avaliadas.",
+  "avaliadas": 143,
+  "registros": [
+   [
+    1,
+    "319972",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    2,
+    "319602",
+    "Petrópolis",
+    "Destaque"
+   ],
+   [
+    3,
+    "319898",
+    "Campos dos Goytacazes",
+    "Destaque"
+   ],
+   [
+    4,
+    "319860",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    5,
+    "319606",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    6,
+    "320000",
+    "Campos dos Goytacazes",
+    "Destaque"
+   ],
+   [
+    7,
+    "319769",
+    "Angra dos Reis",
+    "Destaque"
+   ],
+   [
+    8,
+    "319648",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    9,
+    "319554",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    10,
+    "319598",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    11,
+    "319594",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    12,
+    "319859",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    13,
+    "319721",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    14,
+    "319848",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    15,
+    "319864",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    16,
+    "319846",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    17,
+    "319915",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    18,
+    "320054",
+    "Rio de Janeiro",
+    "Destaque"
+   ],
+   [
+    19,
+    "319895",
+    "Volta Redonda",
+    "Destaque"
+   ],
+   [
+    20,
+    "319774",
+    "Petrópolis",
+    "Promissor"
+   ],
+   [
+    21,
+    "320078",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    22,
+    "319779",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    23,
+    "320109",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    24,
+    "319660",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    25,
+    "319986",
+    "Volta Redonda",
+    "Promissor"
+   ],
+   [
+    26,
+    "319573",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    27,
+    "319640",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    28,
+    "319944",
+    "Niterói",
+    "Promissor"
+   ],
+   [
+    29,
+    "319608",
+    "Vassouras",
+    "Promissor"
+   ],
+   [
+    30,
+    "319737",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    31,
+    "319936",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    32,
+    "319998",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    33,
+    "320003",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    34,
+    "319854",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    35,
+    "319876",
+    "Petrópolis",
+    "Promissor"
+   ],
+   [
+    36,
+    "319631",
+    "Niterói",
+    "Promissor"
+   ],
+   [
+    37,
+    "319742",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    38,
+    "319877",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    39,
+    "319929",
+    "Campos dos Goytacazes",
+    "Promissor"
+   ],
+   [
+    40,
+    "319879",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    41,
+    "320001",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    42,
+    "319526",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    43,
+    "319542",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    44,
+    "319768",
+    "Volta Redonda",
+    "Promissor"
+   ],
+   [
+    45,
+    "319651",
+    "Niterói",
+    "Promissor"
+   ],
+   [
+    46,
+    "319621",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    47,
+    "319979",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    48,
+    "319744",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    49,
+    "319904",
+    "Niterói",
+    "Promissor"
+   ],
+   [
+    50,
+    "319775",
+    "Volta Redonda",
+    "Promissor"
+   ],
+   [
+    51,
+    "319916",
+    "Vassouras",
+    "Promissor"
+   ],
+   [
+    52,
+    "320037",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    53,
+    "319752",
+    "Volta Redonda",
+    "Promissor"
+   ],
+   [
+    54,
+    "319770",
+    "Volta Redonda",
+    "Promissor"
+   ],
+   [
+    55,
+    "319778",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    56,
+    "319862",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    57,
+    "319847",
+    "Niterói",
+    "Promissor"
+   ],
+   [
+    58,
+    "319694",
+    "Niterói",
+    "Promissor"
+   ],
+   [
+    59,
+    "319553",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    60,
+    "319563",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    61,
+    "319564",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    62,
+    "319661",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    63,
+    "319792",
+    "Petrópolis",
+    "Promissor"
+   ],
+   [
+    64,
+    "319894",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    65,
+    "319985",
+    "Rio de Janeiro",
+    "Promissor"
+   ],
+   [
+    66,
+    "319815",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    67,
+    "319565",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    68,
+    "319702",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    69,
+    "319808",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    70,
+    "319763",
+    "Petrópolis",
+    "Intermediário"
+   ],
+   [
+    71,
+    "319746",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    72,
+    "319788",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    73,
+    "319875",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    74,
+    "320005",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    75,
+    "319713",
+    "Petrópolis",
+    "Intermediário"
+   ],
+   [
+    76,
+    "319641",
+    "Petrópolis",
+    "Intermediário"
+   ],
+   [
+    77,
+    "320019",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    78,
+    "319837",
+    "Cabo Frio",
+    "Intermediário"
+   ],
+   [
+    79,
+    "319559",
+    "Volta Redonda",
+    "Intermediário"
+   ],
+   [
+    80,
+    "319668",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    81,
+    "319649",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    82,
+    "319863",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    83,
+    "319781",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    84,
+    "319987",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    85,
+    "319773",
+    "Itaperuna",
+    "Intermediário"
+   ],
+   [
+    86,
+    "319749",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    87,
+    "319935",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    88,
+    "319812",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    89,
+    "319690",
+    "Petrópolis",
+    "Intermediário"
+   ],
+   [
+    90,
+    "319620",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    91,
+    "319817",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    92,
+    "319887",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    93,
+    "319842",
+    "Itaperuna",
+    "Intermediário"
+   ],
+   [
+    94,
+    "319681",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    95,
+    "319789",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    96,
+    "319671",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    97,
+    "319557",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    98,
+    "320172",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    99,
+    "319703",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    100,
+    "319758",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    101,
+    "319785",
+    "Petrópolis",
+    "Intermediário"
+   ],
+   [
+    102,
+    "319583",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    103,
+    "319980",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    104,
+    "319613",
+    "Petrópolis",
+    "Intermediário"
+   ],
+   [
+    105,
+    "319726",
+    "Rio de Janeiro",
+    "Intermediário"
+   ],
+   [
+    106,
+    "319829",
+    "Niterói",
+    "Intermediário"
+   ],
+   [
+    107,
+    "319797",
+    "Itaperuna",
+    "Intermediário"
+   ],
+   [
+    108,
+    "319754",
+    "Campos dos Goytacazes",
+    "Intermediário"
+   ],
+   [
+    109,
+    "320018",
+    "Petrópolis",
+    "Intermediário"
+   ],
+   [
+    110,
+    "319589",
+    "Rio de Janeiro",
+    "Atenção"
+   ],
+   [
+    111,
+    "319827",
+    "Rio de Janeiro",
+    "Atenção"
+   ],
+   [
+    112,
+    "319545",
+    "Petrópolis",
+    "Atenção"
+   ],
+   [
+    113,
+    "319555",
+    "Petrópolis",
+    "Atenção"
+   ],
+   [
+    114,
+    "319804",
+    "Itaperuna",
+    "Atenção"
+   ],
+   [
+    115,
+    "319821",
+    "Campos dos Goytacazes",
+    "Atenção"
+   ],
+   [
+    116,
+    "319712",
+    "Itaperuna",
+    "Atenção"
+   ],
+   [
+    117,
+    "319802",
+    "Campos dos Goytacazes",
+    "Atenção"
+   ],
+   [
+    118,
+    "319798",
+    "Petrópolis",
+    "Atenção"
+   ],
+   [
+    119,
+    "319934",
+    "Rio de Janeiro",
+    "Atenção"
+   ],
+   [
+    120,
+    "320151",
+    "Rio de Janeiro",
+    "Atenção"
+   ]
+  ]
+ }
+}
