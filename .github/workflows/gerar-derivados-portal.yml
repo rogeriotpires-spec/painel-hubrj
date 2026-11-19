@@ -1,0 +1,61 @@
+name: Gerar derivados do portal HUB RJ
+
+# Miniaturas 640/960 px das imagens da vitrine, índice leve da base e logo externo.
+# Os originais nunca são alterados.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - portal/assets/ai/*.webp
+      - portal/data/projects.json
+      - scripts/build_portal_assets.py
+      - .github/workflows/gerar-derivados-portal.yml
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: hubrj-portal-derivatives
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar Pillow
+        run: python -m pip install 'Pillow>=11,<14'
+      - name: Testar geração dos derivados
+        run: python -m unittest discover -s scripts -p 'test_build_portal_assets.py' -v
+      - name: Gerar miniaturas, índice leve e logo
+        run: |
+          python scripts/build_portal_assets.py
+          python scripts/build_portal_assets.py --check
+      - name: Publicar derivados
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          paths="portal/assets/ai/640 portal/assets/ai/960 portal/assets/ai/thumbs.json portal/data/projects-index.json portal/assets/logo.webp"
+          git add -- $paths
+          if git diff --cached --quiet; then
+            echo "Derivados já atualizados."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Gera miniaturas, índice leve e logo externo do portal"
+          pushed=false
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then pushed=true; break; fi
+            git pull --rebase origin main
+          done
+          if [ "$pushed" != true ]; then echo "::error::Não foi possível publicar os derivados"; exit 1; fi
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" --silent || true
