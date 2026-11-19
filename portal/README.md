@@ -11,11 +11,20 @@ A seção Resultados do Programa (`#resultados`) mostra os resultados de execuç
 
 O Observatório apresenta todos os municípios e áreas, filtros independentes e exportação CSV do recorte selecionado. A vitrine oferece galeria, catálogo, ficha ampliada, impressão e download da imagem atual.
 
+## Desempenho e arquivos derivados
+
+- A vitrine abre com `data/projects-index.json` (campos dos cards e do CSV, sem `fullSummary`). A base completa `data/projects.json` continua sendo a fonte e é buscada sob demanda: ao abrir a ficha, na busca por texto e na busca global.
+- Os cards usam miniaturas WebP de 640 e 960 px (`assets/ai/640/`, `assets/ai/960/`) com `srcset`, `loading="lazy"` e `decoding="async"`; a ficha ampliada e o download usam o original de 1536 × 1024.
+- O logo fica em `assets/logo.webp` e o ícone em `assets/favicon.svg`.
+- Observatório e Resultados só são desenhados ao se aproximar da área visível; as seções abaixo da dobra usam `content-visibility:auto`.
+- `python scripts/build_portal_assets.py` gera miniaturas, índice leve e logo; `--check` confere se estão atualizados. O fluxo `.github/workflows/gerar-derivados-portal.yml` roda a cada push de imagens ou da base, e a sincronização de fichas e o gerador de imagens também atualizam os derivados.
+
 ## Validação
 
 ```sh
 python scripts/audit_hubrj_portal.py
 python scripts/generate_hubrj_images.py --validate-only
+python scripts/build_portal_assets.py --check
 ```
 
 Executar a partir da raiz do repositório. A auditoria verifica a paridade da base JSON com a base incorporada em `vitrine.html`, os protocolos oficiais e a presença das imagens, e atualiza `docs/auditoria-editorial.json`.

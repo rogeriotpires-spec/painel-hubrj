@@ -11,6 +11,7 @@ Atualizado em 19/11/2026. O painel original na raiz e as 143 imagens foram prese
 - Downloads do portal e da vitrine apontam para as imagens WebP atuais.
 - Busca do portal aceita protocolo, resumo completo e palavras sem acentos.
 - 19/11/2026: seção pública "Resultados do Programa" (`#resultados`) com os resultados de execução das Fases 01 e 02 por decisão do coordenador: funil, indicadores consolidados, território por polo, capacitações, mentorias (só agregados), validação (F02), pitch final, comparativo F01 × F02 e ranking do Pitch_02. Base em `portal/data/execucao.json`, anonimizada: sem nomes de startups, proponentes ou Agentes de Inovação; ranking apenas com posição, protocolo, polo e faixa.
+- 19/11/2026: melhorias de desempenho no celular: miniaturas WebP 640/960 px nos cards (originais preservados), logo externo (HTML de 277 KB para cerca de 16 KB), índice leve da base com resumos completos sob demanda, Observatório e Resultados desenhados sob demanda e `content-visibility` nas seções abaixo da dobra. Derivados gerados por `scripts/build_portal_assets.py` e conferidos pela auditoria.
 - Auditoria reproduzível das duas bases e dos campos editoriais: `python scripts/audit_hubrj_portal.py`.
 
 - Revisão editorial dos seis campos das 143 fichas concluída a partir dos resumos originais. A primeira etapa registrou 123 alterações; a complementar, mais 647. A homologação institucional permanece pendente.

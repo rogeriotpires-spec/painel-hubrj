@@ -24,7 +24,7 @@ Alterar apenas `solicitacao` permite retomar o mesmo pedido após corrigir a cha
 - Protocolos duplicados, desconhecidos ou inválidos impedem a execução.
 - Imagens existentes nunca são substituídas ou apagadas. Seus hashes são conferidos.
 - Cada nova imagem precisa ser WebP válido, estático, de 1536 × 1024 pixels.
-- Apenas a nova imagem, o manifesto e o conjunto `aiIds` dos dois índices são publicados.
+- Apenas a nova imagem, suas miniaturas 640/960 px (`scripts/build_portal_assets.py`), o manifesto e o conjunto `aiIds` dos dois índices são publicados.
 - Cada protocolo concluído recebe seu próprio commit. Push sem força; alterações
   concorrentes interrompem a publicação de forma segura.
 - Erros transitórios permitem três tentativas, com pausa de dois minutos. Falhas
