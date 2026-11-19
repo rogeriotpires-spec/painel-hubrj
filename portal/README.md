@@ -19,6 +19,15 @@ O Observatório apresenta todos os municípios e áreas, filtros independentes e
 - Observatório e Resultados só são desenhados ao se aproximar da área visível; as seções abaixo da dobra usam `content-visibility:auto`.
 - `python scripts/build_portal_assets.py` gera miniaturas, índice leve e logo; `--check` confere se estão atualizados. O fluxo `.github/workflows/gerar-derivados-portal.yml` roda a cada push de imagens ou da base, e a sincronização de fichas e o gerador de imagens também atualizam os derivados.
 
+## Área do proponente
+
+- Página `proponente.html` (+ `proponente.js`), com link no rodapé do portal e da vitrine. Login = protocolo + senha; a senha inicial é provisória (distribuída pela coordenação) e a troca é obrigatória no primeiro acesso.
+- Backend: Supabase, projeto `timeline-eventos` (`swznuvnqoylkekibrtij`), tabela `public.hubrj_cards` (uma linha por protocolo, vinculada ao usuário do Supabase Auth `<protocolo>@proponente.hubrj.local`) e bucket público `hubrj-cards` para imagens (até 2 MB, WebP/JPG/PNG). Esquema e regras em `../docs/supabase-area-proponente.sql`.
+- O proponente edita proponente, área, setor, problema, solução, diferencial, mercado, estágio, objetivo, resumo curto, resumo completo, site e imagem. Título, protocolo e município ficam travados (não existem como colunas editáveis). Resultado oficial, fase e situação na FAPERJ não são editáveis.
+- Publicação ao vivo, sem aprovação. `overrides.js` faz uma única consulta pública (chave publicável, somente leitura) e aplica os campos editados por cima de `data/projects.json`/`projects-index.json` no portal e na vitrine. Se o Supabase não responder, o portal segue com a base estática. Campos deixados em branco voltam ao texto original.
+- Segurança (RLS + permissões por coluna): cada proponente só lê e altera a própria linha; o público só lê os cards já editados e apenas as colunas exibidas; ninguém insere ou apaga linhas pelo front-end; a edição e a liberação da conta só ocorrem depois da troca real da senha provisória (conferida no banco). A chave `service_role` não é usada no front-end nem no repositório.
+- Senhas provisórias não ficam no repositório. Redefinir a senha de um proponente: pedir à equipe técnica (SQL no Supabase que restaura a senha provisória e volta a exigir a troca).
+
 ## Validação
 
 ```sh
@@ -31,4 +40,4 @@ Executar a partir da raiz do repositório. A auditoria verifica a paridade da ba
 
 ## Pendências
 
-Acompanhar `../docs/PENDENCIAS.md`. Administração, acesso individual, aprovação de alterações, inscrições, credenciamento e certificados ainda precisam de servidor e banco de dados. Datas do evento aguardam confirmação. A tradução atual cobre apenas a navegação. O painel existente na raiz permanece preservado e restrito; `data/execucao.json` foi derivado dele sem os campos com nomes.
+Acompanhar `../docs/PENDENCIAS.md`. Administração, aprovação de alterações, inscrições, credenciamento e certificados ainda precisam de servidor e banco de dados. Datas do evento aguardam confirmação. A tradução atual cobre apenas a navegação. O painel existente na raiz permanece preservado e restrito; `data/execucao.json` foi derivado dele sem os campos com nomes.
