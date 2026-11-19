@@ -1,6 +1,6 @@
 # Portal HUB RJ: acompanhamento
 
-Atualizado em 14/11/2026. O painel original na raiz e as 143 imagens foram preservados.
+Atualizado em 19/11/2026. O painel original na raiz e as 143 imagens foram preservados.
 
 ## Concluído e conferido
 
@@ -10,6 +10,7 @@ Atualizado em 14/11/2026. O painel original na raiz e as 143 imagens foram prese
 - Ficha ampliada sem o corte adicional aplicado na galeria. Textos já resumidos na base não foram reconstruídos automaticamente.
 - Downloads do portal e da vitrine apontam para as imagens WebP atuais.
 - Busca do portal aceita protocolo, resumo completo e palavras sem acentos.
+- 19/11/2026: seção pública "Resultados do Programa" (`#resultados`) com os resultados de execução das Fases 01 e 02 por decisão do coordenador: funil, indicadores consolidados, território por polo, capacitações, mentorias (só agregados), validação (F02), pitch final, comparativo F01 × F02 e ranking do Pitch_02. Base em `portal/data/execucao.json`, anonimizada: sem nomes de startups, proponentes ou Agentes de Inovação; ranking apenas com posição, protocolo, polo e faixa.
 - Auditoria reproduzível das duas bases e dos campos editoriais: `python scripts/audit_hubrj_portal.py`.
 
 - Revisão editorial dos seis campos das 143 fichas concluída a partir dos resumos originais. A primeira etapa registrou 123 alterações; a complementar, mais 647. A homologação institucional permanece pendente.
@@ -22,7 +23,7 @@ Atualizado em 14/11/2026. O painel original na raiz e as 143 imagens foram prese
 | Frente | Situação observada | Trabalho necessário |
 | --- | --- | --- |
 | Validação do conteúdo | 143 fichas revisadas; 29 problemas, 3 diferenciais, 1 mercado, 93 estágios e 1 objetivo não confirmados nos resumos | Obter complementos dos proponentes e homologação institucional. Título “adsfa” (320018), “The Brigde” (319985), nome Avalia/Avalia360 (319752) e protocolo citado no título 319742 precisam de confirmação. A descrição foodbreak (319774) contém apenas uma frase. Notas por protocolo nos históricos de revisão. |
-| Resultados e painel de execução | Seleção da Fase 3 conferida; ranking, notas e agentes não reconciliados | Conferir os documentos específicos antes de publicar notas, posições e agentes. O PDF de selecionados não fornece esses dados. |
+| Resultados e painel de execução | Resultados agregados das Fases 01 e 02 e ranking anonimizado do Pitch_02 publicados em 19/11/2026, com fonte e versão por bloco (relatórios F01 v0.9, F02 v0.6, Tabela 9 do Pitch_02). Distribuição por Agente de Inovação e nomes não publicados | O relatório recebido traz só as posições 1 a 120 das 143 avaliadas no Pitch_02: obter as posições 121 a 143. Os relatórios ainda são versões preliminares (v0.9 e v0.6): substituir pelos finais quando houver. Observação: como a vitrine é pública, um protocolo do ranking pode ser cruzado com a ficha da startup. |
 | Administração e acesso das startups | Área de gestão privada publicada com autenticação ChatGPT, banco D1 e 143 fichas carregadas. API com vínculos por protocolo, proposta, aprovação, devolução, auditoria e controle de versões. 6 testes de regras e transações passaram | Login do proprietário e sincronização autenticada confirmados. Ciclo 43613970965 passou com 143 protocolos e seis testes. Falta cadastrar startup piloto, liberar visitante e validar proposta, aprovação e publicação. Detalhes em `INFRAESTRUTURA.md`. |
 | Evento | Datas e local atualizados conforme convite enviado pela coordenação: 3 e 4 de dezembro de 2026, Rua do Catete, 243, Rio de Janeiro. Convite original e calendário de reserva dos dois dias publicados | Horários, programação, inscrições, credenciamento e certificados ainda dependem de definição da organização e implantação do servidor. |
 | Internacionalização | Portal principal: menu, seções institucionais, evento, notícias, contato, filtros e contagens com versão inglesa reversível; aviso visível sobre conteúdo original em português | Traduzir fichas, classificações e vitrine independente após revisão editorial. Dados e CSV originais permanecem em português. |

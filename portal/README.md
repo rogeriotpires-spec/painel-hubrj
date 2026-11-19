@@ -7,6 +7,8 @@
 
 Os resumos e campos narrativos continuam sendo dados declarados na Fase 02, sujeitos à revisão editorial. A seleção oficial não comprova estágio de maturidade, vendas ou posição no ranking. Campos ausentes não foram inventados.
 
+A seção Resultados do Programa (`#resultados`) mostra os resultados de execução das Fases 01 e 02 a partir de `data/execucao.json`: funil, indicadores consolidados, território, capacitações, mentorias, validação, pitch final, comparativo F01 × F02 e ranking do Pitch_02. Os dados são agregados e anonimizados: não há nomes de startups, proponentes ou Agentes de Inovação, e o ranking traz só posição, protocolo, polo e faixa. Cada número indica a sua base: a vitrine usa os 143 projetos da Fase 3 (25 municípios); a Fase 01 tem 246 projetos em 31 municípios; a Fase 02, 150 startups em 26 municípios. Faixas e posições vêm do relatório de execução e não equivalem à classificação oficial da FAPERJ.
+
 O Observatório apresenta todos os municípios e áreas, filtros independentes e exportação CSV do recorte selecionado. A vitrine oferece galeria, catálogo, ficha ampliada, impressão e download da imagem atual.
 
 ## Validação
@@ -20,4 +22,4 @@ Executar a partir da raiz do repositório. A auditoria verifica a paridade da ba
 
 ## Pendências
 
-Acompanhar `../docs/PENDENCIAS.md`. Administração, acesso individual, aprovação de alterações, inscrições, credenciamento e certificados ainda precisam de servidor e banco de dados. Datas do evento aguardam confirmação. A tradução atual cobre apenas a navegação. O painel existente na raiz permanece preservado.
+Acompanhar `../docs/PENDENCIAS.md`. Administração, acesso individual, aprovação de alterações, inscrições, credenciamento e certificados ainda precisam de servidor e banco de dados. Datas do evento aguardam confirmação. A tradução atual cobre apenas a navegação. O painel existente na raiz permanece preservado e restrito; `data/execucao.json` foi derivado dele sem os campos com nomes.
