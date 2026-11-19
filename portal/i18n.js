@@ -80,7 +80,7 @@ function prepareInterfaceTranslations(){
  const note=document.createElement('p');note.id='translationNotice';note.className='obs-hint';note.hidden=true;note.lang='en';note.textContent='Project titles, summaries, classifications, source documents and CSV data remain in Portuguese. English translations of project content are pending editorial review.';document.querySelector('#vitrine .filters').before(note);
 }
 function applyInterfaceLanguage(){
- for(const entry of interfaceOriginals){const value=entry[currentLang];if(entry.attribute)entry.node.setAttribute(entry.attribute,value);else if(entry.text)entry.node.textContent=value;else entry.node.innerHTML=value;}
+ for(const entry of interfaceOriginals){const value=entry[currentLang];if(entry.attribute){if(entry.node.getAttribute(entry.attribute)!==value)entry.node.setAttribute(entry.attribute,value);}else if(entry.text){if(entry.node.textContent!==value)entry.node.textContent=value;}else if(entry.node.innerHTML!==value)entry.node.innerHTML=value;}
  document.querySelector('#translationNotice').hidden=currentLang!=='en';
  for(const [selector,en,pt] of [['#cityFilter','All municipalities','Todos os municípios'],['#obsCity','All municipalities','Todos os municípios'],['#areaFilter','All fields','Todas as áreas'],['#obsArea','All fields','Todas as áreas']]){const first=document.querySelector(selector).options[0];if(first)first.textContent=currentLang==='en'?en:pt;}
  document.querySelector('#menuToggle').setAttribute('aria-label',currentLang==='en'?(document.querySelector('#mainNav').classList.contains('open')?'Close menu':'Open menu'):(document.querySelector('#mainNav').classList.contains('open')?'Fechar menu':'Abrir menu'));

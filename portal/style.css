@@ -155,3 +155,12 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,su
 .rx-footer{border-top:1px solid #466395;margin-top:30px;padding-top:22px}
 .rx-footer p{color:#a9c0e2;font-size:.85rem;max-width:960px}
 @media(max-width:790px){.rx-grid{grid-template-columns:minmax(0,1fr)}.rx-bands{grid-template-columns:repeat(2,minmax(0,1fr))}.rx-bars .bar-row,.rx-cmp-row{grid-template-columns:minmax(0,110px) 1fr auto}.rx-cmp-row{grid-template-columns:minmax(0,1fr)}}
+
+/* Desempenho: seções abaixo da dobra só são calculadas perto da área visível */
+#observatorio,#resultados,#editais,#evento,#noticias{content-visibility:auto}
+#observatorio{contain-intrinsic-size:auto 1300px}
+#resultados{contain-intrinsic-size:auto 2200px}
+#editais{contain-intrinsic-size:auto 700px}
+#evento{contain-intrinsic-size:auto 1200px}
+#noticias{contain-intrinsic-size:auto 900px}
+@media print{#observatorio,#resultados,#editais,#evento,#noticias{content-visibility:visible}}
