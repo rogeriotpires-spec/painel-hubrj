@@ -16,6 +16,9 @@ import urllib.request
 
 from PIL import Image
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from build_portal_assets import THUMB_WIDTHS, build_thumbnails  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 PROJECTS = ROOT / "portal/data/projects.json"
 AI_DIR = ROOT / "portal/assets/ai"
@@ -199,7 +202,9 @@ def git(*args):
 
 
 def publish_checkpoint(protocol):
-    allowed = set(INDEX_FILES) | {"portal/assets/ai/manifest.json", f"portal/assets/ai/{protocol}.webp"}
+    allowed = set(INDEX_FILES) | {"portal/assets/ai/manifest.json", f"portal/assets/ai/{protocol}.webp",
+                                  "portal/assets/ai/thumbs.json"}
+    allowed |= {f"portal/assets/ai/{width}/{protocol}.webp" for width in THUMB_WIDTHS}
     changed = set(git("diff", "--name-only", "HEAD").splitlines())
     untracked = set(git("ls-files", "--others", "--exclude-standard").splitlines())
     if (changed | untracked) - allowed:
@@ -278,6 +283,7 @@ def main():
                 raise RuntimeError(f"A imagem {img.name} já existe; não será sobrescrita")
             result = generate(prompt_for(p), key, args.model)
             atomic_write(img, result)
+            build_thumbnails(only={p["id"]})
             update_index(projects)
             current = image_inventory(projects)
             validate_indexes(projects, current)

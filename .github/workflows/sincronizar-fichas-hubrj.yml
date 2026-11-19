@@ -59,6 +59,9 @@ jobs:
           HUBRJ_SITE_SERVICE_TOKEN: ${{ secrets.HUBRJ_SITE_SERVICE_TOKEN }}
           HUBRJ_SYNC_KEY: ${{ secrets.HUBRJ_SYNC_KEY }}
         run: python scripts/sync_hubrj_images.py
+      - name: Atualizar miniaturas e índice leve do portal
+        if: steps.configuration.outputs.ready == 'true'
+        run: python scripts/build_portal_assets.py
       - name: Conferir base e originais
         if: steps.configuration.outputs.ready == 'true'
         run: python scripts/audit_hubrj_portal.py
@@ -67,13 +70,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet -- portal/data/projects.json portal/vitrine.html portal/data/review-sync.json docs/auditoria-editorial.json portal/data/image-review-sync.json portal/assets/ai; then
+          if git diff --quiet -- portal/data/projects.json portal/data/projects-index.json portal/vitrine.html portal/data/review-sync.json docs/auditoria-editorial.json portal/data/image-review-sync.json portal/assets/ai; then
             echo "Nenhuma alteração aprovada para publicar."
             exit 0
           fi
           git config user.name "HUB RJ revisão"
           git config user.email "hubrj-bot@users.noreply.github.com"
-          git add portal/data/projects.json portal/vitrine.html portal/data/review-sync.json docs/auditoria-editorial.json portal/data/image-review-sync.json portal/assets/ai
+          git add portal/data/projects.json portal/data/projects-index.json portal/vitrine.html portal/data/review-sync.json docs/auditoria-editorial.json portal/data/image-review-sync.json portal/assets/ai
           git commit -m "Publica revisões aprovadas das fichas HUB RJ"
           git push origin HEAD:main
           gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

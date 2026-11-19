@@ -31,6 +31,15 @@ for path in sorted((ROOT/'docs').glob('revisao-editorial*2026-11-14.json')):
             assert excerpt in source,(record['id'],'stage evidence')
 assert set(reviews)==ids
 assert len(reviews)==len(set(reviews))
+import sys
+sys.path.insert(0,str(ROOT/'scripts'))
+import build_portal_assets as derived
+_,thumb_problems=derived.build_thumbnails(check=True)
+_,index_problems=derived.build_index(check=True)
+assert not thumb_problems,thumb_problems[:5]
+assert not index_problems,index_problems
+assert (ROOT/'portal/assets/logo.webp').is_file()
+report['thumbnails_checked']=len(json.loads((ROOT/'portal/assets/ai/thumbs.json').read_text()))
 report['editorially_reviewed']=len(reviews)
 report['institutional_approval']='pending'
 (ROOT/'docs/auditoria-editorial.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
