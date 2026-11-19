@@ -7,14 +7,14 @@
 
 Os resumos e campos narrativos continuam sendo dados declarados na Fase 02, sujeitos à revisão editorial. A seleção oficial não comprova estágio de maturidade, vendas ou posição no ranking. Campos ausentes não foram inventados.
 
-A seção Resultados do Programa (`#resultados`) mostra os resultados de execução das Fases 01 e 02 a partir de `data/execucao.json`: funil, indicadores consolidados, território, capacitações, mentorias, validação, pitch final, comparativo F01 × F02 e ranking do Pitch_02. Os dados são agregados e anonimizados: não há nomes de startups, proponentes ou Agentes de Inovação, e o ranking traz só posição, protocolo, polo e faixa. Cada número indica a sua base: a vitrine usa os 143 projetos da Fase 3 (25 municípios); a Fase 01 tem 246 projetos em 31 municípios; a Fase 02, 150 startups em 26 municípios. Faixas e posições vêm do relatório de execução e não equivalem à classificação oficial da FAPERJ.
+A seção Resultados do Programa (`#resultados`) mostra os resultados de execução das Fases 01 e 02 a partir de `data/execucao.json`: funil, indicadores consolidados, território, capacitações, mentorias, validação, pitch final, comparativo F01 × F02 e ranking do Pitch_02. Os dados são agregados e anonimizados: não há nomes de startups, proponentes ou Agentes de Inovação, e o ranking mostra posição, protocolo, polo e título do projeto (cruzado pelo protocolo com a base pública; "—" quando não há título), sem a faixa de desempenho e sem nomes de proponentes. Cada número indica a sua base: a vitrine usa os 143 projetos da Fase 3 (25 municípios); a Fase 01 tem 246 projetos em 31 municípios; a Fase 02, 150 startups em 26 municípios. Faixas e posições vêm do relatório de execução e não equivalem à classificação oficial da FAPERJ.
 
-O Observatório apresenta todos os municípios e áreas, filtros independentes e exportação CSV do recorte selecionado. A vitrine oferece galeria, catálogo, ficha ampliada, impressão e download da imagem atual.
+O Observatório apresenta todos os municípios e áreas, filtros independentes e contagem do recorte selecionado. A vitrine oferece galeria, catálogo e ficha ampliada. Desde 19/11/2026 o portal não oferece downloads: sem exportação CSV, sem baixar imagens, sem salvar ficha em PDF e sem arquivo de calendário.
 
 ## Desempenho e arquivos derivados
 
-- A vitrine abre com `data/projects-index.json` (campos dos cards e do CSV, sem `fullSummary`). A base completa `data/projects.json` continua sendo a fonte e é buscada sob demanda: ao abrir a ficha, na busca por texto e na busca global.
-- Os cards usam miniaturas WebP de 640 e 960 px (`assets/ai/640/`, `assets/ai/960/`) com `srcset`, `loading="lazy"` e `decoding="async"`; a ficha ampliada e o download usam o original de 1536 × 1024.
+- A vitrine abre com `data/projects-index.json` (campos dos cards, sem `fullSummary`). A base completa `data/projects.json` continua sendo a fonte e é buscada sob demanda: ao abrir a ficha, na busca por texto e na busca global.
+- Os cards usam miniaturas WebP de 640 e 960 px (`assets/ai/640/`, `assets/ai/960/`) com `srcset`, `loading="lazy"` e `decoding="async"`; a ficha ampliada usa o original de 1536 × 1024.
 - O logo fica em `assets/logo.webp` e o ícone em `assets/favicon.svg`.
 - Observatório e Resultados só são desenhados ao se aproximar da área visível; as seções abaixo da dobra usam `content-visibility:auto`.
 - `python scripts/build_portal_assets.py` gera miniaturas, índice leve e logo; `--check` confere se estão atualizados. O fluxo `.github/workflows/gerar-derivados-portal.yml` roda a cada push de imagens ou da base, e a sincronização de fichas e o gerador de imagens também atualizam os derivados.

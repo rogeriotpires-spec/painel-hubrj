@@ -10,13 +10,13 @@ Atualizado em 19/11/2026. O painel original na raiz e as 143 imagens foram prese
 - Ficha ampliada sem o corte adicional aplicado na galeria. Textos já resumidos na base não foram reconstruídos automaticamente.
 - Downloads do portal e da vitrine apontam para as imagens WebP atuais.
 - Busca do portal aceita protocolo, resumo completo e palavras sem acentos.
-- 19/11/2026: seção pública "Resultados do Programa" (`#resultados`) com os resultados de execução das Fases 01 e 02 por decisão do coordenador: funil, indicadores consolidados, território por polo, capacitações, mentorias (só agregados), validação (F02), pitch final, comparativo F01 × F02 e ranking do Pitch_02. Base em `portal/data/execucao.json`, anonimizada: sem nomes de startups, proponentes ou Agentes de Inovação; ranking apenas com posição, protocolo, polo e faixa.
+- 19/11/2026: seção pública "Resultados do Programa" (`#resultados`) com os resultados de execução das Fases 01 e 02 por decisão do coordenador: funil, indicadores consolidados, território por polo, capacitações, mentorias (só agregados), validação (F02), pitch final, comparativo F01 × F02 e ranking do Pitch_02. Base em `portal/data/execucao.json`, anonimizada: sem nomes de startups, proponentes ou Agentes de Inovação; ranking com posição, protocolo, polo e faixa (em 19/11/2026 a coluna de faixa foi substituída pelo título do projeto, a pedido do coordenador).
 - 19/11/2026: melhorias de desempenho no celular: miniaturas WebP 640/960 px nos cards (originais preservados), logo externo (HTML de 277 KB para cerca de 16 KB), índice leve da base com resumos completos sob demanda, Observatório e Resultados desenhados sob demanda e `content-visibility` nas seções abaixo da dobra. Derivados gerados por `scripts/build_portal_assets.py` e conferidos pela auditoria.
 - Auditoria reproduzível das duas bases e dos campos editoriais: `python scripts/audit_hubrj_portal.py`.
 
 - Revisão editorial dos seis campos das 143 fichas concluída a partir dos resumos originais. A primeira etapa registrou 123 alterações; a complementar, mais 647. A homologação institucional permanece pendente.
 - Notícias: três publicações da FAPERJ com data, resumo e link de origem. Contato: acesso à Central de Atendimento da Fundação, identificado separadamente do canal próprio do HUB RJ.
-- Exportação CSV com os seis campos revisados e origem do resultado oficial; proteção contra interpretação de conteúdo como fórmula.
+- 19/11/2026: removidas do portal e da vitrine todas as funções de download, a pedido do coordenador: exportação CSV, baixar imagem, salvar ficha em PDF e arquivo de calendário do evento. As imagens continuam visíveis nos cards e nas fichas.
 - Controles de acessibilidade disponíveis também no celular; menu com estado de expansão informado a leitores de tela. Conferência visual desta alteração ainda limitada pelo bloqueio do navegador.
 
 ## Próximas entregas
