@@ -1,5 +1,6 @@
-// Downloads, CSV export and "save as PDF" were removed from the portal on 19/11/2026.
-// These tests guard that removal and the Pitch_02 ranking title column.
+// Downloads (images, CSV export, .ics calendar) were removed from the portal on 19/11/2026.
+// "Salvar ficha em PDF" (window.print) was restored at the coordinator's request.
+// These tests guard the removal, the restored PDF button and the Pitch_02 ranking title column.
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
@@ -8,12 +9,19 @@ const strip = html => html
  .replace(/<script[^>]*id="encoded-data"[^>]*>[\s\S]*?<\/script>/g, '')
  .replace(/data:[a-z/+]+;base64,[A-Za-z0-9+/=]+/g, '');
 const sources = ['portal/index.html','portal/vitrine.html','portal/app.js','portal/i18n.js'].map(f => [f, strip(fs.readFileSync(f,'utf8'))]);
-test('no download, CSV export or save-as-PDF remains in the portal', () => {
+test('no image download, CSV export or calendar file remains in the portal', () => {
  for (const [file, text] of sources) {
-  for (const pattern of [/\bdownload\b/i, /createObjectURL/, /text\/csv/, /exportCsv|buildCsv|csvCell|download-csv/, /Baixar|Exportar|Salvar ficha|Salvar datas/, /window\.print\(/, /\.ics\b/]) {
+  for (const pattern of [/\bdownload\b/i, /createObjectURL/, /text\/csv/, /exportCsv|buildCsv|csvCell|download-csv/, /Baixar|Exportar|Salvar datas/, /\.ics\b/]) {
    assert.ok(!pattern.test(text), `${file} still matches ${pattern}`);
   }
  }
+});
+test('save-as-PDF is available in the portal and the showcase', () => {
+ const get = f => sources.find(([name]) => name === f)[1];
+ assert.match(get('portal/app.js'), /id="printProject">Salvar ficha em PDF<\/button>/);
+ assert.match(get('portal/app.js'), /\$\('#printProject'\)\.onclick=\(\)=>window\.print\(\)/);
+ assert.match(get('portal/vitrine.html'), /id="print">Imprimir \/ Salvar ficha em PDF<\/button>/);
+ assert.match(get('portal/vitrine.html'), /\$\('#print'\)\.onclick=\(\)=>window\.print\(\)/);
 });
 const context = vm.createContext({document:{addEventListener(){}},console});
 vm.runInContext(fs.readFileSync('portal/app.js','utf8'),context);

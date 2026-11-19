@@ -9,7 +9,7 @@ Os resumos e campos narrativos continuam sendo dados declarados na Fase 02, suje
 
 A seção Resultados do Programa (`#resultados`) mostra os resultados de execução das Fases 01 e 02 a partir de `data/execucao.json`: funil, indicadores consolidados, território, capacitações, mentorias, validação, pitch final, comparativo F01 × F02 e ranking do Pitch_02. Os dados são agregados e anonimizados: não há nomes de startups, proponentes ou Agentes de Inovação, e o ranking mostra posição, protocolo, polo e título do projeto (cruzado pelo protocolo com a base pública; "—" quando não há título), sem a faixa de desempenho e sem nomes de proponentes. Cada número indica a sua base: a vitrine usa os 143 projetos da Fase 3 (25 municípios); a Fase 01 tem 246 projetos em 31 municípios; a Fase 02, 150 startups em 26 municípios. Faixas e posições vêm do relatório de execução e não equivalem à classificação oficial da FAPERJ.
 
-O Observatório apresenta todos os municípios e áreas, filtros independentes e contagem do recorte selecionado. A vitrine oferece galeria, catálogo e ficha ampliada. Desde 19/11/2026 o portal não oferece downloads: sem exportação CSV, sem baixar imagens, sem salvar ficha em PDF e sem arquivo de calendário.
+O Observatório apresenta todos os municípios e áreas, filtros independentes e contagem do recorte selecionado. A vitrine oferece galeria, catálogo e ficha ampliada. Desde 19/11/2026 o portal não oferece downloads: sem exportação CSV, sem baixar imagens e sem arquivo de calendário. A ficha ampliada mantém o botão "Salvar ficha em PDF" (impressão do navegador).
 
 ## Desempenho e arquivos derivados
 
