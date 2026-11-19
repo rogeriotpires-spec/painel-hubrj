@@ -16,7 +16,7 @@ Atualizado em 19/11/2026. O painel original na raiz e as 143 imagens foram prese
 
 - Revisão editorial dos seis campos das 143 fichas concluída a partir dos resumos originais. A primeira etapa registrou 123 alterações; a complementar, mais 647. A homologação institucional permanece pendente.
 - Notícias: três publicações da FAPERJ com data, resumo e link de origem. Contato: acesso à Central de Atendimento da Fundação, identificado separadamente do canal próprio do HUB RJ.
-- 19/11/2026: removidas do portal e da vitrine todas as funções de download, a pedido do coordenador: exportação CSV, baixar imagem, salvar ficha em PDF e arquivo de calendário do evento. As imagens continuam visíveis nos cards e nas fichas.
+- 19/11/2026: removidas do portal e da vitrine todas as funções de download, a pedido do coordenador: exportação CSV, baixar imagem e arquivo de calendário do evento. O "Salvar ficha em PDF" foi removido e depois restabelecido a pedido do coordenador. As imagens continuam visíveis nos cards e nas fichas.
 - Controles de acessibilidade disponíveis também no celular; menu com estado de expansão informado a leitores de tela. Conferência visual desta alteração ainda limitada pelo bloqueio do navegador.
 
 ## Próximas entregas
