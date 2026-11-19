@@ -1,5 +1,6 @@
 /* Interface translations. Project records and original documents are never rewritten. */
 const interfaceTranslations = [
+ ['.foot-proponente','Applicant area'],
  ['title','HUB RJ | Innovation Portal'],
  ['.utility-inner > span:first-child','HUB RJ · Innovation, science and technology in the State of Rio de Janeiro'],
  ['.hero-actions > a:nth-child(2)','View results ↗'],
